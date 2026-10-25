@@ -1,0 +1,206 @@
+[
+  {
+    "id": "MAT-TBN-001",
+    "mapel": "matematika",
+    "kategori": "mat-teori-bilangan",
+    "subkategori": "modulo",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Sebuah bilangan asli tiga angka bersisa 2 jika dibagi 5 dan bersisa 3 jika dibagi 7."
+    },
+    "soal": "Bilangan terkecil yang memenuhi kedua syarat tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "102"
+      },
+      {
+        "kode": "B",
+        "teks": "107"
+      },
+      {
+        "kode": "C",
+        "teks": "122"
+      },
+      {
+        "kode": "D",
+        "teks": "137"
+      },
+      {
+        "kode": "E",
+        "teks": "157"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Kedua syarat modulo digabung dengan mencari bilangan yang memenuhi keduanya, lalu dipilih nilai terkecil yang sudah tiga angka.",
+      "langkah": [
+        "Bilangan bersisa 3 saat dibagi 7: 3, 10, 17, 24, 31, 38 dan seterusnya dengan beda 7.",
+        "Dari barisan itu, bilangan bersisa 2 saat dibagi 5 adalah 17, lalu 52, 87, 122 karena polanya berulang setiap 35.",
+        "Nilai terkecil yang tiga angka adalah 122; periksa 122 = 24 x 5 + 2 dan 122 = 17 x 7 + 3."
+      ],
+      "jebakan": "107 muncul bila peserta hanya menguji syarat pembagi 7, sedangkan 102 muncul bila sisa 2 diterapkan pada pembagi 7.",
+      "cepat": "Gabungkan syarat menjadi x = 17 + 35k, lalu ambil k terkecil yang membuat x minimal tiga angka."
+    },
+    "targetDetik": 85,
+    "tags": [
+      "kongruensi",
+      "modulo"
+    ]
+  },
+  {
+    "id": "MAT-TBN-002",
+    "mapel": "matematika",
+    "kategori": "mat-teori-bilangan",
+    "subkategori": "kelipatan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Tiga lampu hias di halaman sekolah menyala secara berkala. Lampu merah menyala setiap 12 detik, lampu kuning setiap 18 detik, dan lampu hijau setiap 30 detik. Ketiganya menyala bersamaan pada pukul 06.30.00."
+    },
+    "soal": "Ketiga lampu menyala bersamaan lagi pada pukul ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "06.30.01"
+      },
+      {
+        "kode": "B",
+        "teks": "06.30.02"
+      },
+      {
+        "kode": "C",
+        "teks": "06.30.03"
+      },
+      {
+        "kode": "D",
+        "teks": "06.30.05"
+      },
+      {
+        "kode": "E",
+        "teks": "06.31.00"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Waktu bersamaan berikutnya adalah kelipatan persekutuan terkecil dari ketiga periode, bukan hasil kali ketiganya.",
+      "langkah": [
+        "Faktorkan: 12 = 2^2 x 3, 18 = 2 x 3^2, dan 30 = 2 x 3 x 5.",
+        "KPK diambil dari pangkat tertinggi setiap faktor: 2^2 x 3^2 x 5 = 180 detik.",
+        "180 detik sama dengan 3 menit, sehingga ketiganya menyala lagi pukul 06.30.03."
+      ],
+      "jebakan": "06.30.02 muncul bila peserta memilih kelipatan 120 karena lupa faktor 3^2 pada bilangan 18.",
+      "cepat": "KPK 12, 18, dan 30 selalu 180 karena 30 sudah memuat 2 dan 5, tinggal melengkapi 3^2 dan 2^2."
+    },
+    "targetDetik": 70,
+    "tags": [
+      "kpk",
+      "kelipatan"
+    ]
+  },
+  {
+    "id": "MAT-TBN-003",
+    "mapel": "matematika",
+    "kategori": "mat-teori-bilangan",
+    "subkategori": "faktor-persekutuan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Panitia menyiapkan 84 buku dan 126 pensil yang akan dibagikan ke sejumlah paket bantuan. Setiap paket harus berisi jumlah buku dan pensil yang sama banyak, dan seluruh barang habis terbagi."
+    },
+    "soal": "Jumlah paket terbanyak yang dapat dibuat adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "21 paket"
+      },
+      {
+        "kode": "B",
+        "teks": "42 paket"
+      },
+      {
+        "kode": "C",
+        "teks": "63 paket"
+      },
+      {
+        "kode": "D",
+        "teks": "84 paket"
+      },
+      {
+        "kode": "E",
+        "teks": "126 paket"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Jumlah paket terbanyak adalah faktor persekutuan terbesar dari kedua banyak barang.",
+      "langkah": [
+        "Faktorkan: 84 = 2^2 x 3 x 7 dan 126 = 2 x 3^2 x 7.",
+        "FPB diambil dari faktor bersama berpangkat terkecil: 2 x 3 x 7 = 42.",
+        "Jadi 42 paket, masing-masing berisi 2 buku dan 3 pensil."
+      ],
+      "jebakan": "21 muncul bila faktor 2 terlewat, sedangkan 63 muncul bila peserta memilih faktor yang hanya membagi salah satu bilangan.",
+      "cepat": "FPB selalu membagi habis kedua bilangan; uji pilihan terbesar yang memenuhi."
+    },
+    "targetDetik": 75,
+    "tags": [
+      "fpb",
+      "faktorisasi"
+    ]
+  },
+  {
+    "id": "MAT-TBN-004",
+    "mapel": "matematika",
+    "kategori": "mat-teori-bilangan",
+    "subkategori": "bilangan-prima",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Seorang siswa menuliskan semua bilangan prima yang lebih besar dari 40 dan lebih kecil dari 50, lalu menjumlahkannya."
+    },
+    "soal": "Jumlah semua bilangan prima pada rentang tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "121"
+      },
+      {
+        "kode": "B",
+        "teks": "127"
+      },
+      {
+        "kode": "C",
+        "teks": "131"
+      },
+      {
+        "kode": "D",
+        "teks": "136"
+      },
+      {
+        "kode": "E",
+        "teks": "141"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Perlu diuji setiap bilangan pada rentang terhadap pembagi prima sampai akar kuadratnya, lalu dijumlahkan.",
+      "langkah": [
+        "Bilangan pada rentang: 41, 42, 43, 44, 45, 46, 47, 48, 49.",
+        "Yang prima hanya 41, 43, dan 47; 49 = 7 x 7 sehingga bukan prima.",
+        "Jumlahnya 41 + 43 + 47 = 131."
+      ],
+      "jebakan": "136 muncul bila 49 ikut dihitung sebagai prima, sedangkan 127 muncul bila 47 terlewat karena dianggap kelipatan 7.",
+      "cepat": "Ingat kuadrat 7 = 49, jadi 49 bukan prima; prima di 40-50 hanya 41, 43, 47."
+    },
+    "targetDetik": 70,
+    "tags": [
+      "bilangan-prima",
+      "rentang"
+    ]
+  }
+]

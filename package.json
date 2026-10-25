@@ -1,0 +1,35 @@
+{
+  "name": "tn-trainer",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "validate": "node scripts/validate-items.mjs",
+    "paket": "node scripts/validate-paket.mjs",
+    "bank": "node scripts/build-manifest.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.0.4",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.7.2",
+    "katex": "^0.16.21",
+    "preact": "^10.26.4",
+    "zod": "^3.25.42"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}

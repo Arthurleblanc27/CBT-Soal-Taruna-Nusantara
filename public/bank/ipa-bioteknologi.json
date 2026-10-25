@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-BTKN-001",
+    "mapel": "ipa",
+    "kategori": "ipa-bioteknologi",
+    "subkategori": "bioteknologi-modern",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Insulin untuk penderita diabetes dahulu diambil dari pankreas hewan ternak dalam jumlah terbatas. Kini insulin diproduksi dengan menyisipkan gen insulin manusia ke plasmid bakteri Escherichia coli, lalu bakteri tersebut dikembangbiakkan dalam tangki fermentasi."
+    },
+    "soal": "Keuntungan utama cara baru tersebut dibandingkan cara lama adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "insulin dihasilkan dalam jumlah besar dan strukturnya sama dengan insulin manusia"
+      },
+      {
+        "kode": "B",
+        "teks": "insulin yang dihasilkan tidak perlu dimurnikan lagi"
+      },
+      {
+        "kode": "C",
+        "teks": "bakteri dapat mengubah insulin menjadi antibiotik"
+      },
+      {
+        "kode": "D",
+        "teks": "prosesnya tidak memerlukan gen asing sehingga lebih murah"
+      },
+      {
+        "kode": "E",
+        "teks": "insulin hewan lebih cepat diserap sehingga bakteri tidak diperlukan"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Teknologi DNA rekombinan memindahkan gen manusia ke mikroba yang cepat berkembang biak, sehingga produknya identik secara struktur dan dapat diproduksi massal.",
+      "langkah": [
+        "Gen insulin manusia disisipkan ke plasmid, sehingga bakteri membaca kode gen manusia dan menghasilkan insulin manusia.",
+        "Bakteri berkembang biak cepat dalam fermentasi, jadi hasil per liter medium jauh lebih besar daripada ekstraksi pankreas hewan.",
+        "Struktur yang identik mengurangi reaksi imun dibandingkan insulin hewan, sehingga A menjelaskan dua keuntungan sekaligus."
+      ],
+      "jebakan": "Pilihan D justru kebalikan dari kenyataannya karena proses ini memakai gen asing, sedangkan B keliru sebab insulin tetap harus dimurnikan.",
+      "cepat": "Bioteknologi modern memindahkan gen ke mikroba: hasil melimpah dan identik dengan produk manusia."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "dna-rekombinan",
+      "insulin"
+    ]
+  }
+]

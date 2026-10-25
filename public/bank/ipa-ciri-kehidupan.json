@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-CRKH-001",
+    "mapel": "ipa",
+    "kategori": "ipa-ciri-kehidupan",
+    "subkategori": "homeostasis",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Setelah berlari 15 menit di siang hari, suhu tubuh seorang siswa tetap sekitar 37 derajat Celsius meskipun kulitnya memerah dan ia berkeringat banyak. Suhu udara saat itu 34 derajat Celsius."
+    },
+    "soal": "Mekanisme yang menjelaskan keadaan tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "pembuluh kulit melebar dan keringat menguap sehingga panas tubuh dilepas"
+      },
+      {
+        "kode": "B",
+        "teks": "pembuluh kulit menyempit agar panas tubuh tertahan"
+      },
+      {
+        "kode": "C",
+        "teks": "keringat menambah panas karena mengandung garam"
+      },
+      {
+        "kode": "D",
+        "teks": "suhu tubuh mengikuti suhu udara sehingga tidak berubah"
+      },
+      {
+        "kode": "E",
+        "teks": "otot berhenti berkontraksi agar tidak menghasilkan panas"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Homeostasis menjaga suhu inti tubuh stabil melalui pengaturan aliran darah kulit dan penguapan keringat.",
+      "langkah": [
+        "Kulit memerah menandakan vasodilatasi: lebih banyak darah hangat mengalir ke permukaan sehingga panas dilepas ke udara.",
+        "Keringat yang menguap menyerap kalor dari kulit, sehingga menurunkan suhu tubuh.",
+        "Kedua respons bekerja bersama menahan kenaikan suhu inti meski suhu lingkungan tinggi."
+      ],
+      "jebakan": "Pilihan B adalah respons saat kedinginan, sedangkan D mengabaikan bukti bahwa suhu tubuh tetap stabil di bawah suhu lingkungan.",
+      "cepat": "Panas berlebih dilepas lewat dua jalur: vasodilatasi dan penguapan keringat."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "homeostasis",
+      "suhu-tubuh"
+    ]
+  }
+]

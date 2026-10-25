@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-FLDA-001",
+    "mapel": "ipa",
+    "kategori": "ipa-fluida",
+    "subkategori": "archimedes",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah balok kayu mengapung di air dengan tiga perempat bagian volumenya tercelup. Massa jenis air 1.000 kg/m^3."
+    },
+    "soal": "Massa jenis balok kayu tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "250 kg/m^3"
+      },
+      {
+        "kode": "B",
+        "teks": "500 kg/m^3"
+      },
+      {
+        "kode": "C",
+        "teks": "750 kg/m^3"
+      },
+      {
+        "kode": "D",
+        "teks": "1.000 kg/m^3"
+      },
+      {
+        "kode": "E",
+        "teks": "1.250 kg/m^3"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Benda mengapung ketika beratnya sama dengan gaya apung. Gaya apung sebanding dengan volume zat cair yang dipindahkan.",
+      "langkah": [
+        "Gaya apung Fa = rho_air x V_celup x g = 1.000 x 0,75V x g.",
+        "Saat mengapung, Fa = w = rho_kayu x V x g, sehingga rho_kayu x V = 750V.",
+        "Massa jenis kayu = 750 kg/m^3, yaitu tiga perempat massa jenis air."
+      ],
+      "jebakan": "1.250 muncul bila pecahan 3/4 dibalik, sedangkan 250 muncul bila bagian yang muncul di atas permukaan (1/4) dipakai langsung sebagai massa jenis.",
+      "cepat": "Untuk benda mengapung, rho_benda / rho_air = bagian volume yang tercelup."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "archimedes",
+      "mengapung"
+    ]
+  }
+]

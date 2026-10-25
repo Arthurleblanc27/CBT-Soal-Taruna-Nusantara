@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-FSIO-001",
+    "mapel": "ipa",
+    "kategori": "ipa-fisiologi",
+    "subkategori": "peredaran-darah",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Hasil pemeriksaan seorang siswa menunjukkan tekanan darah 120/80 mmHg dengan denyut nadi 70 kali per menit. Angka 120 dan 80 ditulis berurutan sesuai fase kerja jantung."
+    },
+    "soal": "Pernyataan yang tepat tentang kedua angka tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "120 adalah tekanan sistol saat ventrikel berkontraksi dan 80 adalah tekanan diastol saat ventrikel berelaksasi"
+      },
+      {
+        "kode": "B",
+        "teks": "120 adalah tekanan diastol saat ventrikel berelaksasi dan 80 adalah tekanan sistol saat ventrikel berkontraksi"
+      },
+      {
+        "kode": "C",
+        "teks": "120 adalah tekanan arteri rata-rata dan 80 adalah tekanan vena"
+      },
+      {
+        "kode": "D",
+        "teks": "keduanya terjadi pada serambi, bukan bilik"
+      },
+      {
+        "kode": "E",
+        "teks": "120 menunjukkan jumlah denyut dan 80 menunjukkan volume sekuncup"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Angka pertama pada pengukuran tekanan darah adalah tekanan sistol, yaitu puncak tekanan ketika bilik berkontraksi; angka kedua adalah diastol ketika bilik berelaksasi.",
+      "langkah": [
+        "Saat ventrikel berkontraksi, darah dipompa ke aorta sehingga tekanan arteri mencapai puncak 120 mmHg.",
+        "Saat ventrikel berelaksasi, tekanan turun ke titik terendah 80 mmHg sebelum kontraksi berikutnya.",
+        "Urutan penulisan baku adalah sistol/diastol, sesuai pilihan A."
+      ],
+      "jebakan": "Pilihan B menukar urutan fase, sedangkan E mencampur tekanan dengan frekuensi denyut dan volume sekuncup.",
+      "cepat": "Ingat urutan baku: sistol lebih dulu (angka besar), diastol kemudian (angka kecil)."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "tekanan-darah",
+      "sistol"
+    ]
+  }
+]

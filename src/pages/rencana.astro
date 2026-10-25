@@ -1,0 +1,98 @@
+---
+import Base from '@layouts/Base.astro';
+import { KATEGORI, MAPEL_META, type Mapel } from '@data/taxonomy';
+
+const MAPEL: Mapel[] = ['matematika', 'ipa', 'bindo', 'bing'];
+const totalMenit = KATEGORI.reduce((s, k) => s + k.menitMingguan, 0);
+
+const fase = [
+  { minggu: '1–2', nama: 'Fondasi', fokus: 'Pahami pola soal per kategori', bobot: 'Belajar 70% · Cepat 30%', target: 'Akurasi ≥ 60% di semua kategori' },
+  { minggu: '3–4', nama: 'Penguatan', fokus: 'Kategori Lemah dinaikkan ke Cukup', bobot: 'Belajar 50% · Cepat 30% · Simulasi 20%', target: 'Akurasi ≥ 70% · median ≤ target pace + 10s' },
+  { minggu: '5–6', nama: 'Kecepatan', fokus: 'Median detik turun per kategori', bobot: 'Belajar 25% · Cepat 50% · Simulasi 25%', target: '≥ 60% butir tepat waktu' },
+  { minggu: '7', nama: 'Simulasi penuh', fokus: 'Stamina 105 menit', bobot: 'Simulasi 60% · Cepat 40%', target: 'Skor simulasi ≥ 70' },
+  { minggu: '8', nama: 'Tapering', fokus: 'Ringkas jebakan dan trik cepat', bobot: 'Belajar 70% · Cepat 30%', target: 'Tidak ada kategori Lemah' },
+];
+
+const perMapel = MAPEL.map((m) => ({
+  mapel: m,
+  meta: MAPEL_META[m],
+  kategori: KATEGORI.filter((k) => k.mapel === m),
+  menit: KATEGORI.filter((k) => k.mapel === m).reduce((s, k) => s + k.menitMingguan, 0),
+}));
+---
+<Base title="Rencana 8 minggu — TN Trainer">
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <header class="mb-6">
+      <a href="/" class="mb-3 inline-flex items-center gap-1 text-xs font-medium text-slate-500 hover:text-slate-700">
+        ← Beranda
+      </a>
+      <h1 class="text-2xl font-bold text-slate-900">Rencana 8 minggu</h1>
+      <p class="mt-1 max-w-2xl text-sm text-slate-600">
+        Kerangka statis, bukan jadwal adaptif. Total alokasi {totalMenit} menit per minggu
+        (± {(totalMenit / 60).toFixed(1)} jam). Sesuaikan dengan waktu yang tersedia — yang penting
+        konsistensi dan evaluasi mingguan di halaman analitik.
+      </p>
+    </header>
+
+    <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-5">
+      {fase.map((f) => (
+        <div class="card">
+          <p class="text-[0.65rem] font-semibold uppercase tracking-wide text-slate-400">Minggu {f.minggu}</p>
+          <h2 class="mt-1 text-sm font-bold text-slate-900">{f.nama}</h2>
+          <p class="mt-1 text-xs leading-relaxed text-slate-600">{f.fokus}</p>
+          <p class="mt-2 rounded bg-slate-50 px-2 py-1 text-[0.65rem] text-slate-500">{f.bobot}</p>
+          <p class="mt-2 text-[0.65rem] font-medium text-tn-700">{f.target}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 class="mt-8 text-lg font-bold text-slate-900">Alokasi menit per minggu</h2>
+    <p class="mt-1 text-sm text-slate-600">Diturunkan dari prioritas kategori (P1 · P2 · P3).</p>
+
+    <div class="mt-4 grid gap-4 lg:grid-cols-2">
+      {perMapel.map((pm) => (
+        <div class="card">
+          <div class="mb-2 flex items-baseline justify-between">
+            <h3 class="text-sm font-bold text-slate-800">{pm.meta.nama}</h3>
+            <span class="text-xs tabular-nums text-slate-500">{pm.menit} mnt/minggu</span>
+          </div>
+          <table class="w-full text-left text-xs">
+            <thead class="text-slate-400">
+              <tr class="border-b border-slate-100">
+                <th class="pb-1.5 font-semibold">Kategori</th>
+                <th class="pb-1.5 font-semibold">Prioritas</th>
+                <th class="pb-1.5 text-right font-semibold">Menit</th>
+                <th class="pb-1.5 text-right font-semibold">Target</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-600">
+              {pm.kategori.map((k) => (
+                <tr class="border-b border-slate-50">
+                  <td class="py-1.5">{k.nama}</td>
+                  <td class="py-1.5">
+                    <span class:list={[
+                      'rounded px-1.5 py-0.5 text-[0.65rem] font-semibold',
+                      k.prioritas === 'P1' ? 'bg-rose-50 text-rose-600' : k.prioritas === 'P2' ? 'bg-amber-50 text-amber-700' : 'bg-slate-100 text-slate-500',
+                    ]}>{k.prioritas}</span>
+                  </td>
+                  <td class="py-1.5 text-right tabular-nums">{k.menitMingguan}</td>
+                  <td class="py-1.5 text-right tabular-nums">{k.targetDetik}s</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-6 rounded-xl border border-slate-200 bg-white px-4 py-3 text-xs text-slate-600">
+      <p class="font-semibold text-slate-700">Cara memakai rencana ini</p>
+      <ol class="mt-1 list-decimal space-y-1 pl-4">
+        <li>Mulai dengan Mode Belajar pada kategori P1 di mapel terlemahmu.</li>
+        <li>Setiap akhir minggu buka <a href="/analitik" class="font-semibold text-tn-600 hover:underline">Analitik</a>, catat kategori Lemah.</li>
+        <li>Minggu berikutnya naikkan porsi Mode Cepat untuk kategori yang sudah Cukup.</li>
+        <li>Simulasi penuh minimal dua kali sebelum minggu terakhir.</li>
+      </ol>
+    </div>
+  </div>
+</Base>

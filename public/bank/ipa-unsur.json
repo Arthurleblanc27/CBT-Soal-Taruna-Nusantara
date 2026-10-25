@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-UNSR-001",
+    "mapel": "ipa",
+    "kategori": "ipa-unsur",
+    "subkategori": "stoikiometri",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Sebanyak 4 gram kalsium karbonat (Mr = 100) dipanaskan hingga terurai sempurna menurut reaksi CaCO3 -> CaO + CO2. Gas yang terbentuk diukur pada keadaan standar dengan volume molar 22,4 L/mol."
+    },
+    "soal": "Volume gas karbon dioksida yang terbentuk adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "0,224 L"
+      },
+      {
+        "kode": "B",
+        "teks": "0,448 L"
+      },
+      {
+        "kode": "C",
+        "teks": "0,896 L"
+      },
+      {
+        "kode": "D",
+        "teks": "1,792 L"
+      },
+      {
+        "kode": "E",
+        "teks": "2,240 L"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Mol CaCO3 dihitung dari massa dan Mr, lalu perbandingan koefisien reaksi menentukan mol CO2 sebelum dikonversi ke volume standar.",
+      "langkah": [
+        "Mol CaCO3 = 4 / 100 = 0,04 mol.",
+        "Koefisien CaCO3 dan CO2 sama-sama 1, sehingga mol CO2 = 0,04 mol.",
+        "Volume CO2 = 0,04 x 22,4 = 0,896 L."
+      ],
+      "jebakan": "1,792 L muncul bila mol dikalikan 44 (massa molar CO2) bukan 22,4, sedangkan 0,448 L muncul bila massa 4 g dianggap 2 g.",
+      "cepat": "Mol = massa/Mr, lalu volume standar = mol x 22,4 L."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "stoikiometri",
+      "volume-molar"
+    ]
+  }
+]

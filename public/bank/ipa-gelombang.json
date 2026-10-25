@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-GLMB-001",
+    "mapel": "ipa",
+    "kategori": "ipa-gelombang",
+    "subkategori": "cepat-rambat",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Gelombang pada permukaan air merambat sejauh 2 m dalam waktu 0,25 detik. Sumber gelombang bergetar dengan frekuensi 50 Hz."
+    },
+    "soal": "Panjang gelombang tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "4 cm"
+      },
+      {
+        "kode": "B",
+        "teks": "8 cm"
+      },
+      {
+        "kode": "C",
+        "teks": "16 cm"
+      },
+      {
+        "kode": "D",
+        "teks": "25 cm"
+      },
+      {
+        "kode": "E",
+        "teks": "32 cm"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Panjang gelombang diperoleh dari cepat rambat dibagi frekuensi, setelah cepat rambat dihitung dari jarak per waktu.",
+      "langkah": [
+        "Cepat rambat v = s / t = 2 / 0,25 = 8 m/s.",
+        "Hubungan gelombang: v = lambda x f, sehingga lambda = v / f.",
+        "lambda = 8 / 50 = 0,16 m = 16 cm."
+      ],
+      "jebakan": "8 cm muncul bila jarak 2 m dibagi 25 (salah membaca waktu), sedangkan 32 cm muncul bila frekuensi dianggap 25 Hz.",
+      "cepat": "Hitung v lebih dulu, lalu bagi frekuensi; 8 m/s dibagi 50 Hz memberi 0,16 m."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "cepat-rambat",
+      "panjang-gelombang"
+    ]
+  }
+]

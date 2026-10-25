@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Token desain TN Trainer
+   Satu lapis token: warna, radius, bayangan, tipografi.
+   ============================================================ */
+@layer base {
+  :root {
+    --tn-50: #eef8ff;
+    --tn-100: #d9efff;
+    --tn-500: #0e94e0;
+    --tn-600: #0284c7;
+    --tn-700: #0369a1;
+    --tn-900: #0b3d5c;
+
+    --ink: #0f172a;
+    --ink-soft: #475569;
+    --ink-muted: #64748b;
+    --line: #e2e8f0;
+    --line-soft: #eef2f6;
+    --surface: #ffffff;
+    --surface-soft: #f6f9fc;
+
+    --radius-sm: 0.5rem;
+    --radius: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.25rem;
+
+    --ring: 0 0 0 3px rgb(14 148 224 / 0.25);
+    --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.05);
+    --shadow: 0 1px 3px rgb(15 23 42 / 0.06), 0 8px 24px -12px rgb(15 23 42 / 0.12);
+    --shadow-lg: 0 2px 6px rgb(15 23 42 / 0.06), 0 24px 48px -24px rgb(15 23 42 / 0.22);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    background-image: radial-gradient(1200px 480px at 12% -10%, rgb(217 239 255 / 0.55), transparent 70%);
+    background-repeat: no-repeat;
+    font-feature-settings: 'tnum' 1;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4 {
+    @apply text-slate-900;
+    letter-spacing: -0.011em;
+  }
+
+  ::selection {
+    background: rgb(14 148 224 / 0.18);
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: var(--ring);
+    border-radius: 0.5rem;
+  }
+
+  kbd {
+    @apply inline-flex min-w-[1.5rem] items-center justify-center rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[0.7rem] font-semibold text-slate-700 shadow-sm;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  /* ---------- Tombol ---------- */
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-xl border border-transparent px-4 py-2.5 text-sm font-semibold transition
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-tn-500 focus-visible:ring-offset-2
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-tn-600 text-white shadow-sm hover:bg-tn-700 active:bg-tn-700;
+  }
+  .btn-secondary {
+    @apply btn border-slate-300 bg-white text-slate-700 shadow-sm hover:border-slate-400 hover:bg-slate-50;
+  }
+  .btn-ghost {
+    @apply btn text-slate-600 hover:bg-slate-100;
+  }
+  .btn-lg {
+    @apply px-5 py-3 text-[0.95rem];
+  }
+  .btn-sm {
+    @apply rounded-lg px-3 py-1.5 text-xs;
+  }
+  .btn-block {
+    @apply w-full;
+  }
+
+  /* ---------- Permukaan ---------- */
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white p-5;
+    box-shadow: var(--shadow-sm);
+  }
+  .card-hover {
+    @apply transition;
+  }
+  .card-hover:hover {
+    border-color: #cbd5e1;
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+  }
+  .card-soft {
+    @apply rounded-2xl border border-slate-200 bg-slate-50/70 p-4;
+  }
+  .card-tint {
+    background: linear-gradient(180deg, #f8fbff 0%, #ffffff 55%);
+    @apply rounded-2xl border border-tn-100 p-5;
+  }
+
+  /* ---------- Label kecil ---------- */
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[0.7rem] font-semibold;
+  }
+  .chip-neutral { @apply chip border-slate-200 bg-white text-slate-600; }
+  .chip-brand { @apply chip border-tn-200 bg-tn-50 text-tn-700; }
+  .chip-ok { @apply chip border-emerald-200 bg-emerald-50 text-emerald-700; }
+  .chip-warn { @apply chip border-amber-200 bg-amber-50 text-amber-700; }
+  .chip-danger { @apply chip border-rose-200 bg-rose-50 text-rose-700; }
+
+  .eyebrow {
+    @apply text-[0.68rem] font-bold uppercase tracking-[0.14em] text-slate-400;
+  }
+  .section-title {
+    @apply text-lg font-bold tracking-tight text-slate-900;
+  }
+  .section-sub {
+    @apply mt-1 text-sm leading-relaxed text-slate-600;
+  }
+  .muted { @apply text-slate-500; }
+
+  /* ---------- Navigasi ---------- */
+  .nav-link {
+    @apply relative rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-900;
+  }
+  .nav-link-active {
+    @apply bg-tn-50 text-tn-700;
+  }
+  .nav-link-active::after {
+    content: '';
+    @apply absolute inset-x-3 -bottom-[9px] h-[2px] rounded-full bg-tn-600;
+  }
+
+  /* ---------- Formulir ---------- */
+  .input {
+    @apply w-full rounded-xl border border-slate-300 px-3 py-2 text-sm shadow-sm transition placeholder:text-slate-400
+      focus:border-tn-500 focus:outline-none focus:ring-2 focus:ring-tn-500/20;
+  }
+  .switch-row {
+    @apply flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs transition hover:border-slate-300;
+  }
+
+  /* ---------- Tabel & daftar ---------- */
+  .table-clean { @apply w-full text-left text-sm; }
+  .table-clean thead th {
+    @apply border-b border-slate-100 pb-2 text-[0.68rem] font-bold uppercase tracking-wide text-slate-400;
+  }
+  .table-clean tbody td { @apply border-b border-slate-50 py-2.5 text-slate-700; }
+
+  /* ---------- Bilah progres ---------- */
+  .bar {
+    @apply h-1.5 w-full overflow-hidden rounded-full bg-slate-100;
+  }
+  .bar > span {
+    @apply block h-full rounded-full bg-tn-500 transition-all;
+  }
+  .bar-tall { @apply h-2.5; }
+
+  /* ---------- Keadaan kosong ---------- */
+  .empty {
+    @apply flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-slate-300 bg-white/70 px-6 py-10 text-center text-sm text-slate-500;
+  }
+}
+
+@layer utilities {
+  .container-page { @apply mx-auto w-full max-w-7xl px-4 sm:px-6; }
+  .container-narrow { @apply mx-auto w-full max-w-3xl px-4; }
+  .tabular-nums { font-variant-numeric: tabular-nums; }
+  .text-balance { text-wrap: balance; }
+  .scroll-thin { scrollbar-width: thin; }
+}
+
+/* Print styles for results */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; background-image: none; }
+  .card { box-shadow: none; border-color: #ddd; }
+}

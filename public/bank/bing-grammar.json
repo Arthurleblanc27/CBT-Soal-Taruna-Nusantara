@@ -1,0 +1,155 @@
+[
+  {
+    "id": "BIG-GRM-001",
+    "mapel": "bing",
+    "kategori": "bing-grammar",
+    "subkategori": "passive-voice",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Active sentence: The selection committee has not announced the results of the academic test."
+    },
+    "soal": "Which passive sentence correctly reports the same meaning?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "The results of the academic test have not been announced."
+      },
+      {
+        "kode": "B",
+        "teks": "The results of the academic test has not been announced."
+      },
+      {
+        "kode": "C",
+        "teks": "The results of the academic test have not announced."
+      },
+      {
+        "kode": "D",
+        "teks": "The results of the academic test has not been announcing."
+      },
+      {
+        "kode": "E",
+        "teks": "The results of the academic test were not announcing."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The passive of a present perfect negative keeps have as the auxiliary, adds been, and uses the past participle of the main verb.",
+      "langkah": [
+        "The new subject is the results, a plural noun, so the auxiliary must be have rather than has.",
+        "Present perfect passive is formed with have or has + been + past participle, giving have not been announced.",
+        "Only the first option satisfies both the plural agreement and the passive pattern."
+      ],
+      "jebakan": "Option C keeps the active verb form, and option B copies the singular auxiliary of the original subject committee instead of the new plural subject.",
+      "cepat": "Change the subject first, then repair agreement, then insert been plus the participle."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "passive-voice",
+      "present-perfect"
+    ]
+  },
+  {
+    "id": "BIG-GRM-002",
+    "mapel": "bing",
+    "kategori": "bing-grammar",
+    "subkategori": "conditional",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "The results were released only after the registration deadline had passed, so the appeal could not be submitted in time. Sentence to complete: If the committee ___ the results earlier, we ___ the appeal before the deadline."
+    },
+    "soal": "Which pair of verb forms correctly completes the sentence?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "had announced — would have submitted"
+      },
+      {
+        "kode": "B",
+        "teks": "announced — would submit"
+      },
+      {
+        "kode": "C",
+        "teks": "has announced — would have submitted"
+      },
+      {
+        "kode": "D",
+        "teks": "announced — had submitted"
+      },
+      {
+        "kode": "E",
+        "teks": "would announce — submitted"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The sentence describes an unreal past situation, so the third conditional is required: past perfect in the if-clause and would have + past participle in the result clause.",
+      "langkah": [
+        "The situation did not happen (the results were late), so the if-clause takes the past perfect: had announced.",
+        "The result clause for an unreal past uses would have plus the past participle: would have submitted.",
+        "Only the first pair matches both halves of the third conditional."
+      ],
+      "jebakan": "Option B is the second conditional, which describes an unreal present or future rather than a missed chance in the past.",
+      "cepat": "Unreal past = if + had + V3, then would have + V3."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "conditional",
+      "unreal-past"
+    ]
+  },
+  {
+    "id": "BIG-GRM-003",
+    "mapel": "bing",
+    "kategori": "bing-grammar",
+    "subkategori": "reported-speech",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Direct speech: \"I will submit the report tomorrow,\" the coordinator said on Monday."
+    },
+    "soal": "Which reported sentence correctly conveys the same meaning?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "The coordinator said that she would submit the report the following day."
+      },
+      {
+        "kode": "B",
+        "teks": "The coordinator said that she will submit the report tomorrow."
+      },
+      {
+        "kode": "C",
+        "teks": "The coordinator said that she would submit the report tomorrow."
+      },
+      {
+        "kode": "D",
+        "teks": "The coordinator says that she would submit the report the next day."
+      },
+      {
+        "kode": "E",
+        "teks": "The coordinator said that I would submit the report the following day."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Reported speech moves the modal back one step and changes time words relative to the moment of reporting.",
+      "langkah": [
+        "will becomes would because the reporting verb said is in the past.",
+        "tomorrow becomes the following day (or the next day) in reported speech.",
+        "The pronoun I refers to the coordinator, so it becomes she; only option A applies all three changes."
+      ],
+      "jebakan": "Option C keeps tomorrow, which is only acceptable when reporting on the same day; option B fails to backshift the modal.",
+      "cepat": "Backshift the modal, shift the time word, and match the pronoun to the original speaker."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "reported-speech",
+      "backshift"
+    ]
+  }
+]

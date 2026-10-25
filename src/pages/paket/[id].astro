@@ -1,0 +1,14 @@
+---
+import Base from '@layouts/Base.astro';
+import PaketRunner from '@components/paket/PaketRunner.tsx';
+
+export function getStaticPaths() {
+  return [{ params: { id: 'paket-1' } }, { params: { id: 'paket-2' } }, { params: { id: 'paket-3' } }, { params: { id: 'paket-4' } }];
+}
+
+const { id } = Astro.params as { id: string };
+const judul = id.replace('paket-', 'Paket ');
+---
+<Base title={`${judul} — TN Trainer`} description={`Paket latihan ${judul} seleksi akademik Taruna Nusantara.`}>
+  <PaketRunner client:only="preact" paketId={id} />
+</Base>

@@ -1,0 +1,7 @@
+---
+import Base from '@layouts/Base.astro';
+import HasilView from '@components/hasil/HasilView.tsx';
+---
+<Base title="Hasil sesi — TN Trainer" noNav>
+  <HasilView client:only="preact" />
+</Base>

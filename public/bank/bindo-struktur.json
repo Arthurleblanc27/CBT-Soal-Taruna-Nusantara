@@ -1,0 +1,104 @@
+[
+  {
+    "id": "BIN-STR-001",
+    "mapel": "bindo",
+    "kategori": "bindo-struktur",
+    "subkategori": "morfologi",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Buku edisi lama yang dicari kolektor itu akhirnya terbeli juga oleh seorang pengunjung pameran."
+    },
+    "soal": "Makna imbuhan ter- pada kata terbeli dalam kalimat tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "menyatakan perbuatan dilakukan berulang"
+      },
+      {
+        "kode": "B",
+        "teks": "menyatakan kesanggupan atau dapat dilakukan"
+      },
+      {
+        "kode": "C",
+        "teks": "menyatakan perbuatan terjadi tanpa sengaja"
+      },
+      {
+        "kode": "D",
+        "teks": "menyatakan perbuatan dilakukan dua pihak"
+      },
+      {
+        "kode": "E",
+        "teks": "menyatakan tingkat paling atas"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Imbuhan ter- pada verba dapat menyatakan keadaan, ketidaksengajaan, atau kesanggupan. Konteks akhirnya menunjukkan bahwa perbuatan itu mungkin dilakukan setelah diusahakan.",
+      "langkah": [
+        "Uji dengan penggantian: terbeli setara dengan dapat dibeli, sehingga maknanya kesanggupan.",
+        "Bandingkan dengan terbaca dan terjangkau yang juga menyatakan dapat dilakukan.",
+        "Makna ketidaksengajaan akan tampak pada kalimat seperti buku itu terbawa pulang, yang tidak memerlukan usaha."
+      ],
+      "jebakan": "Makna ketidaksengajaan tertarik karena ter- sering dipakai untuk peristiwa tak disengaja, padahal kata akhirnya menandakan usaha yang berhasil.",
+      "cepat": "Jika kata dapat disisipkan sebelum verba tanpa mengubah makna, ter- menandai kesanggupan."
+    },
+    "targetDetik": 30,
+    "tags": [
+      "imbuhan-ter",
+      "morfologi"
+    ]
+  },
+  {
+    "id": "BIN-STR-002",
+    "mapel": "bindo",
+    "kategori": "bindo-struktur",
+    "subkategori": "sintaksis",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Kalimat: \"Dengan telah diselesaikannya laporan kegiatan oleh panitia, maka acara penutupan dapat dilaksanakan tepat waktu.\""
+    },
+    "soal": "Perbaikan kalimat tersebut agar efektif adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Setelah panitia menyelesaikan laporan kegiatan, acara penutupan dapat dilaksanakan tepat waktu."
+      },
+      {
+        "kode": "B",
+        "teks": "Dengan panitia telah menyelesaikan laporan kegiatan, maka acara penutupan dapat dilaksanakan tepat waktu."
+      },
+      {
+        "kode": "C",
+        "teks": "Laporan kegiatan telah diselesaikan oleh panitia, maka acara penutupan dapat dilaksanakan tepat waktu."
+      },
+      {
+        "kode": "D",
+        "teks": "Acara penutupan dapat dilaksanakan tepat waktu dengan telah menyelesaikannya laporan kegiatan panitia."
+      },
+      {
+        "kode": "E",
+        "teks": "Dengan telah selesainya laporan kegiatan panitia, maka acara penutupan dapat dilaksanakan tepat waktu."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Kalimat aslinya memakai dua penanda hubungan sekaligus (dengan dan maka) serta bentuk pasif berimbuhan yang berbelit, sehingga tidak efektif.",
+      "langkah": [
+        "Identifikasi pemborosan: kata dengan dan maka sama-sama menandai hubungan sebab-akibat, jadi salah satu berlebih.",
+        "Ganti frasa \"telah diselesaikannya ... oleh panitia\" dengan klausa aktif \"panitia menyelesaikan\" agar pelaku jelas dan kalimat lebih ringkas.",
+        "Hasil perbaikan yang memenuhi kedua syarat itu adalah pilihan A."
+      ],
+      "jebakan": "Pilihan B dan E hanya menghapus salah satu masalah, sedangkan C menghilangkan penanda hubungan sehingga makna sebab-akibat kabur.",
+      "cepat": "Satu kalimat cukup satu penanda hubungan; ubah frasa pasif berimbuhan menjadi klausa aktif."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "kalimat-efektif",
+      "sintaksis"
+    ]
+  }
+]

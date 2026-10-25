@@ -1,0 +1,256 @@
+[
+  {
+    "id": "MAT-GEO-001",
+    "mapel": "matematika",
+    "kategori": "mat-geometri",
+    "subkategori": "bangun-datar",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "gambar": "/img/mat-geometri-01.svg",
+      "alt": "Segitiga sama kaki ABC dengan alas BC 10 cm dan tinggi AD 12 cm. Sisi AC = 13 cm."
+    },
+    "soal": "Pada segitiga ABC di samping, panjang sisi AB adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "10 cm"
+      },
+      {
+        "kode": "B",
+        "teks": "12 cm"
+      },
+      {
+        "kode": "C",
+        "teks": "13 cm"
+      },
+      {
+        "kode": "D",
+        "teks": "15 cm"
+      },
+      {
+        "kode": "E",
+        "teks": "17 cm"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Segitiga ABC sama kaki dengan tinggi AD membagi alas BC sama panjang, sehingga BD = DC = 5 cm. Panjang AB dapat dicari dengan teorema Pythagoras pada segitiga ABD.",
+      "langkah": [
+        "Karena ABC sama kaki dan AD tinggi, maka BD = DC = 10 / 2 = 5 cm.",
+        "Pada segitiga siku-siku ABD berlaku AB^2 = AD^2 + BD^2 = 12^2 + 5^2 = 144 + 25 = 169.",
+        "Diperoleh AB = sqrt(169) = 13 cm."
+      ],
+      "jebakan": "Peserta yang tidak menyadari segitiga sama kaki mungkin memilih 12 cm (tinggi) atau 15 cm (hasil menjumlahkan 12 dan 5).",
+      "cepat": "Perhatikan 5-12-13 adalah triple Pythagoras, langsung pilih C."
+    },
+    "targetDetik": 65,
+    "tags": [
+      "segitiga",
+      "pythagoras",
+      "sama-kaki"
+    ]
+  },
+  {
+    "id": "MAT-GEO-002",
+    "mapel": "matematika",
+    "kategori": "mat-geometri",
+    "subkategori": "bangun-datar",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 7",
+    "kognitif": "C3",
+    "tingkat": "mudah",
+    "stimulus": {
+      "teks": "Sebuah segitiga memiliki panjang sisi 12 cm, 16 cm, dan 19 cm."
+    },
+    "soal": "Segitiga tersebut merupakan jenis segitiga ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "sama kaki"
+      },
+      {
+        "kode": "B",
+        "teks": "siku-siku"
+      },
+      {
+        "kode": "C",
+        "teks": "lancip"
+      },
+      {
+        "kode": "D",
+        "teks": "tumpul"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Jenis segitiga ditentukan dengan membandingkan kuadrat sisi terpanjang terhadap jumlah kuadrat dua sisi lainnya.",
+      "langkah": [
+        "Sisi terpanjang 19 cm, maka 19^2 = 361.",
+        "Jumlah kuadrat dua sisi lain: 12^2 + 16^2 = 144 + 256 = 400.",
+        "Karena 361 < 400, sudut di hadapan sisi terpanjang adalah sudut lancip, sehingga seluruh sudut lancip."
+      ],
+      "jebakan": "Pilihan tumpul dipilih bila peserta membandingkan 19 dengan 12 + 16 = 28 tanpa mengkuadratkan, sedangkan siku-siku dipilih bila selisih kuadrat dianggap nol.",
+      "cepat": "Bandingkan 19 dengan akar 400 = 20; karena 19 < 20, segitiga lancip."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "jenis-segitiga",
+      "pythagoras"
+    ]
+  },
+  {
+    "id": "MAT-GEO-003",
+    "mapel": "matematika",
+    "kategori": "mat-geometri",
+    "subkategori": "bangun-ruang",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 10",
+    "kognitif": "C2",
+    "tingkat": "mudah",
+    "stimulus": {
+      "teks": "Sebuah prisma tegak memiliki alas berupa segi lima beraturan."
+    },
+    "soal": "Banyaknya rusuk prisma tersebut adalah ... buah",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "9"
+      },
+      {
+        "kode": "B",
+        "teks": "10"
+      },
+      {
+        "kode": "C",
+        "teks": "12"
+      },
+      {
+        "kode": "D",
+        "teks": "15"
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": {
+      "inti": "Prisma dengan alas segi n memiliki 3n rusuk, yaitu n rusuk alas, n rusuk atas, dan n rusuk tegak.",
+      "langkah": [
+        "Alas berupa segi lima sehingga n = 5.",
+        "Rusuk alas 5, rusuk atas 5, dan rusuk tegak 5.",
+        "Jumlahnya 5 + 5 + 5 = 15 rusuk."
+      ],
+      "jebakan": "10 muncul bila hanya rusuk alas dan atas yang dihitung, sedangkan 12 muncul bila peserta memakai pola balok.",
+      "cepat": "Rumus cepat prisma segi n: rusuk 3n, sisi n + 2, titik sudut 2n."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "prisma",
+      "rusuk"
+    ]
+  },
+  {
+    "id": "MAT-GEO-004",
+    "mapel": "matematika",
+    "kategori": "mat-geometri",
+    "subkategori": "kesebangunan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Dua segitiga sebangun. Sisi terpendek segitiga pertama 6 cm dan sisi terpendek segitiga kedua 9 cm. Luas segitiga pertama 24 cm^2."
+    },
+    "soal": "Luas segitiga kedua adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "36 cm^2"
+      },
+      {
+        "kode": "B",
+        "teks": "48 cm^2"
+      },
+      {
+        "kode": "C",
+        "teks": "54 cm^2"
+      },
+      {
+        "kode": "D",
+        "teks": "60 cm^2"
+      },
+      {
+        "kode": "E",
+        "teks": "72 cm^2"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Pada bangun sebangun, perbandingan luas sama dengan kuadrat perbandingan panjang sisi.",
+      "langkah": [
+        "Faktor skala sisi = 9/6 = 1,5.",
+        "Perbandingan luas = 1,5^2 = 2,25.",
+        "Luas segitiga kedua = 24 x 2,25 = 54 cm^2."
+      ],
+      "jebakan": "36 muncul bila luas dikalikan 1,5 (bukan kuadratnya), sedangkan 72 muncul bila sisi dibalik menjadi 6/9 lalu dibagi.",
+      "cepat": "Sisi naik 1,5 kali, jadi luas naik 2,25 kali."
+    },
+    "targetDetik": 65,
+    "tags": [
+      "kesebangunan",
+      "luas"
+    ]
+  },
+  {
+    "id": "MAT-GEO-005",
+    "mapel": "matematika",
+    "kategori": "mat-geometri",
+    "subkategori": "lingkaran",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah lingkaran berdiameter 28 cm membentuk juring dengan sudut pusat 90 derajat. Nilai pi = 22/7."
+    },
+    "soal": "Keliling juring tersebut (busur ditambah dua jari-jari) adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "22 cm"
+      },
+      {
+        "kode": "B",
+        "teks": "44 cm"
+      },
+      {
+        "kode": "C",
+        "teks": "50 cm"
+      },
+      {
+        "kode": "D",
+        "teks": "66 cm"
+      },
+      {
+        "kode": "E",
+        "teks": "88 cm"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Keliling juring bukan hanya panjang busur: bentuk juring dibatasi busur dan dua jari-jari, sehingga keduanya dijumlahkan.",
+      "langkah": [
+        "Keliling lingkaran = (22/7) x 28 = 88 cm, sehingga busur 90 derajat = 88/4 = 22 cm.",
+        "Jari-jari = 28/2 = 14 cm, dan juring dibatasi dua jari-jari sehingga 2 x 14 = 28 cm.",
+        "Keliling juring = 22 + 28 = 50 cm."
+      ],
+      "jebakan": "22 cm adalah busur saja, sedangkan 44 cm muncul bila busur dihitung untuk sudut 180 derajat.",
+      "cepat": "Keliling juring = busur + 2r; jangan berhenti pada panjang busur."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "lingkaran",
+      "juring",
+      "keliling"
+    ]
+  }
+]

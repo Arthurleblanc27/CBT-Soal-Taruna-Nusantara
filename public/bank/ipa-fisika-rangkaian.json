@@ -1,0 +1,105 @@
+[
+  {
+    "id": "IPA-FRG-001",
+    "mapel": "ipa",
+    "kategori": "ipa-rangkaian",
+    "subkategori": "rangkaian-seri",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "gambar": "/img/ipa-rangkaian-01.svg",
+      "alt": "Rangkaian seri dengan baterai 12 V dan dua hambatan 6 Ohm."
+    },
+    "soal": "Besar arus yang terukur pada ampermeter A adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "0,5 A"
+      },
+      {
+        "kode": "B",
+        "teks": "1,0 A"
+      },
+      {
+        "kode": "C",
+        "teks": "1,5 A"
+      },
+      {
+        "kode": "D",
+        "teks": "2,0 A"
+      },
+      {
+        "kode": "E",
+        "teks": "3,0 A"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Pada rangkaian seri, hambatan total merupakan jumlah hambatan dan arus dihitung dengan hukum Ohm I = V / R_total.",
+      "langkah": [
+        "Hambatan total R_total = R1 + R2 = 6 + 6 = 12 Ω.",
+        "Dengan hukum Ohm: I = V / R_total = 12 V / 12 Ω = 1 A.",
+        "Arus pada ampermeter sama dengan arus total rangkaian seri, yaitu 1,0 A."
+      ],
+      "jebakan": "Peserta yang menganggap hambatan paralel akan menjumlahkan kebalikan hambatan dan mendapatkan 4 A (E). Pilihan A muncul jika hanya satu hambatan yang dipakai.",
+      "cepat": "Seri: jumlahkan R, lalu I = V/R_total = 12/12 = 1 A."
+    },
+    "targetDetik": 45,
+    "tags": [
+      "rangkaian-seri",
+      "hukum-ohm"
+    ]
+  },
+  {
+    "id": "IPA-FRG-002",
+    "mapel": "ipa",
+    "kategori": "ipa-rangkaian",
+    "subkategori": "rangkaian-paralel",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Dua hambatan 6 ohm dan 3 ohm disusun paralel lalu dihubungkan dengan sumber tegangan 12 V yang hambatan dalamnya diabaikan."
+    },
+    "soal": "Arus yang mengalir pada hambatan 6 ohm adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "1 A"
+      },
+      {
+        "kode": "B",
+        "teks": "2 A"
+      },
+      {
+        "kode": "C",
+        "teks": "3 A"
+      },
+      {
+        "kode": "D",
+        "teks": "4 A"
+      },
+      {
+        "kode": "E",
+        "teks": "6 A"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Pada rangkaian paralel, tegangan setiap cabang sama dengan tegangan sumber, sehingga arus tiap cabang dihitung sendiri dengan hukum Ohm.",
+      "langkah": [
+        "Tegangan pada cabang 6 ohm = 12 V, sama dengan tegangan sumber.",
+        "I = V / R = 12 / 6 = 2 A pada cabang tersebut.",
+        "Sebagai pemeriksaan, cabang 3 ohm menarik 4 A sehingga arus total 6 A dengan hambatan pengganti 2 ohm."
+      ],
+      "jebakan": "6 A adalah arus total dan 4 A adalah arus cabang 3 ohm, sehingga keduanya sering tertukar dengan arus cabang yang ditanyakan.",
+      "cepat": "Paralel: tegangan sama, arus berbanding terbalik dengan hambatan masing-masing."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "paralel",
+      "hukum-ohm"
+    ]
+  }
+]

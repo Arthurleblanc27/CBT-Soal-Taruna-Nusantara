@@ -1,0 +1,54 @@
+[
+  {
+    "id": "IPA-GAYA-001",
+    "mapel": "ipa",
+    "kategori": "ipa-gaya",
+    "subkategori": "hukum-newton",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Seorang siswa bermassa 60 kg berdiri di dalam lift. Lift bergerak naik dengan percepatan tetap 2 m/s^2. Percepatan gravitasi 10 m/s^2. Gaya normal lantai lift dicatat oleh timbangan di bawah kaki siswa."
+    },
+    "soal": "Angka yang ditunjukkan timbangan selama lift dipercepat ke atas adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "480 N"
+      },
+      {
+        "kode": "B",
+        "teks": "600 N"
+      },
+      {
+        "kode": "C",
+        "teks": "720 N"
+      },
+      {
+        "kode": "D",
+        "teks": "840 N"
+      },
+      {
+        "kode": "E",
+        "teks": "960 N"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Timbangan membaca gaya normal. Karena lift dipercepat ke atas, resultan gaya ke atas lebih besar daripada berat, sehingga N = m(g + a).",
+      "langkah": [
+        "Gaya yang bekerja pada siswa: N ke atas dan w = mg = 60 x 10 = 600 N ke bawah.",
+        "Hukum II Newton pada arah vertikal: N - w = ma, sehingga N = m(g + a).",
+        "N = 60(10 + 2) = 720 N, jadi timbangan menunjukkan 720 N."
+      ],
+      "jebakan": "480 N muncul bila percepatan dikurangkan (lift dianggap turun), sedangkan 600 N muncul bila percepatan diabaikan dan hanya berat yang dihitung.",
+      "cepat": "Naik dipercepat menambah bacaan: N = m(g+a); turun dipercepat mengurangi: N = m(g-a)."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "hukum-newton",
+      "gaya-normal",
+      "lift"
+    ]
+  }
+]

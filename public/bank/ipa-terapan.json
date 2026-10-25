@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-TRPN-001",
+    "mapel": "ipa",
+    "kategori": "ipa-terapan",
+    "subkategori": "korosi",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Tiga paku besi baru diletakkan selama seminggu pada tiga wadah: (1) air garam, (2) air suling yang dididihkan lalu didinginkan, (3) minyak goreng. Ketiga wadah ditutup longgar dan disimpan di suhu ruang."
+    },
+    "soal": "Paku yang paling cepat berkarat dan alasan yang tepat adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "paku 1 karena ion garam mempercepat perpindahan elektron pada reaksi oksidasi"
+      },
+      {
+        "kode": "B",
+        "teks": "paku 1 karena garam menambah kadar oksigen terlarut"
+      },
+      {
+        "kode": "C",
+        "teks": "paku 2 karena air suling bebas mineral sehingga lebih reaktif"
+      },
+      {
+        "kode": "D",
+        "teks": "paku 3 karena minyak menahan oksigen di permukaan logam"
+      },
+      {
+        "kode": "E",
+        "teks": "ketiganya sama karena besi selalu berkarat di udara"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Korosi besi adalah reaksi elektrokimia yang berlangsung lebih cepat bila larutan bersifat elektrolit. Garam dapur menyediakan ion yang menutup rangkaian sel korosi.",
+      "langkah": [
+        "Air garam merupakan elektrolit kuat sehingga larutan menghantarkan ion lebih baik daripada air suling.",
+        "Ion dalam larutan mempercepat pelepasan elektron dari besi di daerah anoda, sehingga laju pembentukan karat meningkat.",
+        "Minyak justru menghalangi oksigen dan air, sehingga paku 3 paling lambat berkarat."
+      ],
+      "jebakan": "Pilihan B tertarik karena garam diasosiasikan dengan oksigen, padahal peran utamanya adalah menghantarkan ion; pilihan D membalik fungsi minyak.",
+      "cepat": "Karat cepat pada lingkungan lembap dan elektrolit; minyak dan udara kering memperlambat."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "korosi",
+      "elektrolit"
+    ]
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "versi": "2026-10-19T13-44-23",
+  "dibuat": "2026-10-19T13:44:23.763Z",
+  "file": [
+    {
+      "path": "bindo-kosakata.json",
+      "mapel": "bindo",
+      "kategori": "bindo-kosakata",
+      "jumlah": 4,
+      "hash": "78882adb4064b2e4"
+    },
+    {
+      "path": "bindo-membaca.json",
+      "mapel": "bindo",
+      "kategori": "bindo-membaca",
+      "jumlah": 4,
+      "hash": "ce1c37f9fa414dc0"
+    },
+    {
+      "path": "bindo-menyunting.json",
+      "mapel": "bindo",
+      "kategori": "bindo-menyunting",
+      "jumlah": 3,
+      "hash": "348877e42d41520a"
+    },
+    {
+      "path": "bindo-struktur.json",
+      "mapel": "bindo",
+      "kategori": "bindo-struktur",
+      "jumlah": 2,
+      "hash": "e64faa9654c0eedb"
+    },
+    {
+      "path": "bing-grammar.json",
+      "mapel": "bing",
+      "kategori": "bing-grammar",
+      "jumlah": 3,
+      "hash": "6cc68b2550e27dbb"
+    },
+    {
+      "path": "bing-reading.json",
+      "mapel": "bing",
+      "kategori": "bing-reading",
+      "jumlah": 5,
+      "hash": "68c23ff79fdb8716"
+    },
+    {
+      "path": "bing-vocabulary.json",
+      "mapel": "bing",
+      "kategori": "bing-vocabulary",
+      "jumlah": 3,
+      "hash": "4e650a2f0a724953"
+    },
+    {
+      "path": "ipa-bioteknologi.json",
+      "mapel": "ipa",
+      "kategori": "ipa-bioteknologi",
+      "jumlah": 1,
+      "hash": "bd10eb4013306871"
+    },
+    {
+      "path": "ipa-botani.json",
+      "mapel": "ipa",
+      "kategori": "ipa-botani",
+      "jumlah": 1,
+      "hash": "f9e875c860540bb9"
+    },
+    {
+      "path": "ipa-ciri-kehidupan.json",
+      "mapel": "ipa",
+      "kategori": "ipa-ciri-kehidupan",
+      "jumlah": 1,
+      "hash": "63757cdb611e6765"
+    },
+    {
+      "path": "ipa-ekologi.json",
+      "mapel": "ipa",
+      "kategori": "ipa-ekologi",
+      "jumlah": 2,
+      "hash": "a837b77a20facd03"
+    },
+    {
+      "path": "ipa-elektromagnet.json",
+      "mapel": "ipa",
+      "kategori": "ipa-elektromagnet",
+      "jumlah": 1,
+      "hash": "0725b6b8b3850f67"
+    },
+    {
+      "path": "ipa-energetika.json",
+      "mapel": "ipa",
+      "kategori": "ipa-energetika",
+      "jumlah": 2,
+      "hash": "dd298a6fd9b8181c"
+    },
+    {
+      "path": "ipa-fisika-rangkaian.json",
+      "mapel": "ipa",
+      "kategori": "ipa-rangkaian",
+      "jumlah": 2,
+      "hash": "692b9a32d8e9744b"
+    },
+    {
+      "path": "ipa-fisiologi.json",
+      "mapel": "ipa",
+      "kategori": "ipa-fisiologi",
+      "jumlah": 1,
+      "hash": "0b29ffbdebd931f7"
+    },
+    {
+      "path": "ipa-fluida.json",
+      "mapel": "ipa",
+      "kategori": "ipa-fluida",
+      "jumlah": 1,
+      "hash": "fa0f2d127cd4531d"
+    },
+    {
+      "path": "ipa-gaya.json",
+      "mapel": "ipa",
+      "kategori": "ipa-gaya",
+      "jumlah": 1,
+      "hash": "03baa3accd1b4182"
+    },
+    {
+      "path": "ipa-gelombang.json",
+      "mapel": "ipa",
+      "kategori": "ipa-gelombang",
+      "jumlah": 1,
+      "hash": "73468930617fea4a"
+    },
+    {
+      "path": "ipa-genetika.json",
+      "mapel": "ipa",
+      "kategori": "ipa-genetika",
+      "jumlah": 2,
+      "hash": "cf64ed047b76230f"
+    },
+    {
+      "path": "ipa-kalor.json",
+      "mapel": "ipa",
+      "kategori": "ipa-kalor",
+      "jumlah": 1,
+      "hash": "94091013b0595943"
+    },
+    {
+      "path": "ipa-optik.json",
+      "mapel": "ipa",
+      "kategori": "ipa-optik",
+      "jumlah": 1,
+      "hash": "3cf749ccf44f1ee5"
+    },
+    {
+      "path": "ipa-terapan.json",
+      "mapel": "ipa",
+      "kategori": "ipa-terapan",
+      "jumlah": 1,
+      "hash": "9db4f6b25669a910"
+    },
+    {
+      "path": "ipa-unsur.json",
+      "mapel": "ipa",
+      "kategori": "ipa-unsur",
+      "jumlah": 1,
+      "hash": "44990ea4a72805b5"
+    },
+    {
+      "path": "mat-aljabar.json",
+      "mapel": "matematika",
+      "kategori": "mat-aljabar",
+      "jumlah": 7,
+      "hash": "e57406f5d85768bc"
+    },
+    {
+      "path": "mat-geometri.json",
+      "mapel": "matematika",
+      "kategori": "mat-geometri",
+      "jumlah": 5,
+      "hash": "ab543d0ceb6f3d36"
+    },
+    {
+      "path": "mat-kombinatorika.json",
+      "mapel": "matematika",
+      "kategori": "mat-kombinatorika",
+      "jumlah": 6,
+      "hash": "0ee125d4e103c68b"
+    },
+    {
+      "path": "mat-teori-bilangan.json",
+      "mapel": "matematika",
+      "kategori": "mat-teori-bilangan",
+      "jumlah": 4,
+      "hash": "8fdbab20959ba991"
+    }
+  ]
+}

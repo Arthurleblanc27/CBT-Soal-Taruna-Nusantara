@@ -1,0 +1,155 @@
+[
+  {
+    "id": "BIG-VOC-001",
+    "mapel": "bing",
+    "kategori": "bing-vocabulary",
+    "subkategori": "collocations",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Text: Mangroves, the team argues, buy time; they do not reverse land subsidence. Villages that restore the forest but continue pumping from deep wells are protecting a coast that is still sinking."
+    },
+    "soal": "In the text, the phrase buy time is closest in meaning to ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "purchase additional land for restoration"
+      },
+      {
+        "kode": "B",
+        "teks": "delay serious harm long enough for other measures to work"
+      },
+      {
+        "kode": "C",
+        "teks": "make the restoration project more expensive"
+      },
+      {
+        "kode": "D",
+        "teks": "measure how quickly the ground is sinking"
+      },
+      {
+        "kode": "E",
+        "teks": "replace the need for industrial water supply"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "The contrast with reverse land subsidence shows that buying time means postponing damage rather than removing its cause.",
+      "langkah": [
+        "Read the clause that follows: buy time is set against reverse, so the phrase concerns postponement rather than cure.",
+        "Check the closing sentence about villages that keep pumping, which shows the delay is meant to allow other measures.",
+        "Match this to option B and reject A because no purchase of land is involved."
+      ],
+      "jebakan": "Option A takes buy literally as a commercial transaction, which the metaphorical context rules out.",
+      "cepat": "Idioms in context are defined by their contrast partner in the same sentence."
+    },
+    "targetDetik": 45,
+    "tags": [
+      "idiom",
+      "vocabulary-in-context"
+    ]
+  },
+  {
+    "id": "BIG-VOC-002",
+    "mapel": "bing",
+    "kategori": "bing-vocabulary",
+    "subkategori": "synonyms",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Reviewers described the report as superficial: it repeated familiar claims, offered no measurement, and never examined the data it cited."
+    },
+    "soal": "In the sentence, the word superficial is closest in meaning to ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "lacking depth"
+      },
+      {
+        "kode": "B",
+        "teks": "carefully verified"
+      },
+      {
+        "kode": "C",
+        "teks": "unusually long"
+      },
+      {
+        "kode": "D",
+        "teks": "difficult to translate"
+      },
+      {
+        "kode": "E",
+        "teks": "financially costly"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The colon introduces evidence that defines the word: repeated claims, no measurement, and no examination of data all point to a lack of depth.",
+      "langkah": [
+        "Read the clues after the colon as a definition of the word in context.",
+        "Repeated claims and absent measurement describe work that stays on the surface rather than going into detail.",
+        "Among the options, only lacking depth matches that description."
+      ],
+      "jebakan": "Option B is the opposite of the evidence, and option C confuses length with depth.",
+      "cepat": "When a colon follows a judgement word, the list after it is the definition."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "vocabulary-in-context",
+      "definition-clue"
+    ]
+  },
+  {
+    "id": "BIG-VOC-003",
+    "mapel": "bing",
+    "kategori": "bing-vocabulary",
+    "subkategori": "collocations",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "The committee met for three hours but could not ___ a decision, so the proposal was postponed to the next session."
+    },
+    "soal": "Which word completes the sentence with the correct collocation?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "reach"
+      },
+      {
+        "kode": "B",
+        "teks": "arrive"
+      },
+      {
+        "kode": "C",
+        "teks": "take"
+      },
+      {
+        "kode": "D",
+        "teks": "make"
+      },
+      {
+        "kode": "E",
+        "teks": "do"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "English pairs decision with reach or make, not with arrive, take, or do; the context of a committee meeting points to reach.",
+      "langkah": [
+        "Identify the noun decision and recall its common verb partners: reach a decision, make a decision.",
+        "Eliminate arrive and take, which do not collocate with decision in this sense.",
+        "Between reach and make, reach fits a group arriving at agreement after discussion, which matches the three-hour meeting."
+      ],
+      "jebakan": "Make a decision is grammatically possible, but the sentence stresses a committee that could not conclude after long discussion, where reach is the standard collocation.",
+      "cepat": "Learn nouns with their verbs: reach/make a decision, take action, arrive at a conclusion."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "collocation",
+      "decision"
+    ]
+  }
+]

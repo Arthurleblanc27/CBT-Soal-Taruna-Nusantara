@@ -1,0 +1,104 @@
+[
+  {
+    "id": "IPA-GEN-001",
+    "mapel": "ipa",
+    "kategori": "ipa-genetika",
+    "subkategori": "pewarisan-sifat",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Tanaman ercis berbatang tinggi biji bulat heterozigot untuk kedua sifat (TtBb) disilangkan dengan tanaman bergenotipe sama. Sifat tinggi (T) dominan terhadap pendek (t) dan biji bulat (B) dominan terhadap biji kisut (b)."
+    },
+    "soal": "Peluang keturunan berbatang tinggi berbiji kisut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "6,25%"
+      },
+      {
+        "kode": "B",
+        "teks": "12,50%"
+      },
+      {
+        "kode": "C",
+        "teks": "18,75%"
+      },
+      {
+        "kode": "D",
+        "teks": "25,00%"
+      },
+      {
+        "kode": "E",
+        "teks": "56,25%"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Dua sifat yang bersegregasi bebas menghasilkan nisbah fenotipe 9:3:3:1, sehingga kelas tinggi kisut mewakili 3 dari 16 bagian.",
+      "langkah": [
+        "Silangan TtBb x TtBb menghasilkan 16 kombinasi gamet yang sama mungkin.",
+        "Fenotipe tinggi kisut berasal dari genotipe T_bb, yaitu TTbb dan Ttbb, sebanyak 3 kombinasi.",
+        "Peluangnya 3/16 = 18,75%."
+      ],
+      "jebakan": "25% muncul bila peserta hanya menghitung sifat biji (1/4 kisut) dan mengabaikan sifat batang, sedangkan 56,25% adalah peluang tinggi bulat.",
+      "cepat": "Hitung per sifat: peluang tinggi 3/4 dan kisut 1/4, lalu kalikan menjadi 3/16."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "dihibrida",
+      "nisbah-fenotipe"
+    ]
+  },
+  {
+    "id": "IPA-GEN-002",
+    "mapel": "ipa",
+    "kategori": "ipa-genetika",
+    "subkategori": "pewarisan-sifat",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Buta warna merah-hijau dikendalikan gen resesif pada kromosom X. Seorang ayah buta warna (XcY) menikah dengan ibu normal homozigot (XCXC) yang tidak membawa alel buta warna."
+    },
+    "soal": "Pernyataan yang tepat tentang keturunan pasangan tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "semua anak laki-laki normal dan semua anak perempuan menjadi pembawa sifat"
+      },
+      {
+        "kode": "B",
+        "teks": "semua anak laki-laki buta warna dan anak perempuan normal"
+      },
+      {
+        "kode": "C",
+        "teks": "separuh anak laki-laki buta warna dan separuh anak perempuan buta warna"
+      },
+      {
+        "kode": "D",
+        "teks": "semua anak normal dan tidak ada yang membawa sifat"
+      },
+      {
+        "kode": "E",
+        "teks": "anak perempuan buta warna dan anak laki-laki pembawa sifat"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Anak laki-laki menerima kromosom X dari ibu dan Y dari ayah, sedangkan anak perempuan menerima X dari keduanya.",
+      "langkah": [
+        "Ibu XCXC hanya memberi XC, sehingga anak laki-laki (XCY) tidak membawa alel buta warna dan tampak normal.",
+        "Anak perempuan menerima XC dari ibu dan Xc dari ayah, menjadi XCXc yaitu pembawa tanpa gejala.",
+        "Karena itu tidak ada anak yang buta warna, tetapi semua anak perempuan membawa sifat."
+      ],
+      "jebakan": "Pilihan B tertarik karena ayah buta warna, padahal alel pada ayah hanya diwariskan lewat kromosom X kepada anak perempuan.",
+      "cepat": "Ayah mewariskan X hanya kepada anak perempuan; anak laki-laki menerima Y."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "terpaut-x",
+      "buta-warna"
+    ]
+  }
+]

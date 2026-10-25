@@ -1,0 +1,10 @@
+---
+import Base from '@layouts/Base.astro';
+import SubjectPicker from '@components/subject/SubjectPicker.tsx';
+---
+<Base
+  title="Mode belajar — semua mata pelajaran · TN Trainer"
+  description="Belajar semua mata pelajaran seleksi akademik Taruna Nusantara: Matematika, IPA, Bahasa Indonesia, dan Bahasa Inggris."
+>
+  <SubjectPicker client:load mode="belajar" />
+</Base>

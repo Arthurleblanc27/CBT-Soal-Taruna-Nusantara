@@ -1,0 +1,2865 @@
+{
+  "versi": "2026-10-19",
+  "judul": "Bank Soal TN Trainer - 4 Paket Latihan (selaras kisi-kisi TN37)",
+  "catatan": "Paket 1 memuat butir naskah 2018 yang bisa dilacak; sisanya prediksi HOTS yang disusun mengikuti materi resmi Panduan CBT Selmik 1 TN37 (27 kategori) dan pola butir panitia. Tidak ada butir yang diklaim berasal dari naskah 2021-2026 karena naskah tersebut tidak diterbitkan.",
+  "sumberUtama": {
+    "naskah": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (30 soal, 11 halaman)",
+    "url": "https://id.scribd.com/document/551952903",
+    "kisiKisi": "Panduan CBT Selmik 1 TN37 (materi 27 kategori: Matematika 4, Fisika 8, Kimia 2, Biologi 6, B. Indonesia 4, B. Inggris 3)"
+  },
+  "jumlahPaket": 4,
+  "jumlahButirUnik": 48,
+  "paket": [
+    {
+      "id": "paket-1",
+      "nama": "Paket 1 - Fondasi Naskah 2018",
+      "deskripsi": "Enam butir naskah 2018 asli ditambah enam butir baru lintas mapel untuk pemanasan. Cocok untuk mengenali pola panitia sebelum masuk butir HOTS.",
+      "bankVersi": "2026-10-19",
+      "jumlah": 12,
+      "targetMenit": 10,
+      "komposisi": {
+        "matematika": 6,
+        "bindo": 2,
+        "ipa": 2,
+        "bing": 2
+      },
+      "jumlahNaskah": 6,
+      "jumlahPrediksi": 6,
+      "ids": [
+        "MAT-ALJ-003",
+        "BIN-MBC-001",
+        "MAT-GEO-002",
+        "IPA-GAYA-001",
+        "MAT-KOM-002",
+        "BIG-RDG-001",
+        "MAT-ALJ-004",
+        "IPA-KALR-001",
+        "MAT-GEO-003",
+        "BIN-MNY-001",
+        "MAT-KOM-003",
+        "BIG-GRM-001"
+      ],
+      "daftarSumber": [
+        {
+          "id": "MAT-ALJ-003",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 2"
+        },
+        {
+          "id": "BIN-MBC-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-GEO-002",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 7"
+        },
+        {
+          "id": "IPA-GAYA-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-KOM-002",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 16"
+        },
+        {
+          "id": "BIG-RDG-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-ALJ-004",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 4"
+        },
+        {
+          "id": "IPA-KALR-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-GEO-003",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 10"
+        },
+        {
+          "id": "BIN-MNY-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-KOM-003",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 17"
+        },
+        {
+          "id": "BIG-GRM-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        }
+      ],
+      "butir": [
+        {
+          "id": "MAT-ALJ-003",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "fungsi",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 2",
+          "kognitif": "C3",
+          "tingkat": "mudah",
+          "stimulus": {
+            "teks": "Perhatikan empat relasi berikut. (i) {(1, a), (2, a), (3, a), (4, a)} (ii) {(2, b), (3, c), (4, d), (2, e)} (iii) {(3, 6), (4, 6), (5, 10), (3, 12)} (iv) {(1, 5), (3, 7), (5, 9), (3, 11)}"
+          },
+          "soal": "Relasi yang merupakan pemetaan adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "(i)"
+            },
+            {
+              "kode": "B",
+              "teks": "(ii)"
+            },
+            {
+              "kode": "C",
+              "teks": "(iii)"
+            },
+            {
+              "kode": "D",
+              "teks": "(iv)"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Pemetaan mensyaratkan setiap anggota daerah asal muncul tepat satu kali sebagai unsur pertama pasangan berurutan.",
+            "langkah": [
+              "Periksa unsur pertama tiap relasi. Relasi (ii) memuat (2, b) dan (2, e) sehingga angka 2 memiliki dua bayangan.",
+              "Relasi (iii) memuat (3, 6) dan (3, 12), relasi (iv) memuat (3, 7) dan (3, 11); keduanya mengulang daerah asal.",
+              "Hanya relasi (i) yang memasangkan setiap anggota daerah asal tepat satu kali, jadi (i) adalah pemetaan."
+            ],
+            "jebakan": "Relasi (i) sering ditolak karena semua bayangan sama, padahal yang dibatasi adalah daerah asal, bukan daerah hasil.",
+            "cepat": "Cari angka pertama yang berulang; relasi dengan pengulangan daerah asal otomatis bukan pemetaan."
+          },
+          "targetDetik": 60,
+          "tags": [
+            "relasi",
+            "pemetaan"
+          ]
+        },
+        {
+          "id": "BIN-MBC-001",
+          "mapel": "bindo",
+          "kategori": "bindo-membaca",
+          "subkategori": "pemahaman-tekstual",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Banjir yang melanda beberapa wilayah perkotaan akibat curah hujan tinggi bukan lagi sekadar bencana alam. Penelitian terbaru menunjukkan bahwa alih fungsi lahan terbuka hijau menjadi permukiman padat mengurangi daya resap tanah hingga 60 persen. Selain itu, sistem drainase yang tidak terawat dan sampah yang menumpuk di saluran air memperparah genangan. Oleh karena itu, upaya mitigasi harus menggabungkan perbaikan infrastruktur dan pengendalian tata ruang."
+          },
+          "soal": "Apa argumen utama penulis dalam paragraf tersebut?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "Curah hujan tinggi adalah satu-satunya penyebab banjir perkotaan."
+            },
+            {
+              "kode": "B",
+              "teks": "Banjir perkotaan disebabkan oleh kombinasi faktor alam dan ulah manusia."
+            },
+            {
+              "kode": "C",
+              "teks": "Sistem drainase yang baik sudah cukup untuk mencegah banjir."
+            },
+            {
+              "kode": "D",
+              "teks": "Alih fungsi lahan hanya berdampak kecil terhadap daya resap tanah."
+            },
+            {
+              "kode": "E",
+              "teks": "Pemerintah tidak perlu mengendalikan tata ruang kota."
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Paragraf menjelaskan bahwa banjir perkotaan dipicu oleh curah hujan tinggi namun diperparah oleh alih fungsi lahan dan drainase buruk, sehingga penyebabnya bersifat ganda.",
+            "langkah": [
+              "Kalimat pertama menyatakan banjir bukan lagi sekadar bencana alam.",
+              "Kalimat berikutnya memberi bukti: alih fungsi lahan mengurangi daya resap, drainase tidak terawat, dan sampah menumpuk.",
+              "Kalimat terakhir menegaskan perlunya mitigasi ganda, yang menguatkan argumen utama."
+            ],
+            "jebakan": "Pilihan A mengabaikan faktor ulah manusia, C terlalu sempit, D bertentangan dengan data 60 persen, dan E berlawanan dengan kalimat terakhir.",
+            "cepat": "Cari kalimat utama yang menyimpulkan bahwa banjir bukan hanya bencana alam."
+          },
+          "targetDetik": 35,
+          "tags": [
+            "argumen-utama",
+            "membaca"
+          ]
+        },
+        {
+          "id": "MAT-GEO-002",
+          "mapel": "matematika",
+          "kategori": "mat-geometri",
+          "subkategori": "bangun-datar",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 7",
+          "kognitif": "C3",
+          "tingkat": "mudah",
+          "stimulus": {
+            "teks": "Sebuah segitiga memiliki panjang sisi 12 cm, 16 cm, dan 19 cm."
+          },
+          "soal": "Segitiga tersebut merupakan jenis segitiga ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "sama kaki"
+            },
+            {
+              "kode": "B",
+              "teks": "siku-siku"
+            },
+            {
+              "kode": "C",
+              "teks": "lancip"
+            },
+            {
+              "kode": "D",
+              "teks": "tumpul"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Jenis segitiga ditentukan dengan membandingkan kuadrat sisi terpanjang terhadap jumlah kuadrat dua sisi lainnya.",
+            "langkah": [
+              "Sisi terpanjang 19 cm, maka 19^2 = 361.",
+              "Jumlah kuadrat dua sisi lain: 12^2 + 16^2 = 144 + 256 = 400.",
+              "Karena 361 < 400, sudut di hadapan sisi terpanjang adalah sudut lancip, sehingga seluruh sudut lancip."
+            ],
+            "jebakan": "Pilihan tumpul dipilih bila peserta membandingkan 19 dengan 12 + 16 = 28 tanpa mengkuadratkan, sedangkan siku-siku dipilih bila selisih kuadrat dianggap nol.",
+            "cepat": "Bandingkan 19 dengan akar 400 = 20; karena 19 < 20, segitiga lancip."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "jenis-segitiga",
+            "pythagoras"
+          ]
+        },
+        {
+          "id": "IPA-GAYA-001",
+          "mapel": "ipa",
+          "kategori": "ipa-gaya",
+          "subkategori": "hukum-newton",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Seorang siswa bermassa 60 kg berdiri di dalam lift. Lift bergerak naik dengan percepatan tetap 2 m/s^2. Percepatan gravitasi 10 m/s^2. Gaya normal lantai lift dicatat oleh timbangan di bawah kaki siswa."
+          },
+          "soal": "Angka yang ditunjukkan timbangan selama lift dipercepat ke atas adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "480 N"
+            },
+            {
+              "kode": "B",
+              "teks": "600 N"
+            },
+            {
+              "kode": "C",
+              "teks": "720 N"
+            },
+            {
+              "kode": "D",
+              "teks": "840 N"
+            },
+            {
+              "kode": "E",
+              "teks": "960 N"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Timbangan membaca gaya normal. Karena lift dipercepat ke atas, resultan gaya ke atas lebih besar daripada berat, sehingga N = m(g + a).",
+            "langkah": [
+              "Gaya yang bekerja pada siswa: N ke atas dan w = mg = 60 x 10 = 600 N ke bawah.",
+              "Hukum II Newton pada arah vertikal: N - w = ma, sehingga N = m(g + a).",
+              "N = 60(10 + 2) = 720 N, jadi timbangan menunjukkan 720 N."
+            ],
+            "jebakan": "480 N muncul bila percepatan dikurangkan (lift dianggap turun), sedangkan 600 N muncul bila percepatan diabaikan dan hanya berat yang dihitung.",
+            "cepat": "Naik dipercepat menambah bacaan: N = m(g+a); turun dipercepat mengurangi: N = m(g-a)."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "hukum-newton",
+            "gaya-normal",
+            "lift"
+          ]
+        },
+        {
+          "id": "MAT-KOM-002",
+          "mapel": "matematika",
+          "kategori": "mat-kombinatorika",
+          "subkategori": "kaidah-pencacahan",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 16",
+          "kognitif": "C3",
+          "tingkat": "mudah",
+          "stimulus": {
+            "teks": "Klub bulu tangkis SMA Taruna Nusantara memiliki 4 pemain putra dan 5 pemain putri. Akan dibentuk satu regu campuran yang terdiri atas 1 pemain putra dan 1 pemain putri."
+          },
+          "soal": "Banyaknya susunan pemain yang mungkin adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "9"
+            },
+            {
+              "kode": "B",
+              "teks": "18"
+            },
+            {
+              "kode": "C",
+              "teks": "20"
+            },
+            {
+              "kode": "D",
+              "teks": "25"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Regu campuran memilih satu pemain dari kelompok putra dan satu dari kelompok putri, sehingga aturan perkalian dipakai.",
+            "langkah": [
+              "Pilihan pemain putra ada 4 cara.",
+              "Pilihan pemain putri ada 5 cara.",
+              "Gabungkan dengan aturan perkalian: 4 x 5 = 20 susunan."
+            ],
+            "jebakan": "9 muncul bila jumlah pemain dijumlahkan, sedangkan 25 muncul bila peserta mengkuadratkan jumlah pemain putri.",
+            "cepat": "Dua tahap saling bebas dengan pilihan 4 dan 5, maka kalikan."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "kaidah-perkalian",
+            "kombinasi"
+          ]
+        },
+        {
+          "id": "BIG-RDG-001",
+          "mapel": "bing",
+          "kategori": "bing-reading",
+          "subkategori": "inference",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Between 2019 and 2024 a coastal village in Central Java converted forty hectares of abandoned shrimp ponds back into mangrove forest. The results were measurable: within five years local crab harvests had risen by roughly a third, and during the monsoon that flooded two neighbouring districts the village embankment held. The project team is careful about the lesson it draws. Mangroves, they argue, buy time; they do not reverse land subsidence which in this region is driven mainly by industrial groundwater extraction. Villages that restore the forest but continue pumping from deep wells, the team notes, are protecting a coast that is still sinking."
+          },
+          "soal": "What can most reasonably be inferred about the two neighbouring districts that were flooded?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "They had refused to take part in the mangrove programme."
+            },
+            {
+              "kode": "B",
+              "teks": "They lacked the coastal barrier that the restored forest provided."
+            },
+            {
+              "kode": "C",
+              "teks": "They extracted less groundwater than the village did."
+            },
+            {
+              "kode": "D",
+              "teks": "Their embankments were built with cheaper materials."
+            },
+            {
+              "kode": "E",
+              "teks": "They had converted more ponds into shrimp farms than the village."
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "The passage contrasts the village embankment, which held, with two districts that flooded during the same monsoon. The only difference the text establishes is the restored mangrove belt.",
+            "langkah": [
+              "Locate the contrast: the village held while two neighbouring districts flooded in the same monsoon.",
+              "Identify what the village had that the others are not said to have, namely forty hectares of restored mangrove.",
+              "Treat the embankment's survival as an effect of that forest, which supports the inference in B."
+            ],
+            "jebakan": "Option E is tempting because shrimp ponds are mentioned, but the text never compares pond areas; option D invents a detail about materials.",
+            "cepat": "When a passage contrasts an outcome, the inference answer names the one difference it actually states."
+          },
+          "targetDetik": 45,
+          "tags": [
+            "inference",
+            "mangrove"
+          ]
+        },
+        {
+          "id": "MAT-ALJ-004",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "sistem-persamaan",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 4",
+          "kognitif": "C3",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Andre membeli 1 kg pir dan 2 kg anggur dengan harga Rp94.000,00. Setiawan membeli 2 kg pir dan 3 kg anggur dengan harga Rp167.000,00. Harga 1 kg pir dinyatakan x dan harga 1 kg anggur dinyatakan y."
+          },
+          "soal": "Sistem persamaan linear dua variabel yang berkaitan dengan pernyataan tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "x + 2y = 94.000 dan 3x + 2y = 167.000"
+            },
+            {
+              "kode": "B",
+              "teks": "2x + y = 94.000 dan 3x + 2y = 167.000"
+            },
+            {
+              "kode": "C",
+              "teks": "2x + y = 94.000 dan 2x + 3y = 167.000"
+            },
+            {
+              "kode": "D",
+              "teks": "x + 2y = 94.000 dan 2x + 3y = 167.000"
+            }
+          ],
+          "kunci": "D",
+          "pembahasan": {
+            "inti": "Setiap transaksi diterjemahkan dengan mengalikan jumlah kilogram dengan harga satuannya, lalu dijumlahkan.",
+            "langkah": [
+              "Belanja Andre: 1 kg pir berarti 1x dan 2 kg anggur berarti 2y, sehingga x + 2y = 94.000.",
+              "Belanja Setiawan: 2 kg pir berarti 2x dan 3 kg anggur berarti 3y, sehingga 2x + 3y = 167.000.",
+              "Pasangan kedua persamaan itu adalah sistem yang diminta, yaitu pilihan D."
+            ],
+            "jebakan": "Pilihan A menukar koefisien pir dan anggur pada transaksi kedua, sedangkan B dan C salah menempatkan angka 2 pada transaksi pertama.",
+            "cepat": "Cocokkan angka kilogram dengan variabelnya satu per satu sebelum melihat pilihan."
+          },
+          "targetDetik": 65,
+          "tags": [
+            "spldv",
+            "pemodelan"
+          ]
+        },
+        {
+          "id": "IPA-KALR-001",
+          "mapel": "ipa",
+          "kategori": "ipa-kalor",
+          "subkategori": "kalor-jenis",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebanyak 0,5 kg air dipanaskan dari 20 derajat Celsius menjadi 60 derajat Celsius menggunakan pemanas listrik berdaya 350 W. Kalor jenis air 4.200 J/(kg derajat Celsius) dan seluruh energi pemanas diserap air."
+          },
+          "soal": "Waktu yang diperlukan untuk pemanasan tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "120 detik"
+            },
+            {
+              "kode": "B",
+              "teks": "180 detik"
+            },
+            {
+              "kode": "C",
+              "teks": "240 detik"
+            },
+            {
+              "kode": "D",
+              "teks": "300 detik"
+            },
+            {
+              "kode": "E",
+              "teks": "360 detik"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Kalor yang dibutuhkan dihitung dengan Q = m c delta T, lalu waktu diperoleh dari daya P = Q / t.",
+            "langkah": [
+              "Perubahan suhu delta T = 60 - 20 = 40 derajat Celsius.",
+              "Q = m c delta T = 0,5 x 4.200 x 40 = 84.000 J.",
+              "t = Q / P = 84.000 / 350 = 240 detik."
+            ],
+            "jebakan": "120 detik muncul bila delta T hanya dihitung 20 derajat, sedangkan 300 detik muncul bila daya dibulatkan menjadi 280 W.",
+            "cepat": "Hitung Q dulu dalam joule, lalu bagi daya; 84 kJ dibagi 0,35 kW memberi 240 s."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "kalor-jenis",
+            "daya"
+          ]
+        },
+        {
+          "id": "MAT-GEO-003",
+          "mapel": "matematika",
+          "kategori": "mat-geometri",
+          "subkategori": "bangun-ruang",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 10",
+          "kognitif": "C2",
+          "tingkat": "mudah",
+          "stimulus": {
+            "teks": "Sebuah prisma tegak memiliki alas berupa segi lima beraturan."
+          },
+          "soal": "Banyaknya rusuk prisma tersebut adalah ... buah",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "9"
+            },
+            {
+              "kode": "B",
+              "teks": "10"
+            },
+            {
+              "kode": "C",
+              "teks": "12"
+            },
+            {
+              "kode": "D",
+              "teks": "15"
+            }
+          ],
+          "kunci": "D",
+          "pembahasan": {
+            "inti": "Prisma dengan alas segi n memiliki 3n rusuk, yaitu n rusuk alas, n rusuk atas, dan n rusuk tegak.",
+            "langkah": [
+              "Alas berupa segi lima sehingga n = 5.",
+              "Rusuk alas 5, rusuk atas 5, dan rusuk tegak 5.",
+              "Jumlahnya 5 + 5 + 5 = 15 rusuk."
+            ],
+            "jebakan": "10 muncul bila hanya rusuk alas dan atas yang dihitung, sedangkan 12 muncul bila peserta memakai pola balok.",
+            "cepat": "Rumus cepat prisma segi n: rusuk 3n, sisi n + 2, titik sudut 2n."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "prisma",
+            "rusuk"
+          ]
+        },
+        {
+          "id": "BIN-MNY-001",
+          "mapel": "bindo",
+          "kategori": "bindo-menyunting",
+          "subkategori": "kalimat-efektif",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Cermati lima kalimat berikut.\n(1) Banyak siswa-siswa yang terlambat pada hari Senin.\n(2) Kedua siswa itu menerima penghargaan dari kepala sekolah.\n(3) Seluruh peserta wajib membawa perlengkapan masing-masing.\n(4) Kami saling membantu menyelesaikan tugas kelompok.\n(5) Setiap siswa memperoleh satu buku panduan belajar."
+          },
+          "soal": "Kalimat yang tidak efektif karena pemborosan kata adalah kalimat nomor ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "(1)"
+            },
+            {
+              "kode": "B",
+              "teks": "(2)"
+            },
+            {
+              "kode": "C",
+              "teks": "(3)"
+            },
+            {
+              "kode": "D",
+              "teks": "(4)"
+            },
+            {
+              "kode": "E",
+              "teks": "(5)"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Kalimat efektif tidak memakai dua penanda jamak sekaligus. Kalimat (1) menumpuk kata banyak dengan bentuk ulang siswa-siswa.",
+            "langkah": [
+              "Periksa setiap kalimat terhadap penanda jumlah: para, banyak, seluruh, setiap, dan bentuk ulang.",
+              "Kalimat (1) memuat banyak sekaligus siswa-siswa sehingga penanda jamaknya berlebih.",
+              "Kalimat (2) sampai (5) hanya memakai satu penanda jamak atau pemarkah saling dan masing-masing yang memang berfungsi."
+            ],
+            "jebakan": "Kalimat (4) sering dianggap salah karena memuat saling, padahal saling pada verba membantu menyatakan perbuatan timbal balik dan bukan pemborosan.",
+            "cepat": "Cari kalimat yang memakai dua penanda jamak sekaligus; hanya satu kalimat yang begitu."
+          },
+          "targetDetik": 35,
+          "tags": [
+            "kalimat-efektif",
+            "pemborosan-kata"
+          ]
+        },
+        {
+          "id": "MAT-KOM-003",
+          "mapel": "matematika",
+          "kategori": "mat-kombinatorika",
+          "subkategori": "peluang",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 17",
+          "kognitif": "C2",
+          "tingkat": "mudah",
+          "stimulus": {
+            "teks": "Sebuah uang logam dan sebuah dadu dilempar bersamaan satu kali."
+          },
+          "soal": "Banyak anggota ruang sampel percobaan tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "12 titik sampel"
+            },
+            {
+              "kode": "B",
+              "teks": "18 titik sampel"
+            },
+            {
+              "kode": "C",
+              "teks": "20 titik sampel"
+            },
+            {
+              "kode": "D",
+              "teks": "24 titik sampel"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Karena kedua percobaan dilakukan bersamaan dan saling bebas, banyak anggota ruang sampel adalah hasil kali kemungkinan masing-masing.",
+            "langkah": [
+              "Uang logam memiliki 2 kemungkinan hasil, yaitu angka dan gambar.",
+              "Dadu memiliki 6 kemungkinan hasil, yaitu mata 1 sampai 6.",
+              "Ruang sampel gabungan berisi 2 x 6 = 12 titik sampel."
+            ],
+            "jebakan": "18 dan 24 muncul bila peserta menambah atau mengalikan jumlah hasil dengan angka yang tidak berasal dari kedua benda tersebut.",
+            "cepat": "Percobaan gabungan saling bebas: kalikan jumlah hasil tiap percobaan."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "ruang-sampel",
+            "peluang"
+          ]
+        },
+        {
+          "id": "BIG-GRM-001",
+          "mapel": "bing",
+          "kategori": "bing-grammar",
+          "subkategori": "passive-voice",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Active sentence: The selection committee has not announced the results of the academic test."
+          },
+          "soal": "Which passive sentence correctly reports the same meaning?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "The results of the academic test have not been announced."
+            },
+            {
+              "kode": "B",
+              "teks": "The results of the academic test has not been announced."
+            },
+            {
+              "kode": "C",
+              "teks": "The results of the academic test have not announced."
+            },
+            {
+              "kode": "D",
+              "teks": "The results of the academic test has not been announcing."
+            },
+            {
+              "kode": "E",
+              "teks": "The results of the academic test were not announcing."
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The passive of a present perfect negative keeps have as the auxiliary, adds been, and uses the past participle of the main verb.",
+            "langkah": [
+              "The new subject is the results, a plural noun, so the auxiliary must be have rather than has.",
+              "Present perfect passive is formed with have or has + been + past participle, giving have not been announced.",
+              "Only the first option satisfies both the plural agreement and the passive pattern."
+            ],
+            "jebakan": "Option C keeps the active verb form, and option B copies the singular auxiliary of the original subject committee instead of the new plural subject.",
+            "cepat": "Change the subject first, then repair agreement, then insert been plus the participle."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "passive-voice",
+            "present-perfect"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paket-2",
+      "nama": "Paket 2 - Seleksi Campuran",
+      "deskripsi": "Komposisi merata empat mapel dengan penekanan IPA terapan dan penyuntingan bahasa. Paling dekat dengan satu sesi seleksi sebenarnya.",
+      "bankVersi": "2026-10-19",
+      "jumlah": 12,
+      "targetMenit": 11,
+      "komposisi": {
+        "matematika": 4,
+        "bindo": 3,
+        "ipa": 3,
+        "bing": 2
+      },
+      "jumlahNaskah": 3,
+      "jumlahPrediksi": 9,
+      "ids": [
+        "MAT-ALJ-005",
+        "BIN-MBC-002",
+        "MAT-KOM-001",
+        "IPA-FLDA-001",
+        "MAT-ALJ-006",
+        "BIG-RDG-002",
+        "IPA-GLMB-001",
+        "BIN-MNY-002",
+        "MAT-TBN-002",
+        "IPA-UNSR-001",
+        "BIN-STR-001",
+        "BIG-VOC-001"
+      ],
+      "daftarSumber": [
+        {
+          "id": "MAT-ALJ-005",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 5"
+        },
+        {
+          "id": "BIN-MBC-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-KOM-001",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 15"
+        },
+        {
+          "id": "IPA-FLDA-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-ALJ-006",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 6"
+        },
+        {
+          "id": "BIG-RDG-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-GLMB-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-MNY-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-TBN-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-UNSR-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-STR-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-VOC-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        }
+      ],
+      "butir": [
+        {
+          "id": "MAT-ALJ-005",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "fungsi",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 5",
+          "kognitif": "C3",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Diketahui f(2x + 3) = 2x - 5."
+          },
+          "soal": "Nilai dari f(0) + f(1) adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "-11"
+            },
+            {
+              "kode": "B",
+              "teks": "-13"
+            },
+            {
+              "kode": "C",
+              "teks": "-15"
+            },
+            {
+              "kode": "D",
+              "teks": "-17"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Nilai f(0) dan f(1) diperoleh dengan menyelesaikan 2x + 3 = 0 dan 2x + 3 = 1 lebih dahulu, bukan dengan mengganti x pada ruas kanan.",
+            "langkah": [
+              "Untuk f(0): 2x + 3 = 0 memberi x = -3/2, sehingga f(0) = 2(-3/2) - 5 = -8.",
+              "Untuk f(1): 2x + 3 = 1 memberi x = -1, sehingga f(1) = 2(-1) - 5 = -7.",
+              "Jumlahkan: f(0) + f(1) = -8 + (-7) = -15."
+            ],
+            "jebakan": "Pilihan -11 muncul bila peserta langsung memasukkan x = 0 dan x = 1 ke rumus 2x - 5 tanpa menyesuaikan argumen fungsi.",
+            "cepat": "Bentuk f(2x + 3) = 2x - 5 setara dengan f(t) = t - 8, jadi f(0) + f(1) = -8 - 7."
+          },
+          "targetDetik": 75,
+          "tags": [
+            "fungsi-komposisi",
+            "substitusi"
+          ]
+        },
+        {
+          "id": "BIN-MBC-002",
+          "mapel": "bindo",
+          "kategori": "bindo-membaca",
+          "subkategori": "simpulan",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Survei di sebuah sekolah mencatat kebiasaan belajar 120 siswa kelas sepuluh. Siswa yang belajar lebih dari dua jam per hari tanpa jeda melaporkan rasa lelah pada 78 persen kasus, sedangkan siswa yang belajar 45 menit lalu beristirahat 10 menit melaporkan rasa lelah pada 31 persen kasus. Nilai rata-rata ujian kedua kelompok tidak berbeda nyata. Guru menyimpulkan bahwa durasi belajar bukan satu-satunya penentu hasil."
+          },
+          "soal": "Simpulan yang paling tepat berdasarkan teks tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "belajar dalam blok pendek disertai jeda menurunkan kelelahan tanpa menurunkan hasil ujian"
+            },
+            {
+              "kode": "B",
+              "teks": "siswa yang belajar lebih lama selalu memperoleh nilai lebih tinggi"
+            },
+            {
+              "kode": "C",
+              "teks": "kelelahan belajar tidak berhubungan dengan cara mengatur waktu"
+            },
+            {
+              "kode": "D",
+              "teks": "istirahat sepuluh menit membuat siswa kehilangan materi pelajaran"
+            },
+            {
+              "kode": "E",
+              "teks": "nilai ujian hanya ditentukan oleh jumlah jam belajar per hari"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Teks membandingkan dua pola belajar pada dua ukuran sekaligus: kelelahan dan nilai ujian. Pola blok pendek menurunkan kelelahan, sedangkan nilai keduanya setara.",
+            "langkah": [
+              "Bandingkan kelelahan: 78 persen pada kelompok belajar panjang, 31 persen pada kelompok blok pendek, sehingga jeda menurunkan kelelahan.",
+              "Bandingkan hasil: nilai rata-rata kedua kelompok tidak berbeda nyata.",
+              "Gabungkan keduanya: jeda bermanfaat untuk kenyamanan tanpa merugikan hasil, sesuai pilihan A."
+            ],
+            "jebakan": "Pilihan B dan E bertentangan dengan pernyataan bahwa nilai tidak berbeda, sedangkan D menambahkan akibat yang tidak dibahas dalam data.",
+            "cepat": "Simpulan harus memuat dua temuan sekaligus; pilihan yang hanya memakai satu temuan pasti terlalu sempit."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "simpulan",
+            "data"
+          ]
+        },
+        {
+          "id": "MAT-KOM-001",
+          "mapel": "matematika",
+          "kategori": "mat-kombinatorika",
+          "subkategori": "kaidah-pencacahan",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 15",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Dari 40 siswa di suatu kelas, 13 siswa mengikuti ekstrakurikuler pramuka, 13 siswa mengikuti PMR, dan 11 siswa mengikuti paduan suara. Sebanyak 3 siswa mengikuti pramuka dan PMR, 3 siswa mengikuti PMR dan paduan suara, serta 4 siswa mengikuti pramuka dan paduan suara. Dua siswa mengikuti ketiga kegiatan, dan 3 siswa tidak mengikuti kegiatan apa pun."
+          },
+          "soal": "Banyak siswa di kelas tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "29 siswa"
+            },
+            {
+              "kode": "B",
+              "teks": "30 siswa"
+            },
+            {
+              "kode": "C",
+              "teks": "31 siswa"
+            },
+            {
+              "kode": "D",
+              "teks": "32 siswa"
+            }
+          ],
+          "kunci": "D",
+          "pembahasan": {
+            "inti": "Gunakan prinsip inklusi-eksklusi untuk himpunan bertiga, lalu tambahkan siswa yang berada di luar ketiga himpunan.",
+            "langkah": [
+              "Gabungan tiga himpunan: 13 + 13 + 11 - 3 - 3 - 4 + 2 = 29 siswa.",
+              "Siswa yang tidak mengikuti kegiatan apa pun sebanyak 3 orang.",
+              "Total kelas = 29 + 3 = 32 siswa."
+            ],
+            "jebakan": "29 muncul bila tiga siswa di luar kegiatan lupa ditambahkan, sedangkan 30 muncul bila irisan ketiga dijumlahkan dua kali.",
+            "cepat": "Inklusi-eksklusi: jumlah anggota tunggal dikurangi irisan ganda, ditambah irisan rangkap tiga, lalu tambah yang di luar."
+          },
+          "targetDetik": 85,
+          "tags": [
+            "himpunan",
+            "inklusi-eksklusi"
+          ]
+        },
+        {
+          "id": "IPA-FLDA-001",
+          "mapel": "ipa",
+          "kategori": "ipa-fluida",
+          "subkategori": "archimedes",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebuah balok kayu mengapung di air dengan tiga perempat bagian volumenya tercelup. Massa jenis air 1.000 kg/m^3."
+          },
+          "soal": "Massa jenis balok kayu tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "250 kg/m^3"
+            },
+            {
+              "kode": "B",
+              "teks": "500 kg/m^3"
+            },
+            {
+              "kode": "C",
+              "teks": "750 kg/m^3"
+            },
+            {
+              "kode": "D",
+              "teks": "1.000 kg/m^3"
+            },
+            {
+              "kode": "E",
+              "teks": "1.250 kg/m^3"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Benda mengapung ketika beratnya sama dengan gaya apung. Gaya apung sebanding dengan volume zat cair yang dipindahkan.",
+            "langkah": [
+              "Gaya apung Fa = rho_air x V_celup x g = 1.000 x 0,75V x g.",
+              "Saat mengapung, Fa = w = rho_kayu x V x g, sehingga rho_kayu x V = 750V.",
+              "Massa jenis kayu = 750 kg/m^3, yaitu tiga perempat massa jenis air."
+            ],
+            "jebakan": "1.250 muncul bila pecahan 3/4 dibalik, sedangkan 250 muncul bila bagian yang muncul di atas permukaan (1/4) dipakai langsung sebagai massa jenis.",
+            "cepat": "Untuk benda mengapung, rho_benda / rho_air = bagian volume yang tercelup."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "archimedes",
+            "mengapung"
+          ]
+        },
+        {
+          "id": "MAT-ALJ-006",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "persamaan",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 6",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Diketahui (x^2 + ax + 6) / (x + 1) = x + b berlaku untuk semua nilai x positif."
+          },
+          "soal": "Nilai 2a - b adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "6"
+            },
+            {
+              "kode": "B",
+              "teks": "7"
+            },
+            {
+              "kode": "C",
+              "teks": "8"
+            },
+            {
+              "kode": "D",
+              "teks": "9"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Kalikan kedua ruas dengan (x + 1), lalu samakan koefisien suku sejenis pada kedua polinomial.",
+            "langkah": [
+              "Kalikan silang: x^2 + ax + 6 = (x + b)(x + 1) = x^2 + (b + 1)x + b.",
+              "Samakan koefisien: konstanta memberi b = 6, koefisien x memberi a = b + 1 = 7.",
+              "Hitung 2a - b = 2(7) - 6 = 8."
+            ],
+            "jebakan": "Pilihan 6 muncul bila peserta berhenti pada nilai b, sedangkan 7 muncul bila a sudah ditemukan tetapi 2a - b belum dihitung.",
+            "cepat": "Bandingkan konstanta lebih dahulu untuk mendapat b, lalu a = b + 1 dari koefisien x."
+          },
+          "targetDetik": 80,
+          "tags": [
+            "suku-banyak",
+            "koefisien"
+          ]
+        },
+        {
+          "id": "BIG-RDG-002",
+          "mapel": "bing",
+          "kategori": "bing-reading",
+          "subkategori": "main-idea",
+          "asal": "prediksi",
+          "kognitif": "C5",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Between 2019 and 2024 a coastal village in Central Java converted forty hectares of abandoned shrimp ponds back into mangrove forest. The results were measurable: within five years local crab harvests had risen by roughly a third, and during the monsoon that flooded two neighbouring districts the village embankment held. The project team is careful about the lesson it draws. Mangroves, they argue, buy time; they do not reverse land subsidence which in this region is driven mainly by industrial groundwater extraction. Villages that restore the forest but continue pumping from deep wells, the team notes, are protecting a coast that is still sinking."
+          },
+          "soal": "Which statement would the project team most probably agree with?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "Restoring mangroves is worthwhile only where groundwater use is also reduced."
+            },
+            {
+              "kode": "B",
+              "teks": "Mangrove restoration alone can stop land subsidence within five years."
+            },
+            {
+              "kode": "C",
+              "teks": "Crab harvests are the most reliable indicator of coastal recovery."
+            },
+            {
+              "kode": "D",
+              "teks": "Shrimp farming should be banned along the entire northern coast."
+            },
+            {
+              "kode": "E",
+              "teks": "Flooding in neighbouring districts was caused by unusually heavy rain."
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The team explicitly separates what mangroves do from what they cannot do, and names groundwater extraction as the main driver of subsidence.",
+            "langkah": [
+              "Extract the team's claim: mangroves buy time but do not reverse subsidence.",
+              "Extract the stated cause of subsidence: industrial groundwater extraction.",
+              "Combine the two into the conditional position in A, which matches the closing sentence about villages that keep pumping."
+            ],
+            "jebakan": "Option B contradicts the sentence about subsidence, and option C promotes one measured benefit into a definition of success.",
+            "cepat": "An author's attitude question is answered by the sentence that limits the claim, not by the impressive numbers."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "author-position",
+            "inference"
+          ]
+        },
+        {
+          "id": "IPA-GLMB-001",
+          "mapel": "ipa",
+          "kategori": "ipa-gelombang",
+          "subkategori": "cepat-rambat",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Gelombang pada permukaan air merambat sejauh 2 m dalam waktu 0,25 detik. Sumber gelombang bergetar dengan frekuensi 50 Hz."
+          },
+          "soal": "Panjang gelombang tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "4 cm"
+            },
+            {
+              "kode": "B",
+              "teks": "8 cm"
+            },
+            {
+              "kode": "C",
+              "teks": "16 cm"
+            },
+            {
+              "kode": "D",
+              "teks": "25 cm"
+            },
+            {
+              "kode": "E",
+              "teks": "32 cm"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Panjang gelombang diperoleh dari cepat rambat dibagi frekuensi, setelah cepat rambat dihitung dari jarak per waktu.",
+            "langkah": [
+              "Cepat rambat v = s / t = 2 / 0,25 = 8 m/s.",
+              "Hubungan gelombang: v = lambda x f, sehingga lambda = v / f.",
+              "lambda = 8 / 50 = 0,16 m = 16 cm."
+            ],
+            "jebakan": "8 cm muncul bila jarak 2 m dibagi 25 (salah membaca waktu), sedangkan 32 cm muncul bila frekuensi dianggap 25 Hz.",
+            "cepat": "Hitung v lebih dulu, lalu bagi frekuensi; 8 m/s dibagi 50 Hz memberi 0,16 m."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "cepat-rambat",
+            "panjang-gelombang"
+          ]
+        },
+        {
+          "id": "BIN-MNY-002",
+          "mapel": "bindo",
+          "kategori": "bindo-menyunting",
+          "subkategori": "tanda-baca",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Kepala sekolah mengumumkan bahwa semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan."
+          },
+          "soal": "Pengubahan kalimat tersebut menjadi kalimat langsung yang tepat adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "Kepala sekolah mengumumkan \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+            },
+            {
+              "kode": "B",
+              "teks": "Kepala sekolah mengumumkan, \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+            },
+            {
+              "kode": "C",
+              "teks": "Kepala sekolah mengumumkan: \"semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+            },
+            {
+              "kode": "D",
+              "teks": "Kepala sekolah mengumumkan, \"semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan\"."
+            },
+            {
+              "kode": "E",
+              "teks": "Kepala sekolah mengumumkan; \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Kalimat langsung memerlukan koma sebelum petikan, huruf kapital pada awal petikan karena petikan berupa kalimat lengkap, serta titik di dalam tanda petik.",
+            "langkah": [
+              "Petikan didahului kata mengumumkan sehingga perlu koma sebagai pemisah, bukan titik dua atau titik koma.",
+              "Petikan merupakan kalimat lengkap berita, maka huruf pertamanya kapital dan titik penutup berada di dalam tanda petik.",
+              "Hanya pilihan B yang memenuhi ketiga syarat tersebut sekaligus."
+            ],
+            "jebakan": "Pilihan C memakai titik dua yang lazim pada kutipan panjang, sedangkan pilihan D membiarkan huruf awal petikan kecil sehingga tidak sesuai kaidah petikan kalimat lengkap.",
+            "cepat": "Periksa tiga hal berurutan: koma sebelum petik, kapital di dalam petik, titik di dalam petik."
+          },
+          "targetDetik": 35,
+          "tags": [
+            "kalimat-langsung",
+            "tanda-baca"
+          ]
+        },
+        {
+          "id": "MAT-TBN-002",
+          "mapel": "matematika",
+          "kategori": "mat-teori-bilangan",
+          "subkategori": "kelipatan",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Tiga lampu hias di halaman sekolah menyala secara berkala. Lampu merah menyala setiap 12 detik, lampu kuning setiap 18 detik, dan lampu hijau setiap 30 detik. Ketiganya menyala bersamaan pada pukul 06.30.00."
+          },
+          "soal": "Ketiga lampu menyala bersamaan lagi pada pukul ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "06.30.01"
+            },
+            {
+              "kode": "B",
+              "teks": "06.30.02"
+            },
+            {
+              "kode": "C",
+              "teks": "06.30.03"
+            },
+            {
+              "kode": "D",
+              "teks": "06.30.05"
+            },
+            {
+              "kode": "E",
+              "teks": "06.31.00"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Waktu bersamaan berikutnya adalah kelipatan persekutuan terkecil dari ketiga periode, bukan hasil kali ketiganya.",
+            "langkah": [
+              "Faktorkan: 12 = 2^2 x 3, 18 = 2 x 3^2, dan 30 = 2 x 3 x 5.",
+              "KPK diambil dari pangkat tertinggi setiap faktor: 2^2 x 3^2 x 5 = 180 detik.",
+              "180 detik sama dengan 3 menit, sehingga ketiganya menyala lagi pukul 06.30.03."
+            ],
+            "jebakan": "06.30.02 muncul bila peserta memilih kelipatan 120 karena lupa faktor 3^2 pada bilangan 18.",
+            "cepat": "KPK 12, 18, dan 30 selalu 180 karena 30 sudah memuat 2 dan 5, tinggal melengkapi 3^2 dan 2^2."
+          },
+          "targetDetik": 70,
+          "tags": [
+            "kpk",
+            "kelipatan"
+          ]
+        },
+        {
+          "id": "IPA-UNSR-001",
+          "mapel": "ipa",
+          "kategori": "ipa-unsur",
+          "subkategori": "stoikiometri",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Sebanyak 4 gram kalsium karbonat (Mr = 100) dipanaskan hingga terurai sempurna menurut reaksi CaCO3 -> CaO + CO2. Gas yang terbentuk diukur pada keadaan standar dengan volume molar 22,4 L/mol."
+          },
+          "soal": "Volume gas karbon dioksida yang terbentuk adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "0,224 L"
+            },
+            {
+              "kode": "B",
+              "teks": "0,448 L"
+            },
+            {
+              "kode": "C",
+              "teks": "0,896 L"
+            },
+            {
+              "kode": "D",
+              "teks": "1,792 L"
+            },
+            {
+              "kode": "E",
+              "teks": "2,240 L"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Mol CaCO3 dihitung dari massa dan Mr, lalu perbandingan koefisien reaksi menentukan mol CO2 sebelum dikonversi ke volume standar.",
+            "langkah": [
+              "Mol CaCO3 = 4 / 100 = 0,04 mol.",
+              "Koefisien CaCO3 dan CO2 sama-sama 1, sehingga mol CO2 = 0,04 mol.",
+              "Volume CO2 = 0,04 x 22,4 = 0,896 L."
+            ],
+            "jebakan": "1,792 L muncul bila mol dikalikan 44 (massa molar CO2) bukan 22,4, sedangkan 0,448 L muncul bila massa 4 g dianggap 2 g.",
+            "cepat": "Mol = massa/Mr, lalu volume standar = mol x 22,4 L."
+          },
+          "targetDetik": 60,
+          "tags": [
+            "stoikiometri",
+            "volume-molar"
+          ]
+        },
+        {
+          "id": "BIN-STR-001",
+          "mapel": "bindo",
+          "kategori": "bindo-struktur",
+          "subkategori": "morfologi",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Buku edisi lama yang dicari kolektor itu akhirnya terbeli juga oleh seorang pengunjung pameran."
+          },
+          "soal": "Makna imbuhan ter- pada kata terbeli dalam kalimat tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "menyatakan perbuatan dilakukan berulang"
+            },
+            {
+              "kode": "B",
+              "teks": "menyatakan kesanggupan atau dapat dilakukan"
+            },
+            {
+              "kode": "C",
+              "teks": "menyatakan perbuatan terjadi tanpa sengaja"
+            },
+            {
+              "kode": "D",
+              "teks": "menyatakan perbuatan dilakukan dua pihak"
+            },
+            {
+              "kode": "E",
+              "teks": "menyatakan tingkat paling atas"
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Imbuhan ter- pada verba dapat menyatakan keadaan, ketidaksengajaan, atau kesanggupan. Konteks akhirnya menunjukkan bahwa perbuatan itu mungkin dilakukan setelah diusahakan.",
+            "langkah": [
+              "Uji dengan penggantian: terbeli setara dengan dapat dibeli, sehingga maknanya kesanggupan.",
+              "Bandingkan dengan terbaca dan terjangkau yang juga menyatakan dapat dilakukan.",
+              "Makna ketidaksengajaan akan tampak pada kalimat seperti buku itu terbawa pulang, yang tidak memerlukan usaha."
+            ],
+            "jebakan": "Makna ketidaksengajaan tertarik karena ter- sering dipakai untuk peristiwa tak disengaja, padahal kata akhirnya menandakan usaha yang berhasil.",
+            "cepat": "Jika kata dapat disisipkan sebelum verba tanpa mengubah makna, ter- menandai kesanggupan."
+          },
+          "targetDetik": 30,
+          "tags": [
+            "imbuhan-ter",
+            "morfologi"
+          ]
+        },
+        {
+          "id": "BIG-VOC-001",
+          "mapel": "bing",
+          "kategori": "bing-vocabulary",
+          "subkategori": "collocations",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Text: Mangroves, the team argues, buy time; they do not reverse land subsidence. Villages that restore the forest but continue pumping from deep wells are protecting a coast that is still sinking."
+          },
+          "soal": "In the text, the phrase buy time is closest in meaning to ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "purchase additional land for restoration"
+            },
+            {
+              "kode": "B",
+              "teks": "delay serious harm long enough for other measures to work"
+            },
+            {
+              "kode": "C",
+              "teks": "make the restoration project more expensive"
+            },
+            {
+              "kode": "D",
+              "teks": "measure how quickly the ground is sinking"
+            },
+            {
+              "kode": "E",
+              "teks": "replace the need for industrial water supply"
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "The contrast with reverse land subsidence shows that buying time means postponing damage rather than removing its cause.",
+            "langkah": [
+              "Read the clause that follows: buy time is set against reverse, so the phrase concerns postponement rather than cure.",
+              "Check the closing sentence about villages that keep pumping, which shows the delay is meant to allow other measures.",
+              "Match this to option B and reject A because no purchase of land is involved."
+            ],
+            "jebakan": "Option A takes buy literally as a commercial transaction, which the metaphorical context rules out.",
+            "cepat": "Idioms in context are defined by their contrast partner in the same sentence."
+          },
+          "targetDetik": 45,
+          "tags": [
+            "idiom",
+            "vocabulary-in-context"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paket-3",
+      "nama": "Paket 3 - Simulasi HOTS",
+      "deskripsi": "Butir tersulit dari setiap mapel: optik, elektromagnet, fisiologi, interpretasi data, dan penalaran bahasa. Untuk latihan kecepatan setelah paket 1 dan 2 stabil.",
+      "bankVersi": "2026-10-19",
+      "jumlah": 12,
+      "targetMenit": 11,
+      "komposisi": {
+        "matematika": 4,
+        "bindo": 2,
+        "ipa": 3,
+        "bing": 3
+      },
+      "jumlahNaskah": 2,
+      "jumlahPrediksi": 10,
+      "ids": [
+        "MAT-ALJ-007",
+        "BIN-MBC-003",
+        "MAT-KOM-004",
+        "IPA-OPTK-001",
+        "MAT-ALJ-002",
+        "BIG-RDG-003",
+        "IPA-ELMG-001",
+        "BIN-KOS-002",
+        "MAT-TBN-001",
+        "IPA-FSIO-001",
+        "BIG-GRM-002",
+        "BIG-VOC-002"
+      ],
+      "daftarSumber": [
+        {
+          "id": "MAT-ALJ-007",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 23"
+        },
+        {
+          "id": "BIN-MBC-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-KOM-004",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 19"
+        },
+        {
+          "id": "IPA-OPTK-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-ALJ-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-RDG-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-ELMG-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-KOS-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-TBN-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-FSIO-001",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-GRM-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-VOC-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        }
+      ],
+      "butir": [
+        {
+          "id": "MAT-ALJ-007",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "barisan-deret",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 23",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebuah gedung pertunjukan memiliki 20 baris kursi dengan pertambahan jumlah kursi yang sama setiap baris. Baris pertama berisi 10 kursi dan baris kelima berisi 30 kursi. Seluruh kursi terisi penonton."
+          },
+          "soal": "Jumlah penonton di dalam gedung adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "1.150 orang"
+            },
+            {
+              "kode": "B",
+              "teks": "1.100 orang"
+            },
+            {
+              "kode": "C",
+              "teks": "1.050 orang"
+            },
+            {
+              "kode": "D",
+              "teks": "1.000 orang"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Jumlah kursi membentuk deret aritmetika. Beda barisan dicari dari suku pertama dan suku kelima, lalu dipakai pada rumus jumlah 20 suku.",
+            "langkah": [
+              "U1 = 10 dan U5 = 30, maka 10 + 4b = 30 sehingga b = 5.",
+              "Rumus jumlah: S20 = (20/2)(2(10) + 19(5)) = 10(20 + 95) = 10(115).",
+              "Diperoleh S20 = 1.150 kursi, sehingga penonton yang hadir 1.150 orang."
+            ],
+            "jebakan": "1.100 muncul bila beda dihitung 5 tetapi 19 suku dipakai sebagai 18, sedangkan 1.000 muncul bila baris kelima dianggap 25 kursi.",
+            "cepat": "Setelah b = 5, rata-rata kursi per baris adalah (10 + 105)/2 = 57,5; kalikan 20 baris."
+          },
+          "targetDetik": 85,
+          "tags": [
+            "deret-aritmetika",
+            "jumlah-suku"
+          ]
+        },
+        {
+          "id": "BIN-MBC-003",
+          "mapel": "bindo",
+          "kategori": "bindo-membaca",
+          "subkategori": "interpretasi",
+          "asal": "prediksi",
+          "kognitif": "C5",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Tiga sekolah menerapkan kebijakan berbeda tentang penggunaan gawai. Sekolah P melarang total gawai di kelas. Sekolah Q mengizinkan gawai hanya untuk kegiatan belajar yang dipandu guru. Sekolah R tidak mengatur penggunaan gawai. Setelah satu semester, persentase siswa yang menyelesaikan tugas tepat waktu: P 71 persen, Q 88 persen, R 62 persen. Keluhan gangguan konsentrasi: P 12 persen, Q 9 persen, R 34 persen."
+          },
+          "soal": "Interpretasi yang paling masuk akal terhadap data tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "penggunaan gawai yang terarah lebih efektif daripada pelarangan total maupun tanpa aturan"
+            },
+            {
+              "kode": "B",
+              "teks": "pelarangan total adalah satu-satunya kebijakan yang menaikkan penyelesaian tugas"
+            },
+            {
+              "kode": "C",
+              "teks": "sekolah tanpa aturan memiliki konsentrasi terbaik karena siswa bebas"
+            },
+            {
+              "kode": "D",
+              "teks": "gawai tidak berpengaruh terhadap penyelesaian tugas siswa"
+            },
+            {
+              "kode": "E",
+              "teks": "sekolah Q unggul karena jumlah siswanya paling sedikit"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Data menunjukkan pola melengkung: kebijakan terarah (Q) mengungguli pelarangan total (P) dan tanpa aturan (R) pada kedua ukuran.",
+            "langkah": [
+              "Bandingkan penyelesaian tugas: Q 88 persen, P 71 persen, R 62 persen.",
+              "Bandingkan gangguan konsentrasi: Q 9 persen paling rendah, R 34 persen paling tinggi.",
+              "Karena Q unggul pada dua indikator, interpretasi yang tepat adalah penggunaan terarah lebih baik daripada dua ekstrem kebijakan."
+            ],
+            "jebakan": "Pilihan B hanya membandingkan P dengan R, sedangkan E menambahkan variabel jumlah siswa yang tidak ada dalam data.",
+            "cepat": "Bila dua indikator searah, cari kelompok dengan angka terbaik pada keduanya, lalu bandingkan dengan dua ekstrem."
+          },
+          "targetDetik": 45,
+          "tags": [
+            "interpretasi",
+            "tabel"
+          ]
+        },
+        {
+          "id": "MAT-KOM-004",
+          "mapel": "matematika",
+          "kategori": "mat-kombinatorika",
+          "subkategori": "statistika",
+          "asal": "naskah",
+          "tahun": 2018,
+          "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 19",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Nilai rata-rata ulangan matematika tiga siswa adalah 81. Nilai siswa pertama 85, sedangkan nilai siswa ketiga 4 poin lebih rendah daripada nilai siswa kedua."
+          },
+          "soal": "Nilai siswa kedua adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "81"
+            },
+            {
+              "kode": "B",
+              "teks": "82"
+            },
+            {
+              "kode": "C",
+              "teks": "83"
+            },
+            {
+              "kode": "D",
+              "teks": "84"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Rata-rata tiga nilai memberi jumlah total. Bentuk hubungan antar nilai diubah menjadi satu variabel sehingga persamaan dapat diselesaikan.",
+            "langkah": [
+              "Jumlah ketiga nilai = 3 x 81 = 243.",
+              "Misalkan nilai siswa kedua b, maka nilai siswa ketiga b - 4, sehingga 85 + b + (b - 4) = 243.",
+              "Sederhanakan: 2b + 81 = 243, maka 2b = 162 dan b = 81."
+            ],
+            "jebakan": "84 muncul bila selisih 4 ditambahkan bukan dikurangkan, sedangkan 83 muncul bila 85 dianggap 84 saat dijumlahkan.",
+            "cepat": "Total 243 dikurangi 85 dan tambah 4, lalu bagi dua: (243 - 85 + 4) / 2 = 81."
+          },
+          "targetDetik": 75,
+          "tags": [
+            "rata-rata",
+            "aljabar-statistika"
+          ]
+        },
+        {
+          "id": "IPA-OPTK-001",
+          "mapel": "ipa",
+          "kategori": "ipa-optik",
+          "subkategori": "lensa",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebuah benda diletakkan 30 cm di depan lensa cembung yang berjarak fokus 20 cm. Bayangan yang terbentuk ditangkap layar."
+          },
+          "soal": "Perbesaran bayangan yang terbentuk adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "0,5 kali"
+            },
+            {
+              "kode": "B",
+              "teks": "1 kali"
+            },
+            {
+              "kode": "C",
+              "teks": "1,5 kali"
+            },
+            {
+              "kode": "D",
+              "teks": "2 kali"
+            },
+            {
+              "kode": "E",
+              "teks": "3 kali"
+            }
+          ],
+          "kunci": "D",
+          "pembahasan": {
+            "inti": "Jarak bayangan dicari dengan rumus lensa tipis, lalu perbesaran dihitung sebagai perbandingan jarak bayangan terhadap jarak benda.",
+            "langkah": [
+              "1/f = 1/s + 1/s' sehingga 1/20 = 1/30 + 1/s'.",
+              "1/s' = 1/20 - 1/30 = (3 - 2)/60 = 1/60, maka s' = 60 cm.",
+              "Perbesaran M = s'/s = 60/30 = 2 kali, bayangan nyata dan terbalik."
+            ],
+            "jebakan": "0,5 kali muncul bila perbandingan dibalik (s/s'), sedangkan 3 kali muncul bila jarak fokus dijumlahkan dengan jarak benda.",
+            "cepat": "Benda di antara f dan 2f pada lensa cembung selalu menghasilkan bayangan nyata diperbesar."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "lensa-cembung",
+            "perbesaran"
+          ]
+        },
+        {
+          "id": "MAT-ALJ-002",
+          "mapel": "matematika",
+          "kategori": "mat-aljabar",
+          "subkategori": "fungsi",
+          "asal": "prediksi",
+          "kognitif": "C5",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Grafik fungsi f(x) = ax^2 + bx + c memiliki titik puncak (2, -1) dan memotong sumbu Y di titik (0, 3)."
+          },
+          "soal": "Nilai a + b + c adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "0"
+            },
+            {
+              "kode": "B",
+              "teks": "1"
+            },
+            {
+              "kode": "C",
+              "teks": "2"
+            },
+            {
+              "kode": "D",
+              "teks": "3"
+            },
+            {
+              "kode": "E",
+              "teks": "4"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Titik puncak memberi bentuk f(x) = a(x - 2)^2 - 1. Substitusi titik potong sumbu Y menentukan a, lalu a + b + c dihitung sebagai f(1).",
+            "langkah": [
+              "Substitusi (0, 3): 3 = a(0 - 2)^2 - 1, sehingga 4a = 4 dan a = 1.",
+              "Jabarkan f(x) = (x - 2)^2 - 1 = x^2 - 4x + 3, jadi a = 1, b = -4, c = 3.",
+              "Jumlahkan: a + b + c = 1 - 4 + 3 = 0. Cara lain: a + b + c = f(1) = (1 - 2)^2 - 1 = 0."
+            ],
+            "jebakan": "Pilihan 3 muncul bila peserta hanya membaca nilai c dari titik potong sumbu Y, sedangkan -4 diabaikan saat menjumlahkan.",
+            "cepat": "a + b + c selalu sama dengan f(1), jadi hitung langsung f(1) tanpa menjabarkan."
+          },
+          "targetDetik": 70,
+          "tags": [
+            "fungsi-kuadrat",
+            "titik-puncak"
+          ]
+        },
+        {
+          "id": "BIG-RDG-003",
+          "mapel": "bing",
+          "kategori": "bing-reading",
+          "subkategori": "inference",
+          "asal": "prediksi",
+          "kognitif": "C5",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "A study followed 300 students through their first year of senior high school. Those who slept fewer than six hours on school nights scored, on average, eleven points lower on a standardised reasoning test than those who slept seven to eight hours. The researchers also recorded study time: the short-sleep group actually studied forty minutes longer each day. When the analysis controlled for prior test scores, the gap narrowed to nine points but did not disappear."
+          },
+          "soal": "Which conclusion is best supported by the study?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "Sleep duration is associated with reasoning scores even after prior achievement is considered."
+            },
+            {
+              "kode": "B",
+              "teks": "Longer study time always improves reasoning scores."
+            },
+            {
+              "kode": "C",
+              "teks": "Students who sleep less are simply less able students."
+            },
+            {
+              "kode": "D",
+              "teks": "Eleven points is the exact effect of one hour of lost sleep."
+            },
+            {
+              "kode": "E",
+              "teks": "Prior test scores fully explain the difference between the groups."
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The passage reports a gap that survives statistical control for prior scores, so the association is not merely a matter of ability or study time.",
+            "langkah": [
+              "Note the raw gap of eleven points and the fact that the short-sleep group studied longer, which rules out extra study as the cause of the advantage.",
+              "Note that controlling for prior scores reduced the gap to nine points, not zero.",
+              "A remaining gap after control supports an association with sleep, which is the claim in A."
+            ],
+            "jebakan": "Option C is the intuitive alternative explanation, but the nine-point residual after controlling for prior scores weakens it; option D turns an average into a precise rule.",
+            "cepat": "Look for what survives the control variable; that residual is the finding the item tests."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "inference",
+            "control-variable"
+          ]
+        },
+        {
+          "id": "IPA-ELMG-001",
+          "mapel": "ipa",
+          "kategori": "ipa-elektromagnet",
+          "subkategori": "transformator",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebuah transformator ideal memiliki 400 lilitan primer dan 40 lilitan sekunder. Kumparan primer dihubungkan dengan tegangan 220 V dan arus primer terukur 0,5 A."
+          },
+          "soal": "Arus yang mengalir pada kumparan sekunder adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "0,05 A"
+            },
+            {
+              "kode": "B",
+              "teks": "0,5 A"
+            },
+            {
+              "kode": "C",
+              "teks": "2 A"
+            },
+            {
+              "kode": "D",
+              "teks": "5 A"
+            },
+            {
+              "kode": "E",
+              "teks": "20 A"
+            }
+          ],
+          "kunci": "D",
+          "pembahasan": {
+            "inti": "Pada transformator ideal, daya primer sama dengan daya sekunder, sehingga arus berbanding terbalik dengan jumlah lilitan.",
+            "langkah": [
+              "Perbandingan lilitan Np : Ns = 400 : 40 = 10 : 1, maka tegangan sekunder Vs = 220 / 10 = 22 V.",
+              "Daya primer Pp = Vp x Ip = 220 x 0,5 = 110 W.",
+              "Karena ideal, Is = Pp / Vs = 110 / 22 = 5 A."
+            ],
+            "jebakan": "0,5 A muncul bila arus dianggap sama di kedua kumparan, sedangkan 0,05 A muncul bila arus dikalikan rasio lilitan bukan dibagi.",
+            "cepat": "Step-down menurunkan tegangan 10 kali dan menaikkan arus 10 kali: 0,5 A menjadi 5 A."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "transformator",
+            "daya"
+          ]
+        },
+        {
+          "id": "BIN-KOS-002",
+          "mapel": "bindo",
+          "kategori": "bindo-kosakata",
+          "subkategori": "antonim",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Kebijakan pembatasan jam operasional pasar dinilai kontraproduktif karena justru memindahkan transaksi ke jalan raya dan menambah kemacetan."
+          },
+          "soal": "Antonim kata kontraproduktif sesuai konteks tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "mendatangkan hasil yang diharapkan"
+            },
+            {
+              "kode": "B",
+              "teks": "menimbulkan kerugian tambahan"
+            },
+            {
+              "kode": "C",
+              "teks": "berjalan tanpa perencanaan"
+            },
+            {
+              "kode": "D",
+              "teks": "terlalu mahal untuk diterapkan"
+            },
+            {
+              "kode": "E",
+              "teks": "sulit dipahami masyarakat"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Awalan kontra- menandakan berlawanan dengan yang diharapkan, sehingga antonimnya adalah keadaan yang justru mencapai tujuan kebijakan.",
+            "langkah": [
+              "Uraikan kata: kontra berarti bertentangan dan produktif berarti menghasilkan, jadi kontraproduktif berarti menghasilkan akibat berlawanan dengan maksud.",
+              "Tentukan lawan maknanya, yaitu berhasil mencapai hasil yang dimaksudkan.",
+              "Pilihan lain menggambarkan kegagalan atau kendala penerapan, bukan kebalikan makna yang diminta."
+            ],
+            "jebakan": "Pilihan B mengulang makna asli, sedangkan C dan D menjelaskan sebab kegagalan dan bukan antonim.",
+            "cepat": "Antonim diambil dari makna morfem: kontra- dilawan dengan searah tujuan."
+          },
+          "targetDetik": 35,
+          "tags": [
+            "antonim",
+            "morfologi"
+          ]
+        },
+        {
+          "id": "MAT-TBN-001",
+          "mapel": "matematika",
+          "kategori": "mat-teori-bilangan",
+          "subkategori": "modulo",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Sebuah bilangan asli tiga angka bersisa 2 jika dibagi 5 dan bersisa 3 jika dibagi 7."
+          },
+          "soal": "Bilangan terkecil yang memenuhi kedua syarat tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "102"
+            },
+            {
+              "kode": "B",
+              "teks": "107"
+            },
+            {
+              "kode": "C",
+              "teks": "122"
+            },
+            {
+              "kode": "D",
+              "teks": "137"
+            },
+            {
+              "kode": "E",
+              "teks": "157"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Kedua syarat modulo digabung dengan mencari bilangan yang memenuhi keduanya, lalu dipilih nilai terkecil yang sudah tiga angka.",
+            "langkah": [
+              "Bilangan bersisa 3 saat dibagi 7: 3, 10, 17, 24, 31, 38 dan seterusnya dengan beda 7.",
+              "Dari barisan itu, bilangan bersisa 2 saat dibagi 5 adalah 17, lalu 52, 87, 122 karena polanya berulang setiap 35.",
+              "Nilai terkecil yang tiga angka adalah 122; periksa 122 = 24 x 5 + 2 dan 122 = 17 x 7 + 3."
+            ],
+            "jebakan": "107 muncul bila peserta hanya menguji syarat pembagi 7, sedangkan 102 muncul bila sisa 2 diterapkan pada pembagi 7.",
+            "cepat": "Gabungkan syarat menjadi x = 17 + 35k, lalu ambil k terkecil yang membuat x minimal tiga angka."
+          },
+          "targetDetik": 85,
+          "tags": [
+            "kongruensi",
+            "modulo"
+          ]
+        },
+        {
+          "id": "IPA-FSIO-001",
+          "mapel": "ipa",
+          "kategori": "ipa-fisiologi",
+          "subkategori": "peredaran-darah",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Hasil pemeriksaan seorang siswa menunjukkan tekanan darah 120/80 mmHg dengan denyut nadi 70 kali per menit. Angka 120 dan 80 ditulis berurutan sesuai fase kerja jantung."
+          },
+          "soal": "Pernyataan yang tepat tentang kedua angka tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "120 adalah tekanan sistol saat ventrikel berkontraksi dan 80 adalah tekanan diastol saat ventrikel berelaksasi"
+            },
+            {
+              "kode": "B",
+              "teks": "120 adalah tekanan diastol saat ventrikel berelaksasi dan 80 adalah tekanan sistol saat ventrikel berkontraksi"
+            },
+            {
+              "kode": "C",
+              "teks": "120 adalah tekanan arteri rata-rata dan 80 adalah tekanan vena"
+            },
+            {
+              "kode": "D",
+              "teks": "keduanya terjadi pada serambi, bukan bilik"
+            },
+            {
+              "kode": "E",
+              "teks": "120 menunjukkan jumlah denyut dan 80 menunjukkan volume sekuncup"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Angka pertama pada pengukuran tekanan darah adalah tekanan sistol, yaitu puncak tekanan ketika bilik berkontraksi; angka kedua adalah diastol ketika bilik berelaksasi.",
+            "langkah": [
+              "Saat ventrikel berkontraksi, darah dipompa ke aorta sehingga tekanan arteri mencapai puncak 120 mmHg.",
+              "Saat ventrikel berelaksasi, tekanan turun ke titik terendah 80 mmHg sebelum kontraksi berikutnya.",
+              "Urutan penulisan baku adalah sistol/diastol, sesuai pilihan A."
+            ],
+            "jebakan": "Pilihan B menukar urutan fase, sedangkan E mencampur tekanan dengan frekuensi denyut dan volume sekuncup.",
+            "cepat": "Ingat urutan baku: sistol lebih dulu (angka besar), diastol kemudian (angka kecil)."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "tekanan-darah",
+            "sistol"
+          ]
+        },
+        {
+          "id": "BIG-GRM-002",
+          "mapel": "bing",
+          "kategori": "bing-grammar",
+          "subkategori": "conditional",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "The results were released only after the registration deadline had passed, so the appeal could not be submitted in time. Sentence to complete: If the committee ___ the results earlier, we ___ the appeal before the deadline."
+          },
+          "soal": "Which pair of verb forms correctly completes the sentence?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "had announced — would have submitted"
+            },
+            {
+              "kode": "B",
+              "teks": "announced — would submit"
+            },
+            {
+              "kode": "C",
+              "teks": "has announced — would have submitted"
+            },
+            {
+              "kode": "D",
+              "teks": "announced — had submitted"
+            },
+            {
+              "kode": "E",
+              "teks": "would announce — submitted"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The sentence describes an unreal past situation, so the third conditional is required: past perfect in the if-clause and would have + past participle in the result clause.",
+            "langkah": [
+              "The situation did not happen (the results were late), so the if-clause takes the past perfect: had announced.",
+              "The result clause for an unreal past uses would have plus the past participle: would have submitted.",
+              "Only the first pair matches both halves of the third conditional."
+            ],
+            "jebakan": "Option B is the second conditional, which describes an unreal present or future rather than a missed chance in the past.",
+            "cepat": "Unreal past = if + had + V3, then would have + V3."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "conditional",
+            "unreal-past"
+          ]
+        },
+        {
+          "id": "BIG-VOC-002",
+          "mapel": "bing",
+          "kategori": "bing-vocabulary",
+          "subkategori": "synonyms",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Reviewers described the report as superficial: it repeated familiar claims, offered no measurement, and never examined the data it cited."
+          },
+          "soal": "In the sentence, the word superficial is closest in meaning to ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "lacking depth"
+            },
+            {
+              "kode": "B",
+              "teks": "carefully verified"
+            },
+            {
+              "kode": "C",
+              "teks": "unusually long"
+            },
+            {
+              "kode": "D",
+              "teks": "difficult to translate"
+            },
+            {
+              "kode": "E",
+              "teks": "financially costly"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The colon introduces evidence that defines the word: repeated claims, no measurement, and no examination of data all point to a lack of depth.",
+            "langkah": [
+              "Read the clues after the colon as a definition of the word in context.",
+              "Repeated claims and absent measurement describe work that stays on the surface rather than going into detail.",
+              "Among the options, only lacking depth matches that description."
+            ],
+            "jebakan": "Option B is the opposite of the evidence, and option C confuses length with depth.",
+            "cepat": "When a colon follows a judgement word, the list after it is the definition."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "vocabulary-in-context",
+            "definition-clue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paket-4",
+      "nama": "Paket 4 - Uji Coba Baru",
+      "deskripsi": "Dua belas butir yang baru ditambahkan: kesebangunan, permutasi, FPB, energi, rangkaian paralel, genetika terpaut X, ide pokok, ejaan, kosakata, dan reading. Semua prediksi tanpa butir naskah.",
+      "bankVersi": "2026-10-19",
+      "jumlah": 12,
+      "targetMenit": 10,
+      "komposisi": {
+        "matematika": 3,
+        "bindo": 3,
+        "ipa": 3,
+        "bing": 3
+      },
+      "jumlahNaskah": 0,
+      "jumlahPrediksi": 12,
+      "ids": [
+        "MAT-GEO-004",
+        "BIN-MBC-004",
+        "MAT-KOM-005",
+        "IPA-ENG-002",
+        "MAT-TBN-003",
+        "BIG-RDG-004",
+        "IPA-FRG-002",
+        "BIN-MNY-003",
+        "IPA-GEN-002",
+        "BIG-GRM-003",
+        "BIN-KOS-003",
+        "BIG-VOC-003"
+      ],
+      "daftarSumber": [
+        {
+          "id": "MAT-GEO-004",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-MBC-004",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-KOM-005",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-ENG-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "MAT-TBN-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-RDG-004",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-FRG-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-MNY-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "IPA-GEN-002",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-GRM-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIN-KOS-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        },
+        {
+          "id": "BIG-VOC-003",
+          "asal": "prediksi",
+          "tahun": null,
+          "sumber": "Prediksi HOTS disusun dari kisi-kisi resmi Panduan CBT Selmik 1 TN37 (materi 27 kategori) dan pola butir naskah 2018"
+        }
+      ],
+      "butir": [
+        {
+          "id": "MAT-GEO-004",
+          "mapel": "matematika",
+          "kategori": "mat-geometri",
+          "subkategori": "kesebangunan",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Dua segitiga sebangun. Sisi terpendek segitiga pertama 6 cm dan sisi terpendek segitiga kedua 9 cm. Luas segitiga pertama 24 cm^2."
+          },
+          "soal": "Luas segitiga kedua adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "36 cm^2"
+            },
+            {
+              "kode": "B",
+              "teks": "48 cm^2"
+            },
+            {
+              "kode": "C",
+              "teks": "54 cm^2"
+            },
+            {
+              "kode": "D",
+              "teks": "60 cm^2"
+            },
+            {
+              "kode": "E",
+              "teks": "72 cm^2"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Pada bangun sebangun, perbandingan luas sama dengan kuadrat perbandingan panjang sisi.",
+            "langkah": [
+              "Faktor skala sisi = 9/6 = 1,5.",
+              "Perbandingan luas = 1,5^2 = 2,25.",
+              "Luas segitiga kedua = 24 x 2,25 = 54 cm^2."
+            ],
+            "jebakan": "36 muncul bila luas dikalikan 1,5 (bukan kuadratnya), sedangkan 72 muncul bila sisi dibalik menjadi 6/9 lalu dibagi.",
+            "cepat": "Sisi naik 1,5 kali, jadi luas naik 2,25 kali."
+          },
+          "targetDetik": 65,
+          "tags": [
+            "kesebangunan",
+            "luas"
+          ]
+        },
+        {
+          "id": "BIN-MBC-004",
+          "mapel": "bindo",
+          "kategori": "bindo-membaca",
+          "subkategori": "ide-pokok",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Setiap tahun Indonesia menghasilkan sekitar 6,8 juta ton sampah plastik dan hanya sekitar sepuluh persen yang didaur ulang. Sebagian besar berakhir di tempat pembuangan akhir, sungai, atau laut. Pemerintah menargetkan pengurangan sampah plastik laut hingga tujuh puluh persen pada 2025, namun pengumpulan sampah di banyak daerah masih terbatas. Tanpa perbaikan sistem pengumpulan dan pemilahan, target tersebut sulit dicapai meskipun kampanye kesadaran masyarakat terus berjalan."
+          },
+          "soal": "Ide pokok paragraf tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "target pengurangan sampah plastik laut sulit dicapai tanpa perbaikan sistem pengumpulan dan pemilahan"
+            },
+            {
+              "kode": "B",
+              "teks": "Indonesia menghasilkan 6,8 juta ton sampah plastik setiap tahun"
+            },
+            {
+              "kode": "C",
+              "teks": "hanya sepuluh persen sampah plastik Indonesia yang didaur ulang"
+            },
+            {
+              "kode": "D",
+              "teks": "kampanye kesadaran masyarakat tidak pernah dilakukan pemerintah"
+            },
+            {
+              "kode": "E",
+              "teks": "tempat pembuangan akhir adalah satu-satunya masalah sampah plastik"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Paragraf memaparkan data, lalu menutup dengan pernyataan bersyarat bahwa target tidak tercapai tanpa perbaikan sistem. Kalimat penutup itulah gagasan utama.",
+            "langkah": [
+              "Pisahkan kalimat data (angka 6,8 juta ton, sepuluh persen, target tujuh puluh persen) dari kalimat penilaian.",
+              "Kalimat terakhir merangkum sikap penulis: kampanye saja tidak cukup tanpa sistem pengumpulan dan pemilahan.",
+              "Pilihan B dan C hanya mengutip data pendukung, sedangkan D dan E melebih-lebihkan isi teks."
+            ],
+            "jebakan": "Angka besar pada kalimat pertama mudah dianggap ide pokok, padahal fungsinya hanya bukti pendukung.",
+            "cepat": "Ide pokok biasanya ada pada kalimat yang menyatakan sikap atau kesimpulan penulis, bukan pada kalimat berangka."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "ide-pokok",
+            "sampah-plastik"
+          ]
+        },
+        {
+          "id": "MAT-KOM-005",
+          "mapel": "matematika",
+          "kategori": "mat-kombinatorika",
+          "subkategori": "kombinasi",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Dari enam calon pengurus kelas akan dipilih tiga orang untuk menjadi ketua, sekretaris, dan bendahara. Setiap jabatan diisi satu orang dan tidak ada siswa yang merangkap."
+          },
+          "soal": "Banyak susunan pengurus yang mungkin adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "15 cara"
+            },
+            {
+              "kode": "B",
+              "teks": "18 cara"
+            },
+            {
+              "kode": "C",
+              "teks": "20 cara"
+            },
+            {
+              "kode": "D",
+              "teks": "30 cara"
+            },
+            {
+              "kode": "E",
+              "teks": "120 cara"
+            }
+          ],
+          "kunci": "E",
+          "pembahasan": {
+            "inti": "Karena jabatan berbeda, urutan pemilihan berpengaruh sehingga permutasi dipakai, bukan kombinasi.",
+            "langkah": [
+              "Pilih ketua: 6 pilihan, lalu sekretaris 5 pilihan, lalu bendahara 4 pilihan.",
+              "Kalikan sesuai aturan perkalian: 6 x 5 x 4 = 120.",
+              "Nilai ini sama dengan permutasi 3 dari 6, yaitu P(6,3) = 120."
+            ],
+            "jebakan": "20 adalah kombinasi C(6,3) yang mengabaikan urutan, padahal ketua dan sekretaris tidak setara.",
+            "cepat": "Ada jabatan berarti urutan penting: kalikan pilihan yang makin berkurang."
+          },
+          "targetDetik": 70,
+          "tags": [
+            "permutasi",
+            "jabatan"
+          ]
+        },
+        {
+          "id": "IPA-ENG-002",
+          "mapel": "ipa",
+          "kategori": "ipa-energetika",
+          "subkategori": "hukum-kekekalan-energi",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Sebuah benda bermassa 4 kg dijatuhkan tanpa kecepatan awal dari ketinggian 5 m. Gesekan udara diabaikan dan percepatan gravitasi 10 m/s^2."
+          },
+          "soal": "Kecepatan benda tepat sebelum menyentuh tanah adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "5 m/s"
+            },
+            {
+              "kode": "B",
+              "teks": "7 m/s"
+            },
+            {
+              "kode": "C",
+              "teks": "10 m/s"
+            },
+            {
+              "kode": "D",
+              "teks": "14 m/s"
+            },
+            {
+              "kode": "E",
+              "teks": "20 m/s"
+            }
+          ],
+          "kunci": "C",
+          "pembahasan": {
+            "inti": "Energi potensial di ketinggian awal seluruhnya berubah menjadi energi kinetik di tanah, sehingga kecepatan dapat dicari tanpa menghitung waktu.",
+            "langkah": [
+              "Energi potensial awal Ep = m g h = 4 x 10 x 5 = 200 J.",
+              "Di tanah seluruhnya menjadi energi kinetik: 1/2 m v^2 = 200.",
+              "v^2 = 400 sehingga v = 20/2 = 10 m/s."
+            ],
+            "jebakan": "20 m/s muncul bila massa lupa dibagi dua pada rumus energi kinetik, sedangkan 5 m/s muncul bila ketinggian dipakai langsung sebagai kecepatan.",
+            "cepat": "Untuk jatuh bebas, v = akar(2gh) tanpa memerlukan massa."
+          },
+          "targetDetik": 55,
+          "tags": [
+            "energi-kinetik",
+            "jatuh-bebas"
+          ]
+        },
+        {
+          "id": "MAT-TBN-003",
+          "mapel": "matematika",
+          "kategori": "mat-teori-bilangan",
+          "subkategori": "faktor-persekutuan",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Panitia menyiapkan 84 buku dan 126 pensil yang akan dibagikan ke sejumlah paket bantuan. Setiap paket harus berisi jumlah buku dan pensil yang sama banyak, dan seluruh barang habis terbagi."
+          },
+          "soal": "Jumlah paket terbanyak yang dapat dibuat adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "21 paket"
+            },
+            {
+              "kode": "B",
+              "teks": "42 paket"
+            },
+            {
+              "kode": "C",
+              "teks": "63 paket"
+            },
+            {
+              "kode": "D",
+              "teks": "84 paket"
+            },
+            {
+              "kode": "E",
+              "teks": "126 paket"
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Jumlah paket terbanyak adalah faktor persekutuan terbesar dari kedua banyak barang.",
+            "langkah": [
+              "Faktorkan: 84 = 2^2 x 3 x 7 dan 126 = 2 x 3^2 x 7.",
+              "FPB diambil dari faktor bersama berpangkat terkecil: 2 x 3 x 7 = 42.",
+              "Jadi 42 paket, masing-masing berisi 2 buku dan 3 pensil."
+            ],
+            "jebakan": "21 muncul bila faktor 2 terlewat, sedangkan 63 muncul bila peserta memilih faktor yang hanya membagi salah satu bilangan.",
+            "cepat": "FPB selalu membagi habis kedua bilangan; uji pilihan terbesar yang memenuhi."
+          },
+          "targetDetik": 75,
+          "tags": [
+            "fpb",
+            "faktorisasi"
+          ]
+        },
+        {
+          "id": "BIG-RDG-004",
+          "mapel": "bing",
+          "kategori": "bing-reading",
+          "subkategori": "main-idea",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "A city measured summer temperatures in three neighbourhoods. The district with mature street trees stayed on average 3.4 degrees cooler than the district with almost no canopy, and its residents reported fewer heat-related complaints. The third district had been replanted only two years earlier; it was 0.8 degrees cooler than the bare district but still 2.6 degrees warmer than the mature one. City planners concluded that canopy coverage works gradually, and that the cooling benefit depends on tree size rather than the number of saplings planted."
+          },
+          "soal": "What is the main point of the passage?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "Cooling from street trees grows with canopy size, not with the number of young trees planted."
+            },
+            {
+              "kode": "B",
+              "teks": "Planting saplings immediately reduces urban temperatures by 3.4 degrees."
+            },
+            {
+              "kode": "C",
+              "teks": "Residents of bare districts complain more because they have fewer parks."
+            },
+            {
+              "kode": "D",
+              "teks": "Street trees are the only effective way to cool a city."
+            },
+            {
+              "kode": "E",
+              "teks": "The third district was the coolest because it was replanted most recently."
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "The passage compares three districts and closes with the planners' conclusion: cooling depends on tree size and accumulates over time.",
+            "langkah": [
+              "Compare the measurements: mature canopy 3.4 degrees cooler, two-year replanting only 0.8 degrees cooler.",
+              "Note that the number of saplings did not produce proportional cooling.",
+              "The closing sentence states the conclusion directly, which matches option A."
+            ],
+            "jebakan": "Option B reverses the finding about young trees, and option E contradicts the numeric comparison.",
+            "cepat": "The last sentence of a data paragraph usually carries the conclusion that the main-idea option restates."
+          },
+          "targetDetik": 45,
+          "tags": [
+            "main-idea",
+            "urban-heat"
+          ]
+        },
+        {
+          "id": "IPA-FRG-002",
+          "mapel": "ipa",
+          "kategori": "ipa-rangkaian",
+          "subkategori": "rangkaian-paralel",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Dua hambatan 6 ohm dan 3 ohm disusun paralel lalu dihubungkan dengan sumber tegangan 12 V yang hambatan dalamnya diabaikan."
+          },
+          "soal": "Arus yang mengalir pada hambatan 6 ohm adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "1 A"
+            },
+            {
+              "kode": "B",
+              "teks": "2 A"
+            },
+            {
+              "kode": "C",
+              "teks": "3 A"
+            },
+            {
+              "kode": "D",
+              "teks": "4 A"
+            },
+            {
+              "kode": "E",
+              "teks": "6 A"
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Pada rangkaian paralel, tegangan setiap cabang sama dengan tegangan sumber, sehingga arus tiap cabang dihitung sendiri dengan hukum Ohm.",
+            "langkah": [
+              "Tegangan pada cabang 6 ohm = 12 V, sama dengan tegangan sumber.",
+              "I = V / R = 12 / 6 = 2 A pada cabang tersebut.",
+              "Sebagai pemeriksaan, cabang 3 ohm menarik 4 A sehingga arus total 6 A dengan hambatan pengganti 2 ohm."
+            ],
+            "jebakan": "6 A adalah arus total dan 4 A adalah arus cabang 3 ohm, sehingga keduanya sering tertukar dengan arus cabang yang ditanyakan.",
+            "cepat": "Paralel: tegangan sama, arus berbanding terbalik dengan hambatan masing-masing."
+          },
+          "targetDetik": 50,
+          "tags": [
+            "paralel",
+            "hukum-ohm"
+          ]
+        },
+        {
+          "id": "BIN-MNY-003",
+          "mapel": "bindo",
+          "kategori": "bindo-menyunting",
+          "subkategori": "ejaan",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Lima kalimat berikut menggunakan kata depan dan partikel dengan penulisan berbeda.\n(1) Kami berdiskusi dimana tempat kegiatan akan dilaksanakan.\n(2) Kami berdiskusi di mana tempat kegiatan akan dilaksanakan.\n(3) Kami berdiskusi di mana-mana tempat kegiatan akan dilaksanakan.\n(4) Kami berdiskusi dimana-mana tempat kegiatan akan dilaksanakan.\n(5) Kami berdiskusi di manapun tempat kegiatan akan dilaksanakan."
+          },
+          "soal": "Kalimat yang penulisannya sesuai ejaan bahasa Indonesia adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "(1)"
+            },
+            {
+              "kode": "B",
+              "teks": "(2)"
+            },
+            {
+              "kode": "C",
+              "teks": "(3)"
+            },
+            {
+              "kode": "D",
+              "teks": "(4)"
+            },
+            {
+              "kode": "E",
+              "teks": "(5)"
+            }
+          ],
+          "kunci": "B",
+          "pembahasan": {
+            "inti": "Kata mana yang berfungsi sebagai kata tanya atau kata penghubung ditulis terpisah dari kata depan di, sedangkan bentuk ulang mana-mana tidak tepat untuk konteks ini.",
+            "langkah": [
+              "Tentukan fungsi: pada kalimat ini di merupakan kata depan penunjuk tempat dan mana merupakan kata ganti tanya, sehingga ditulis terpisah.",
+              "Bentuk dimana menyatukan keduanya dan tidak baku; manapun hanya baku bila bermakna sembarang tempat.",
+              "Kalimat (2) memenuhi penulisan terpisah dan tidak mengubah makna."
+            ],
+            "jebakan": "Pilihan E tertarik karena manapun terlihat baku, padahal maknanya berubah menjadi sembarang tempat.",
+            "cepat": "Kata depan di + kata tanya selalu terpisah; bila menyatu, itu awalan, bukan kata depan."
+          },
+          "targetDetik": 35,
+          "tags": [
+            "ejaan",
+            "kata-depan"
+          ]
+        },
+        {
+          "id": "IPA-GEN-002",
+          "mapel": "ipa",
+          "kategori": "ipa-genetika",
+          "subkategori": "pewarisan-sifat",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sulit",
+          "stimulus": {
+            "teks": "Buta warna merah-hijau dikendalikan gen resesif pada kromosom X. Seorang ayah buta warna (XcY) menikah dengan ibu normal homozigot (XCXC) yang tidak membawa alel buta warna."
+          },
+          "soal": "Pernyataan yang tepat tentang keturunan pasangan tersebut adalah ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "semua anak laki-laki normal dan semua anak perempuan menjadi pembawa sifat"
+            },
+            {
+              "kode": "B",
+              "teks": "semua anak laki-laki buta warna dan anak perempuan normal"
+            },
+            {
+              "kode": "C",
+              "teks": "separuh anak laki-laki buta warna dan separuh anak perempuan buta warna"
+            },
+            {
+              "kode": "D",
+              "teks": "semua anak normal dan tidak ada yang membawa sifat"
+            },
+            {
+              "kode": "E",
+              "teks": "anak perempuan buta warna dan anak laki-laki pembawa sifat"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Anak laki-laki menerima kromosom X dari ibu dan Y dari ayah, sedangkan anak perempuan menerima X dari keduanya.",
+            "langkah": [
+              "Ibu XCXC hanya memberi XC, sehingga anak laki-laki (XCY) tidak membawa alel buta warna dan tampak normal.",
+              "Anak perempuan menerima XC dari ibu dan Xc dari ayah, menjadi XCXc yaitu pembawa tanpa gejala.",
+              "Karena itu tidak ada anak yang buta warna, tetapi semua anak perempuan membawa sifat."
+            ],
+            "jebakan": "Pilihan B tertarik karena ayah buta warna, padahal alel pada ayah hanya diwariskan lewat kromosom X kepada anak perempuan.",
+            "cepat": "Ayah mewariskan X hanya kepada anak perempuan; anak laki-laki menerima Y."
+          },
+          "targetDetik": 60,
+          "tags": [
+            "terpaut-x",
+            "buta-warna"
+          ]
+        },
+        {
+          "id": "BIG-GRM-003",
+          "mapel": "bing",
+          "kategori": "bing-grammar",
+          "subkategori": "reported-speech",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Direct speech: \"I will submit the report tomorrow,\" the coordinator said on Monday."
+          },
+          "soal": "Which reported sentence correctly conveys the same meaning?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "The coordinator said that she would submit the report the following day."
+            },
+            {
+              "kode": "B",
+              "teks": "The coordinator said that she will submit the report tomorrow."
+            },
+            {
+              "kode": "C",
+              "teks": "The coordinator said that she would submit the report tomorrow."
+            },
+            {
+              "kode": "D",
+              "teks": "The coordinator says that she would submit the report the next day."
+            },
+            {
+              "kode": "E",
+              "teks": "The coordinator said that I would submit the report the following day."
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Reported speech moves the modal back one step and changes time words relative to the moment of reporting.",
+            "langkah": [
+              "will becomes would because the reporting verb said is in the past.",
+              "tomorrow becomes the following day (or the next day) in reported speech.",
+              "The pronoun I refers to the coordinator, so it becomes she; only option A applies all three changes."
+            ],
+            "jebakan": "Option C keeps tomorrow, which is only acceptable when reporting on the same day; option B fails to backshift the modal.",
+            "cepat": "Backshift the modal, shift the time word, and match the pronoun to the original speaker."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "reported-speech",
+            "backshift"
+          ]
+        },
+        {
+          "id": "BIN-KOS-003",
+          "mapel": "bindo",
+          "kategori": "bindo-kosakata",
+          "subkategori": "sinonim",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "Pelaksanaan ujian berbasis komputer di sekolah terpencil menghadapi beberapa kendala, terutama pasokan listrik yang tidak stabil dan keterbatasan perangkat."
+          },
+          "soal": "Kata kendala pada kalimat tersebut paling dekat maknanya dengan ...",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "hambatan"
+            },
+            {
+              "kode": "B",
+              "teks": "peluang"
+            },
+            {
+              "kode": "C",
+              "teks": "dukungan"
+            },
+            {
+              "kode": "D",
+              "teks": "tuntutan"
+            },
+            {
+              "kode": "E",
+              "teks": "kebiasaan"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "Kata kendala merujuk pada hal yang menghalangi terlaksananya kegiatan, sesuai rincian setelahnya tentang listrik dan perangkat.",
+            "langkah": [
+              "Perhatikan kata terutama yang memperinci kendala: listrik tidak stabil dan perangkat terbatas.",
+              "Rincian itu menunjukkan sesuatu yang menghalangi, bukan yang membantu.",
+              "Pilihan hambatan paling dekat maknanya, sedangkan dukungan dan peluang justru berlawanan."
+            ],
+            "jebakan": "Pilihan tuntutan tertarik karena terasa formal, padahal tidak menyiratkan penghalang.",
+            "cepat": "Sinonim terbaik harus konsisten dengan rincian contoh yang menyusul."
+          },
+          "targetDetik": 30,
+          "tags": [
+            "sinonim",
+            "konteks"
+          ]
+        },
+        {
+          "id": "BIG-VOC-003",
+          "mapel": "bing",
+          "kategori": "bing-vocabulary",
+          "subkategori": "collocations",
+          "asal": "prediksi",
+          "kognitif": "C4",
+          "tingkat": "sedang",
+          "stimulus": {
+            "teks": "The committee met for three hours but could not ___ a decision, so the proposal was postponed to the next session."
+          },
+          "soal": "Which word completes the sentence with the correct collocation?",
+          "pilihan": [
+            {
+              "kode": "A",
+              "teks": "reach"
+            },
+            {
+              "kode": "B",
+              "teks": "arrive"
+            },
+            {
+              "kode": "C",
+              "teks": "take"
+            },
+            {
+              "kode": "D",
+              "teks": "make"
+            },
+            {
+              "kode": "E",
+              "teks": "do"
+            }
+          ],
+          "kunci": "A",
+          "pembahasan": {
+            "inti": "English pairs decision with reach or make, not with arrive, take, or do; the context of a committee meeting points to reach.",
+            "langkah": [
+              "Identify the noun decision and recall its common verb partners: reach a decision, make a decision.",
+              "Eliminate arrive and take, which do not collocate with decision in this sense.",
+              "Between reach and make, reach fits a group arriving at agreement after discussion, which matches the three-hour meeting."
+            ],
+            "jebakan": "Make a decision is grammatically possible, but the sentence stresses a committee that could not conclude after long discussion, where reach is the standard collocation.",
+            "cepat": "Learn nouns with their verbs: reach/make a decision, take action, arrive at a conclusion."
+          },
+          "targetDetik": 40,
+          "tags": [
+            "collocation",
+            "decision"
+          ]
+        }
+      ]
+    }
+  ]
+}

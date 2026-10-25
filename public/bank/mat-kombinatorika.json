@@ -1,0 +1,300 @@
+[
+  {
+    "id": "MAT-KOM-001",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "kaidah-pencacahan",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 15",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Dari 40 siswa di suatu kelas, 13 siswa mengikuti ekstrakurikuler pramuka, 13 siswa mengikuti PMR, dan 11 siswa mengikuti paduan suara. Sebanyak 3 siswa mengikuti pramuka dan PMR, 3 siswa mengikuti PMR dan paduan suara, serta 4 siswa mengikuti pramuka dan paduan suara. Dua siswa mengikuti ketiga kegiatan, dan 3 siswa tidak mengikuti kegiatan apa pun."
+    },
+    "soal": "Banyak siswa di kelas tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "29 siswa"
+      },
+      {
+        "kode": "B",
+        "teks": "30 siswa"
+      },
+      {
+        "kode": "C",
+        "teks": "31 siswa"
+      },
+      {
+        "kode": "D",
+        "teks": "32 siswa"
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": {
+      "inti": "Gunakan prinsip inklusi-eksklusi untuk himpunan bertiga, lalu tambahkan siswa yang berada di luar ketiga himpunan.",
+      "langkah": [
+        "Gabungan tiga himpunan: 13 + 13 + 11 - 3 - 3 - 4 + 2 = 29 siswa.",
+        "Siswa yang tidak mengikuti kegiatan apa pun sebanyak 3 orang.",
+        "Total kelas = 29 + 3 = 32 siswa."
+      ],
+      "jebakan": "29 muncul bila tiga siswa di luar kegiatan lupa ditambahkan, sedangkan 30 muncul bila irisan ketiga dijumlahkan dua kali.",
+      "cepat": "Inklusi-eksklusi: jumlah anggota tunggal dikurangi irisan ganda, ditambah irisan rangkap tiga, lalu tambah yang di luar."
+    },
+    "targetDetik": 85,
+    "tags": [
+      "himpunan",
+      "inklusi-eksklusi"
+    ]
+  },
+  {
+    "id": "MAT-KOM-002",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "kaidah-pencacahan",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 16",
+    "kognitif": "C3",
+    "tingkat": "mudah",
+    "stimulus": {
+      "teks": "Klub bulu tangkis SMA Taruna Nusantara memiliki 4 pemain putra dan 5 pemain putri. Akan dibentuk satu regu campuran yang terdiri atas 1 pemain putra dan 1 pemain putri."
+    },
+    "soal": "Banyaknya susunan pemain yang mungkin adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "9"
+      },
+      {
+        "kode": "B",
+        "teks": "18"
+      },
+      {
+        "kode": "C",
+        "teks": "20"
+      },
+      {
+        "kode": "D",
+        "teks": "25"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Regu campuran memilih satu pemain dari kelompok putra dan satu dari kelompok putri, sehingga aturan perkalian dipakai.",
+      "langkah": [
+        "Pilihan pemain putra ada 4 cara.",
+        "Pilihan pemain putri ada 5 cara.",
+        "Gabungkan dengan aturan perkalian: 4 x 5 = 20 susunan."
+      ],
+      "jebakan": "9 muncul bila jumlah pemain dijumlahkan, sedangkan 25 muncul bila peserta mengkuadratkan jumlah pemain putri.",
+      "cepat": "Dua tahap saling bebas dengan pilihan 4 dan 5, maka kalikan."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "kaidah-perkalian",
+      "kombinasi"
+    ]
+  },
+  {
+    "id": "MAT-KOM-003",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "peluang",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 17",
+    "kognitif": "C2",
+    "tingkat": "mudah",
+    "stimulus": {
+      "teks": "Sebuah uang logam dan sebuah dadu dilempar bersamaan satu kali."
+    },
+    "soal": "Banyak anggota ruang sampel percobaan tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "12 titik sampel"
+      },
+      {
+        "kode": "B",
+        "teks": "18 titik sampel"
+      },
+      {
+        "kode": "C",
+        "teks": "20 titik sampel"
+      },
+      {
+        "kode": "D",
+        "teks": "24 titik sampel"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Karena kedua percobaan dilakukan bersamaan dan saling bebas, banyak anggota ruang sampel adalah hasil kali kemungkinan masing-masing.",
+      "langkah": [
+        "Uang logam memiliki 2 kemungkinan hasil, yaitu angka dan gambar.",
+        "Dadu memiliki 6 kemungkinan hasil, yaitu mata 1 sampai 6.",
+        "Ruang sampel gabungan berisi 2 x 6 = 12 titik sampel."
+      ],
+      "jebakan": "18 dan 24 muncul bila peserta menambah atau mengalikan jumlah hasil dengan angka yang tidak berasal dari kedua benda tersebut.",
+      "cepat": "Percobaan gabungan saling bebas: kalikan jumlah hasil tiap percobaan."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "ruang-sampel",
+      "peluang"
+    ]
+  },
+  {
+    "id": "MAT-KOM-004",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "statistika",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 19",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Nilai rata-rata ulangan matematika tiga siswa adalah 81. Nilai siswa pertama 85, sedangkan nilai siswa ketiga 4 poin lebih rendah daripada nilai siswa kedua."
+    },
+    "soal": "Nilai siswa kedua adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "81"
+      },
+      {
+        "kode": "B",
+        "teks": "82"
+      },
+      {
+        "kode": "C",
+        "teks": "83"
+      },
+      {
+        "kode": "D",
+        "teks": "84"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Rata-rata tiga nilai memberi jumlah total. Bentuk hubungan antar nilai diubah menjadi satu variabel sehingga persamaan dapat diselesaikan.",
+      "langkah": [
+        "Jumlah ketiga nilai = 3 x 81 = 243.",
+        "Misalkan nilai siswa kedua b, maka nilai siswa ketiga b - 4, sehingga 85 + b + (b - 4) = 243.",
+        "Sederhanakan: 2b + 81 = 243, maka 2b = 162 dan b = 81."
+      ],
+      "jebakan": "84 muncul bila selisih 4 ditambahkan bukan dikurangkan, sedangkan 83 muncul bila 85 dianggap 84 saat dijumlahkan.",
+      "cepat": "Total 243 dikurangi 85 dan tambah 4, lalu bagi dua: (243 - 85 + 4) / 2 = 81."
+    },
+    "targetDetik": 75,
+    "tags": [
+      "rata-rata",
+      "aljabar-statistika"
+    ]
+  },
+  {
+    "id": "MAT-KOM-005",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "kombinasi",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Dari enam calon pengurus kelas akan dipilih tiga orang untuk menjadi ketua, sekretaris, dan bendahara. Setiap jabatan diisi satu orang dan tidak ada siswa yang merangkap."
+    },
+    "soal": "Banyak susunan pengurus yang mungkin adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "15 cara"
+      },
+      {
+        "kode": "B",
+        "teks": "18 cara"
+      },
+      {
+        "kode": "C",
+        "teks": "20 cara"
+      },
+      {
+        "kode": "D",
+        "teks": "30 cara"
+      },
+      {
+        "kode": "E",
+        "teks": "120 cara"
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": {
+      "inti": "Karena jabatan berbeda, urutan pemilihan berpengaruh sehingga permutasi dipakai, bukan kombinasi.",
+      "langkah": [
+        "Pilih ketua: 6 pilihan, lalu sekretaris 5 pilihan, lalu bendahara 4 pilihan.",
+        "Kalikan sesuai aturan perkalian: 6 x 5 x 4 = 120.",
+        "Nilai ini sama dengan permutasi 3 dari 6, yaitu P(6,3) = 120."
+      ],
+      "jebakan": "20 adalah kombinasi C(6,3) yang mengabaikan urutan, padahal ketua dan sekretaris tidak setara.",
+      "cepat": "Ada jabatan berarti urutan penting: kalikan pilihan yang makin berkurang."
+    },
+    "targetDetik": 70,
+    "tags": [
+      "permutasi",
+      "jabatan"
+    ]
+  },
+  {
+    "id": "MAT-KOM-006",
+    "mapel": "matematika",
+    "kategori": "mat-kombinatorika",
+    "subkategori": "peluang",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Dua dadu bermata enam dilempar bersamaan satu kali. Hasil kedua dadu dijumlahkan."
+    },
+    "soal": "Peluang munculnya jumlah mata dadu 8 adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "4/36"
+      },
+      {
+        "kode": "B",
+        "teks": "5/36"
+      },
+      {
+        "kode": "C",
+        "teks": "6/36"
+      },
+      {
+        "kode": "D",
+        "teks": "7/36"
+      },
+      {
+        "kode": "E",
+        "teks": "8/36"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Ruang sampel dua dadu berisi 36 hasil sama mungkin. Kejadian dihitung dengan mendaftar pasangan yang berjumlah 8.",
+      "langkah": [
+        "Pasangan berjumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2) sebanyak 5 pasangan.",
+        "Ruang sampel = 6 x 6 = 36.",
+        "Peluang = 5/36."
+      ],
+      "jebakan": "4/36 muncul bila pasangan (4,4) dihitung sekali saja, padahal dua dadu tetap berbeda sehingga urutan tetap dihitung.",
+      "cepat": "Jumlah 7 punya 6 cara, jumlah 8 punya 5 cara, jumlah 6 punya 5 cara."
+    },
+    "targetDetik": 65,
+    "tags": [
+      "peluang",
+      "dua-dadu"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+---
+import Base from '@layouts/Base.astro';
+import SubjectPicker from '@components/subject/SubjectPicker.tsx';
+---
+<Base
+  title="Mode cepat — semua mata pelajaran · TN Trainer"
+  description="Latihan kecepatan untuk semua mata pelajaran seleksi akademik Taruna Nusantara dengan target pace per butir."
+>
+  <SubjectPicker client:load mode="cepat" />
+</Base>

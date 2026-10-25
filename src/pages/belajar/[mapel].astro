@@ -1,0 +1,23 @@
+---
+import Base from '@layouts/Base.astro';
+import SessionLauncher from '@components/runner/SessionLauncher.tsx';
+import MapelSwitcher from '@components/runner/MapelSwitcher.tsx';
+import { MAPEL_META } from '@data/taxonomy';
+import type { Mapel } from '@data/schema';
+
+const MAPEL: Mapel[] = ['matematika', 'ipa', 'bindo', 'bing'];
+
+export function getStaticPaths() {
+  const daftar: Mapel[] = ['matematika', 'ipa', 'bindo', 'bing'];
+  return daftar.map((mapel) => ({ params: { mapel } }));
+}
+
+const { mapel } = Astro.params as { mapel: Mapel };
+const meta = MAPEL_META[mapel];
+---
+<Base title={`Belajar ${meta.nama} — TN Trainer`}>
+  <div class="container-page pt-5">
+    <MapelSwitcher mode="belajar" aktif={mapel} />
+  </div>
+  <SessionLauncher client:only="preact" mode="belajar" mapel={mapel} />
+</Base>

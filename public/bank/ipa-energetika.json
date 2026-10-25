@@ -1,0 +1,104 @@
+[
+  {
+    "id": "IPA-ENG-001",
+    "mapel": "ipa",
+    "kategori": "ipa-energetika",
+    "subkategori": "efisiensi",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah motor listrik berdaya 2 kW dipakai mengangkat beban 200 kg setinggi 10 m dalam waktu 20 detik. Percepatan gravitasi 9,8 m/s^2."
+    },
+    "soal": "Efisiensi motor listrik tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "41%"
+      },
+      {
+        "kode": "B",
+        "teks": "45%"
+      },
+      {
+        "kode": "C",
+        "teks": "49%"
+      },
+      {
+        "kode": "D",
+        "teks": "55%"
+      },
+      {
+        "kode": "E",
+        "teks": "61%"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Efisiensi membandingkan energi yang benar-benar dipakai untuk mengangkat beban dengan energi listrik yang diserap motor.",
+      "langkah": [
+        "Energi berguna: Ep = m g h = 200 x 9,8 x 10 = 19.600 J.",
+        "Energi listrik masukan: W = P t = 2.000 x 20 = 40.000 J.",
+        "Efisiensi = (19.600 / 40.000) x 100% = 49%."
+      ],
+      "jebakan": "55% muncul bila g dibulatkan menjadi 10 tanpa menyesuaikan waktu, sedangkan 41% muncul bila 19.600 dibagi 48.000 karena daya dianggap 2,4 kW.",
+      "cepat": "Bandingkan mgh dengan Pt; 19,6 kJ dari 40 kJ berarti sedikit di bawah setengah."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "efisiensi",
+      "energi"
+    ]
+  },
+  {
+    "id": "IPA-ENG-002",
+    "mapel": "ipa",
+    "kategori": "ipa-energetika",
+    "subkategori": "hukum-kekekalan-energi",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah benda bermassa 4 kg dijatuhkan tanpa kecepatan awal dari ketinggian 5 m. Gesekan udara diabaikan dan percepatan gravitasi 10 m/s^2."
+    },
+    "soal": "Kecepatan benda tepat sebelum menyentuh tanah adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "5 m/s"
+      },
+      {
+        "kode": "B",
+        "teks": "7 m/s"
+      },
+      {
+        "kode": "C",
+        "teks": "10 m/s"
+      },
+      {
+        "kode": "D",
+        "teks": "14 m/s"
+      },
+      {
+        "kode": "E",
+        "teks": "20 m/s"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Energi potensial di ketinggian awal seluruhnya berubah menjadi energi kinetik di tanah, sehingga kecepatan dapat dicari tanpa menghitung waktu.",
+      "langkah": [
+        "Energi potensial awal Ep = m g h = 4 x 10 x 5 = 200 J.",
+        "Di tanah seluruhnya menjadi energi kinetik: 1/2 m v^2 = 200.",
+        "v^2 = 400 sehingga v = 20/2 = 10 m/s."
+      ],
+      "jebakan": "20 m/s muncul bila massa lupa dibagi dua pada rumus energi kinetik, sedangkan 5 m/s muncul bila ketinggian dipakai langsung sebagai kecepatan.",
+      "cepat": "Untuk jatuh bebas, v = akar(2gh) tanpa memerlukan massa."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "energi-kinetik",
+      "jatuh-bebas"
+    ]
+  }
+]

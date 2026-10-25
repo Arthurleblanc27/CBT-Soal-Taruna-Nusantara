@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-OPTK-001",
+    "mapel": "ipa",
+    "kategori": "ipa-optik",
+    "subkategori": "lensa",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah benda diletakkan 30 cm di depan lensa cembung yang berjarak fokus 20 cm. Bayangan yang terbentuk ditangkap layar."
+    },
+    "soal": "Perbesaran bayangan yang terbentuk adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "0,5 kali"
+      },
+      {
+        "kode": "B",
+        "teks": "1 kali"
+      },
+      {
+        "kode": "C",
+        "teks": "1,5 kali"
+      },
+      {
+        "kode": "D",
+        "teks": "2 kali"
+      },
+      {
+        "kode": "E",
+        "teks": "3 kali"
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": {
+      "inti": "Jarak bayangan dicari dengan rumus lensa tipis, lalu perbesaran dihitung sebagai perbandingan jarak bayangan terhadap jarak benda.",
+      "langkah": [
+        "1/f = 1/s + 1/s' sehingga 1/20 = 1/30 + 1/s'.",
+        "1/s' = 1/20 - 1/30 = (3 - 2)/60 = 1/60, maka s' = 60 cm.",
+        "Perbesaran M = s'/s = 60/30 = 2 kali, bayangan nyata dan terbalik."
+      ],
+      "jebakan": "0,5 kali muncul bila perbandingan dibalik (s/s'), sedangkan 3 kali muncul bila jarak fokus dijumlahkan dengan jarak benda.",
+      "cepat": "Benda di antara f dan 2f pada lensa cembung selalu menghasilkan bayangan nyata diperbesar."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "lensa-cembung",
+      "perbesaran"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-ELMG-001",
+    "mapel": "ipa",
+    "kategori": "ipa-elektromagnet",
+    "subkategori": "transformator",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah transformator ideal memiliki 400 lilitan primer dan 40 lilitan sekunder. Kumparan primer dihubungkan dengan tegangan 220 V dan arus primer terukur 0,5 A."
+    },
+    "soal": "Arus yang mengalir pada kumparan sekunder adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "0,05 A"
+      },
+      {
+        "kode": "B",
+        "teks": "0,5 A"
+      },
+      {
+        "kode": "C",
+        "teks": "2 A"
+      },
+      {
+        "kode": "D",
+        "teks": "5 A"
+      },
+      {
+        "kode": "E",
+        "teks": "20 A"
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": {
+      "inti": "Pada transformator ideal, daya primer sama dengan daya sekunder, sehingga arus berbanding terbalik dengan jumlah lilitan.",
+      "langkah": [
+        "Perbandingan lilitan Np : Ns = 400 : 40 = 10 : 1, maka tegangan sekunder Vs = 220 / 10 = 22 V.",
+        "Daya primer Pp = Vp x Ip = 220 x 0,5 = 110 W.",
+        "Karena ideal, Is = Pp / Vs = 110 / 22 = 5 A."
+      ],
+      "jebakan": "0,5 A muncul bila arus dianggap sama di kedua kumparan, sedangkan 0,05 A muncul bila arus dikalikan rasio lilitan bukan dibagi.",
+      "cepat": "Step-down menurunkan tegangan 10 kali dan menaikkan arus 10 kali: 0,5 A menjadi 5 A."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "transformator",
+      "daya"
+    ]
+  }
+]

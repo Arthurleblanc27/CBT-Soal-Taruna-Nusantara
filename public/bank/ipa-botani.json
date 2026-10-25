@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-BTNI-001",
+    "mapel": "ipa",
+    "kategori": "ipa-botani",
+    "subkategori": "fotosintesis",
+    "asal": "prediksi",
+    "kognitif": "C5",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Percobaan menggunakan tiga pot tanaman air yang sama. Pot A diletakkan di tempat terang, pot B di tempat gelap, dan pot C di tempat terang tetapi airnya ditambah soda kue sebagai sumber karbon dioksida tambahan. Gelembung gas yang keluar dari daun dihitung selama 10 menit: A = 18 gelembung, B = 0, C = 27 gelembung."
+    },
+    "soal": "Kesimpulan yang paling tepat dari data tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "laju fotosintesis dipengaruhi cahaya dan kadar karbon dioksida"
+      },
+      {
+        "kode": "B",
+        "teks": "fotosintesis hanya memerlukan cahaya tanpa bahan lain"
+      },
+      {
+        "kode": "C",
+        "teks": "gas yang keluar adalah oksigen hasil respirasi sel"
+      },
+      {
+        "kode": "D",
+        "teks": "soda kue menghambat fotosintesis karena bersifat basa"
+      },
+      {
+        "kode": "E",
+        "teks": "laju fotosintesis tidak bergantung pada intensitas cahaya"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Dua variabel diuji sekaligus: cahaya (A dibanding B) dan kadar karbon dioksida (A dibanding C). Keduanya mengubah jumlah gelembung.",
+      "langkah": [
+        "Pot A menghasilkan 18 gelembung, pot B nol, sehingga cahaya diperlukan untuk fotosintesis.",
+        "Pot C menghasilkan 27 gelembung, lebih banyak daripada A, sehingga penambahan karbon dioksida menaikkan laju.",
+        "Karena kedua perlakuan mengubah hasil, kesimpulan yang tepat mencakup keduanya."
+      ],
+      "jebakan": "Pilihan B mengabaikan perbedaan A dan C, sedangkan D bertentangan dengan data karena C justru paling banyak bergelembung.",
+      "cepat": "Bandingkan pasangan pot yang hanya berbeda satu variabel: A-B untuk cahaya, A-C untuk karbon dioksida."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "fotosintesis",
+      "variabel"
+    ]
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "id": "MAT-ALJ-001",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "sistem-persamaan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Di koperasi sekolah harga 3 pulpen dan 2 buku tulis Rp34.000,00. Harga 2 pulpen dan 3 buku tulis Rp31.000,00."
+    },
+    "soal": "Harga satu pulpen dan satu buku tulis jika dibeli bersamaan adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Rp12.000,00"
+      },
+      {
+        "kode": "B",
+        "teks": "Rp13.000,00"
+      },
+      {
+        "kode": "C",
+        "teks": "Rp14.000,00"
+      },
+      {
+        "kode": "D",
+        "teks": "Rp15.000,00"
+      },
+      {
+        "kode": "E",
+        "teks": "Rp16.000,00"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Dua transaksi memberi sistem persamaan linear dua variabel. Eliminasi salah satu variabel menghasilkan harga satuan, lalu keduanya dijumlahkan.",
+      "langkah": [
+        "Misalkan harga pulpen p dan buku b, maka 3p + 2b = 34000 dan 2p + 3b = 31000.",
+        "Kalikan persamaan pertama dengan 3 dan persamaan kedua dengan 2: 9p + 6b = 102000 serta 4p + 6b = 62000.",
+        "Kurangkan kedua persamaan: 5p = 40000 sehingga p = 8000. Substitusi memberi 3(8000) + 2b = 34000, jadi b = 5000.",
+        "Harga satu pulpen dan satu buku = 8000 + 5000 = Rp13.000,00."
+      ],
+      "jebakan": "Rp15.000,00 muncul bila peserta menjumlahkan kedua harga total lalu membaginya dengan lima, sedangkan Rp14.000,00 muncul bila eliminasi dilakukan pada koefisien yang salah.",
+      "cepat": "Jumlahkan kedua persamaan: 5p + 5b = 65000, sehingga p + b = 13000."
+    },
+    "targetDetik": 70,
+    "tags": [
+      "sistem-persamaan",
+      "eliminasi"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-002",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "fungsi",
+    "asal": "prediksi",
+    "kognitif": "C5",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Grafik fungsi f(x) = ax^2 + bx + c memiliki titik puncak (2, -1) dan memotong sumbu Y di titik (0, 3)."
+    },
+    "soal": "Nilai a + b + c adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "0"
+      },
+      {
+        "kode": "B",
+        "teks": "1"
+      },
+      {
+        "kode": "C",
+        "teks": "2"
+      },
+      {
+        "kode": "D",
+        "teks": "3"
+      },
+      {
+        "kode": "E",
+        "teks": "4"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Titik puncak memberi bentuk f(x) = a(x - 2)^2 - 1. Substitusi titik potong sumbu Y menentukan a, lalu a + b + c dihitung sebagai f(1).",
+      "langkah": [
+        "Substitusi (0, 3): 3 = a(0 - 2)^2 - 1, sehingga 4a = 4 dan a = 1.",
+        "Jabarkan f(x) = (x - 2)^2 - 1 = x^2 - 4x + 3, jadi a = 1, b = -4, c = 3.",
+        "Jumlahkan: a + b + c = 1 - 4 + 3 = 0. Cara lain: a + b + c = f(1) = (1 - 2)^2 - 1 = 0."
+      ],
+      "jebakan": "Pilihan 3 muncul bila peserta hanya membaca nilai c dari titik potong sumbu Y, sedangkan -4 diabaikan saat menjumlahkan.",
+      "cepat": "a + b + c selalu sama dengan f(1), jadi hitung langsung f(1) tanpa menjabarkan."
+    },
+    "targetDetik": 70,
+    "tags": [
+      "fungsi-kuadrat",
+      "titik-puncak"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-003",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "fungsi",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 2",
+    "kognitif": "C3",
+    "tingkat": "mudah",
+    "stimulus": {
+      "teks": "Perhatikan empat relasi berikut. (i) {(1, a), (2, a), (3, a), (4, a)} (ii) {(2, b), (3, c), (4, d), (2, e)} (iii) {(3, 6), (4, 6), (5, 10), (3, 12)} (iv) {(1, 5), (3, 7), (5, 9), (3, 11)}"
+    },
+    "soal": "Relasi yang merupakan pemetaan adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "(i)"
+      },
+      {
+        "kode": "B",
+        "teks": "(ii)"
+      },
+      {
+        "kode": "C",
+        "teks": "(iii)"
+      },
+      {
+        "kode": "D",
+        "teks": "(iv)"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Pemetaan mensyaratkan setiap anggota daerah asal muncul tepat satu kali sebagai unsur pertama pasangan berurutan.",
+      "langkah": [
+        "Periksa unsur pertama tiap relasi. Relasi (ii) memuat (2, b) dan (2, e) sehingga angka 2 memiliki dua bayangan.",
+        "Relasi (iii) memuat (3, 6) dan (3, 12), relasi (iv) memuat (3, 7) dan (3, 11); keduanya mengulang daerah asal.",
+        "Hanya relasi (i) yang memasangkan setiap anggota daerah asal tepat satu kali, jadi (i) adalah pemetaan."
+      ],
+      "jebakan": "Relasi (i) sering ditolak karena semua bayangan sama, padahal yang dibatasi adalah daerah asal, bukan daerah hasil.",
+      "cepat": "Cari angka pertama yang berulang; relasi dengan pengulangan daerah asal otomatis bukan pemetaan."
+    },
+    "targetDetik": 60,
+    "tags": [
+      "relasi",
+      "pemetaan"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-004",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "sistem-persamaan",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 4",
+    "kognitif": "C3",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Andre membeli 1 kg pir dan 2 kg anggur dengan harga Rp94.000,00. Setiawan membeli 2 kg pir dan 3 kg anggur dengan harga Rp167.000,00. Harga 1 kg pir dinyatakan x dan harga 1 kg anggur dinyatakan y."
+    },
+    "soal": "Sistem persamaan linear dua variabel yang berkaitan dengan pernyataan tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "x + 2y = 94.000 dan 3x + 2y = 167.000"
+      },
+      {
+        "kode": "B",
+        "teks": "2x + y = 94.000 dan 3x + 2y = 167.000"
+      },
+      {
+        "kode": "C",
+        "teks": "2x + y = 94.000 dan 2x + 3y = 167.000"
+      },
+      {
+        "kode": "D",
+        "teks": "x + 2y = 94.000 dan 2x + 3y = 167.000"
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": {
+      "inti": "Setiap transaksi diterjemahkan dengan mengalikan jumlah kilogram dengan harga satuannya, lalu dijumlahkan.",
+      "langkah": [
+        "Belanja Andre: 1 kg pir berarti 1x dan 2 kg anggur berarti 2y, sehingga x + 2y = 94.000.",
+        "Belanja Setiawan: 2 kg pir berarti 2x dan 3 kg anggur berarti 3y, sehingga 2x + 3y = 167.000.",
+        "Pasangan kedua persamaan itu adalah sistem yang diminta, yaitu pilihan D."
+      ],
+      "jebakan": "Pilihan A menukar koefisien pir dan anggur pada transaksi kedua, sedangkan B dan C salah menempatkan angka 2 pada transaksi pertama.",
+      "cepat": "Cocokkan angka kilogram dengan variabelnya satu per satu sebelum melihat pilihan."
+    },
+    "targetDetik": 65,
+    "tags": [
+      "spldv",
+      "pemodelan"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-005",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "fungsi",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 5",
+    "kognitif": "C3",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Diketahui f(2x + 3) = 2x - 5."
+    },
+    "soal": "Nilai dari f(0) + f(1) adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "-11"
+      },
+      {
+        "kode": "B",
+        "teks": "-13"
+      },
+      {
+        "kode": "C",
+        "teks": "-15"
+      },
+      {
+        "kode": "D",
+        "teks": "-17"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Nilai f(0) dan f(1) diperoleh dengan menyelesaikan 2x + 3 = 0 dan 2x + 3 = 1 lebih dahulu, bukan dengan mengganti x pada ruas kanan.",
+      "langkah": [
+        "Untuk f(0): 2x + 3 = 0 memberi x = -3/2, sehingga f(0) = 2(-3/2) - 5 = -8.",
+        "Untuk f(1): 2x + 3 = 1 memberi x = -1, sehingga f(1) = 2(-1) - 5 = -7.",
+        "Jumlahkan: f(0) + f(1) = -8 + (-7) = -15."
+      ],
+      "jebakan": "Pilihan -11 muncul bila peserta langsung memasukkan x = 0 dan x = 1 ke rumus 2x - 5 tanpa menyesuaikan argumen fungsi.",
+      "cepat": "Bentuk f(2x + 3) = 2x - 5 setara dengan f(t) = t - 8, jadi f(0) + f(1) = -8 - 7."
+    },
+    "targetDetik": 75,
+    "tags": [
+      "fungsi-komposisi",
+      "substitusi"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-006",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "persamaan",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 6",
+    "kognitif": "C4",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Diketahui (x^2 + ax + 6) / (x + 1) = x + b berlaku untuk semua nilai x positif."
+    },
+    "soal": "Nilai 2a - b adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "6"
+      },
+      {
+        "kode": "B",
+        "teks": "7"
+      },
+      {
+        "kode": "C",
+        "teks": "8"
+      },
+      {
+        "kode": "D",
+        "teks": "9"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Kalikan kedua ruas dengan (x + 1), lalu samakan koefisien suku sejenis pada kedua polinomial.",
+      "langkah": [
+        "Kalikan silang: x^2 + ax + 6 = (x + b)(x + 1) = x^2 + (b + 1)x + b.",
+        "Samakan koefisien: konstanta memberi b = 6, koefisien x memberi a = b + 1 = 7.",
+        "Hitung 2a - b = 2(7) - 6 = 8."
+      ],
+      "jebakan": "Pilihan 6 muncul bila peserta berhenti pada nilai b, sedangkan 7 muncul bila a sudah ditemukan tetapi 2a - b belum dihitung.",
+      "cepat": "Bandingkan konstanta lebih dahulu untuk mendapat b, lalu a = b + 1 dari koefisien x."
+    },
+    "targetDetik": 80,
+    "tags": [
+      "suku-banyak",
+      "koefisien"
+    ]
+  },
+  {
+    "id": "MAT-ALJ-007",
+    "mapel": "matematika",
+    "kategori": "mat-aljabar",
+    "subkategori": "barisan-deret",
+    "asal": "naskah",
+    "tahun": 2018,
+    "sumber": "Salinan Soal Seleksi Akademik Calon Siswa SMA Taruna Nusantara 2018 - Matematika (id.scribd.com/document/551952903) butir no. 23",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebuah gedung pertunjukan memiliki 20 baris kursi dengan pertambahan jumlah kursi yang sama setiap baris. Baris pertama berisi 10 kursi dan baris kelima berisi 30 kursi. Seluruh kursi terisi penonton."
+    },
+    "soal": "Jumlah penonton di dalam gedung adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "1.150 orang"
+      },
+      {
+        "kode": "B",
+        "teks": "1.100 orang"
+      },
+      {
+        "kode": "C",
+        "teks": "1.050 orang"
+      },
+      {
+        "kode": "D",
+        "teks": "1.000 orang"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Jumlah kursi membentuk deret aritmetika. Beda barisan dicari dari suku pertama dan suku kelima, lalu dipakai pada rumus jumlah 20 suku.",
+      "langkah": [
+        "U1 = 10 dan U5 = 30, maka 10 + 4b = 30 sehingga b = 5.",
+        "Rumus jumlah: S20 = (20/2)(2(10) + 19(5)) = 10(20 + 95) = 10(115).",
+        "Diperoleh S20 = 1.150 kursi, sehingga penonton yang hadir 1.150 orang."
+      ],
+      "jebakan": "1.100 muncul bila beda dihitung 5 tetapi 19 suku dipakai sebagai 18, sedangkan 1.000 muncul bila baris kelima dianggap 25 kursi.",
+      "cepat": "Setelah b = 5, rata-rata kursi per baris adalah (10 + 105)/2 = 57,5; kalikan 20 baris."
+    },
+    "targetDetik": 85,
+    "tags": [
+      "deret-aritmetika",
+      "jumlah-suku"
+    ]
+  }
+]

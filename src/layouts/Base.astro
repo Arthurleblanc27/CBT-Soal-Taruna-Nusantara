@@ -1,0 +1,134 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  noNav?: boolean;
+}
+
+const {
+  title,
+  description = 'TN Trainer — latihan soal seleksi akademik Taruna Nusantara',
+  noNav = false,
+} = Astro.props;
+
+const path = Astro.url.pathname;
+const aktif = (prefix: string) => (prefix === '/' ? path === '/' : path.startsWith(prefix));
+
+const nav = [
+  { href: '/belajar', label: 'Belajar', prefix: '/belajar' },
+  { href: '/cepat', label: 'Cepat', prefix: '/cepat' },
+  { href: '/simulasi', label: 'Simulasi', prefix: '/simulasi' },
+  { href: '/paket', label: 'Paket', prefix: '/paket' },
+  { href: '/analitik', label: 'Analitik', prefix: '/analitik' },
+  { href: '/rencana', label: 'Rencana', prefix: '/rencana' },
+  { href: '/bank', label: 'Bank', prefix: '/bank' },
+];
+---
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <meta name="theme-color" content="#0284c7" />
+  <title>{title}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"></script>
+</head>
+<body class="flex min-h-screen flex-col">
+  <a href="#konten" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-tn-600 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white">
+    Lompat ke konten
+  </a>
+
+  {!noNav && (
+    <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/85 backdrop-blur-lg">
+      <div class="container-page">
+        <div class="flex h-16 items-center justify-between gap-4">
+          <a href="/" class="group flex items-center gap-2.5">
+            <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-tn-500 to-tn-700 text-sm font-bold text-white shadow-sm">
+              TN
+            </span>
+            <span class="leading-tight">
+              <span class="block text-[0.95rem] font-bold tracking-tight text-slate-900 group-hover:text-tn-700">TN Trainer</span>
+              <span class="block text-[0.66rem] font-medium uppercase tracking-[0.12em] text-slate-400">Seleksi Akademik</span>
+            </span>
+          </a>
+
+          <nav class="hidden items-center gap-0.5 lg:flex" aria-label="Navigasi utama">
+            {nav.map((n) => (
+              <a href={n.href} class={`nav-link ${aktif(n.prefix) ? 'nav-link-active' : ''}`} aria-current={aktif(n.prefix) ? 'page' : undefined}>
+                {n.label}
+              </a>
+            ))}
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <a href="/paket" class="btn-primary btn-sm hidden sm:inline-flex">
+              Mulai latihan
+            </a>
+            <details class="relative lg:hidden">
+              <summary class="btn-secondary btn-sm cursor-pointer list-none" aria-label="Buka menu">
+                Menu
+              </summary>
+              <div class="absolute right-0 z-50 mt-2 w-48 overflow-hidden rounded-xl border border-slate-200 bg-white p-1 shadow-lg">
+                {nav.map((n) => (
+                  <a href={n.href} class={`block rounded-lg px-3 py-2 text-sm ${aktif(n.prefix) ? 'bg-tn-50 font-semibold text-tn-700' : 'text-slate-600 hover:bg-slate-50'}`}>
+                    {n.label}
+                  </a>
+                ))}
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <nav class="scroll-thin -mx-1 flex gap-1 overflow-x-auto pb-2 lg:hidden" aria-label="Navigasi utama (seluler)">
+          {nav.map((n) => (
+            <a href={n.href} class={`whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-medium ${aktif(n.prefix) ? 'bg-tn-50 text-tn-700' : 'text-slate-500'}`}>
+              {n.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+  )}
+
+  <main id="konten" class="flex-1">
+    <slot />
+  </main>
+
+  <footer class="mt-10 border-t border-slate-200 bg-white">
+    <div class="container-page py-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div class="max-w-sm">
+          <p class="flex items-center gap-2 text-sm font-bold text-slate-900">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-md bg-tn-600 text-[0.6rem] font-bold text-white">TN</span>
+            TN Trainer
+          </p>
+          <p class="mt-2 text-xs leading-relaxed text-slate-500">
+            Latihan lokal untuk persiapan Seleksi Akademik SMA Taruna Nusantara. Tanpa login, tanpa server,
+            progres tersimpan di perangkat ini.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 gap-x-10 gap-y-1 text-xs">
+          <a href="/paket" class="text-slate-500 hover:text-tn-700">Empat paket soal</a>
+          <a href="/simulasi" class="text-slate-500 hover:text-tn-700">Simulasi</a>
+          <a href="/belajar" class="text-slate-500 hover:text-tn-700">Mode belajar</a>
+          <a href="/analitik" class="text-slate-500 hover:text-tn-700">Analitik</a>
+          <a href="/bank" class="text-slate-500 hover:text-tn-700">Bank soal</a>
+          <a href="/rencana" class="text-slate-500 hover:text-tn-700">Rencana 8 minggu</a>
+        </div>
+      </div>
+      <p class="mt-6 border-t border-slate-100 pt-4 text-[0.7rem] leading-relaxed text-slate-400">
+        Butir bertanda <strong class="font-semibold text-slate-500">naskah 2018</strong> berasal dari dokumen seleksi yang bisa dilacak;
+        butir <strong class="font-semibold text-slate-500">prediksi</strong> disusun dari kisi-kisi resmi CBT, bukan soal panitia.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

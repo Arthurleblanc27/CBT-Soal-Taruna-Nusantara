@@ -1,0 +1,206 @@
+[
+  {
+    "id": "BIN-KOS-001",
+    "mapel": "bindo",
+    "kategori": "bindo-kosakata",
+    "subkategori": "peribahasa",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sejak harga kebutuhan pokok naik, keluarga Pak Hasan terus menyesuaikan anggaran. Gaji bulanannya tetap, tetapi pengeluaran justru bertambah karena tiga anaknya mulai sekolah. Tetangganya menilai keadaan keluarga itu seperti besar pasak daripada tiang."
+    },
+    "soal": "Peribahasa besar pasak daripada tiang pada teks tersebut bermakna ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "pengeluaran lebih besar daripada pendapatan"
+      },
+      {
+        "kode": "B",
+        "teks": "pendapatan lebih besar daripada pengeluaran"
+      },
+      {
+        "kode": "C",
+        "teks": "pekerjaan besar memerlukan biaya besar"
+      },
+      {
+        "kode": "D",
+        "teks": "anak yang banyak membawa rezeki"
+      },
+      {
+        "kode": "E",
+        "teks": "harga barang naik karena permintaan tinggi"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Peribahasa itu membandingkan pasak yang menahan tiang; bila pasak lebih besar daripada tiang, ukuran tidak seimbang. Dalam konteks keuangan, ketidakseimbangan itu berarti belanja melampaui pemasukan.",
+      "langkah": [
+        "Baca konteks: gaji tetap, sedangkan pengeluaran bertambah.",
+        "Hubungkan makna kiasan pasak dan tiang dengan perbandingan belanja terhadap pemasukan.",
+        "Pasak adalah penopang yang seharusnya lebih kecil, jadi keadaan sebaliknya menandakan pemborosan atau pengeluaran melebihi pendapatan."
+      ],
+      "jebakan": "Pilihan C tertarik karena kata besar, padahal peribahasa ini soal ketidakseimbangan anggaran, bukan besarnya pekerjaan.",
+      "cepat": "Peribahasa perbandingan biasanya menandai ketidakseimbangan; hubungkan dengan angka pemasukan dan pengeluaran di teks."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "peribahasa",
+      "konteks"
+    ]
+  },
+  {
+    "id": "BIN-KOS-002",
+    "mapel": "bindo",
+    "kategori": "bindo-kosakata",
+    "subkategori": "antonim",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Kebijakan pembatasan jam operasional pasar dinilai kontraproduktif karena justru memindahkan transaksi ke jalan raya dan menambah kemacetan."
+    },
+    "soal": "Antonim kata kontraproduktif sesuai konteks tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "mendatangkan hasil yang diharapkan"
+      },
+      {
+        "kode": "B",
+        "teks": "menimbulkan kerugian tambahan"
+      },
+      {
+        "kode": "C",
+        "teks": "berjalan tanpa perencanaan"
+      },
+      {
+        "kode": "D",
+        "teks": "terlalu mahal untuk diterapkan"
+      },
+      {
+        "kode": "E",
+        "teks": "sulit dipahami masyarakat"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Awalan kontra- menandakan berlawanan dengan yang diharapkan, sehingga antonimnya adalah keadaan yang justru mencapai tujuan kebijakan.",
+      "langkah": [
+        "Uraikan kata: kontra berarti bertentangan dan produktif berarti menghasilkan, jadi kontraproduktif berarti menghasilkan akibat berlawanan dengan maksud.",
+        "Tentukan lawan maknanya, yaitu berhasil mencapai hasil yang dimaksudkan.",
+        "Pilihan lain menggambarkan kegagalan atau kendala penerapan, bukan kebalikan makna yang diminta."
+      ],
+      "jebakan": "Pilihan B mengulang makna asli, sedangkan C dan D menjelaskan sebab kegagalan dan bukan antonim.",
+      "cepat": "Antonim diambil dari makna morfem: kontra- dilawan dengan searah tujuan."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "antonim",
+      "morfologi"
+    ]
+  },
+  {
+    "id": "BIN-KOS-003",
+    "mapel": "bindo",
+    "kategori": "bindo-kosakata",
+    "subkategori": "sinonim",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Pelaksanaan ujian berbasis komputer di sekolah terpencil menghadapi beberapa kendala, terutama pasokan listrik yang tidak stabil dan keterbatasan perangkat."
+    },
+    "soal": "Kata kendala pada kalimat tersebut paling dekat maknanya dengan ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "hambatan"
+      },
+      {
+        "kode": "B",
+        "teks": "peluang"
+      },
+      {
+        "kode": "C",
+        "teks": "dukungan"
+      },
+      {
+        "kode": "D",
+        "teks": "tuntutan"
+      },
+      {
+        "kode": "E",
+        "teks": "kebiasaan"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Kata kendala merujuk pada hal yang menghalangi terlaksananya kegiatan, sesuai rincian setelahnya tentang listrik dan perangkat.",
+      "langkah": [
+        "Perhatikan kata terutama yang memperinci kendala: listrik tidak stabil dan perangkat terbatas.",
+        "Rincian itu menunjukkan sesuatu yang menghalangi, bukan yang membantu.",
+        "Pilihan hambatan paling dekat maknanya, sedangkan dukungan dan peluang justru berlawanan."
+      ],
+      "jebakan": "Pilihan tuntutan tertarik karena terasa formal, padahal tidak menyiratkan penghalang.",
+      "cepat": "Sinonim terbaik harus konsisten dengan rincian contoh yang menyusul."
+    },
+    "targetDetik": 30,
+    "tags": [
+      "sinonim",
+      "konteks"
+    ]
+  },
+  {
+    "id": "BIN-KOS-004",
+    "mapel": "bindo",
+    "kategori": "bindo-kosakata",
+    "subkategori": "padanan-kata",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Ketika proyek drainase gagal, petugas lapangan dijadikan kambing hitam meskipun keputusan anggaran diambil di tingkat pusat."
+    },
+    "soal": "Ungkapan kambing hitam pada kalimat tersebut bermakna ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "orang yang disalahkan atas kesalahan pihak lain"
+      },
+      {
+        "kode": "B",
+        "teks": "orang yang menjadi pemimpin proyek"
+      },
+      {
+        "kode": "C",
+        "teks": "orang yang mengajukan anggaran"
+      },
+      {
+        "kode": "D",
+        "teks": "orang yang menolak bekerja sama"
+      },
+      {
+        "kode": "E",
+        "teks": "orang yang menerima penghargaan"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Ungkapan kambing hitam dipakai untuk pihak yang ditimpakan kesalahan, dan kalimat menegaskan bahwa keputusan sebenarnya ada di tingkat pusat.",
+      "langkah": [
+        "Temukan penanda kontras: meskipun keputusan diambil di pusat, petugas lapangan yang dipersalahkan.",
+        "Kontras itu menunjukkan kesalahan dialihkan kepada pihak yang bukan pembuat keputusan.",
+        "Makna yang sesuai adalah orang yang disalahkan atas kesalahan pihak lain."
+      ],
+      "jebakan": "Pilihan B dan C justru menggambarkan pihak yang berwenang, kebalikan dari makna ungkapan.",
+      "cepat": "Ungkapan hewan sering bermakna kiasan; cocokkan dengan siapa yang dirugikan dalam kalimat."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "padanan-kata",
+      "idiom"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "IPA-KALR-001",
+    "mapel": "ipa",
+    "kategori": "ipa-kalor",
+    "subkategori": "kalor-jenis",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Sebanyak 0,5 kg air dipanaskan dari 20 derajat Celsius menjadi 60 derajat Celsius menggunakan pemanas listrik berdaya 350 W. Kalor jenis air 4.200 J/(kg derajat Celsius) dan seluruh energi pemanas diserap air."
+    },
+    "soal": "Waktu yang diperlukan untuk pemanasan tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "120 detik"
+      },
+      {
+        "kode": "B",
+        "teks": "180 detik"
+      },
+      {
+        "kode": "C",
+        "teks": "240 detik"
+      },
+      {
+        "kode": "D",
+        "teks": "300 detik"
+      },
+      {
+        "kode": "E",
+        "teks": "360 detik"
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": {
+      "inti": "Kalor yang dibutuhkan dihitung dengan Q = m c delta T, lalu waktu diperoleh dari daya P = Q / t.",
+      "langkah": [
+        "Perubahan suhu delta T = 60 - 20 = 40 derajat Celsius.",
+        "Q = m c delta T = 0,5 x 4.200 x 40 = 84.000 J.",
+        "t = Q / P = 84.000 / 350 = 240 detik."
+      ],
+      "jebakan": "120 detik muncul bila delta T hanya dihitung 20 derajat, sedangkan 300 detik muncul bila daya dibulatkan menjadi 280 W.",
+      "cepat": "Hitung Q dulu dalam joule, lalu bagi daya; 84 kJ dibagi 0,35 kW memberi 240 s."
+    },
+    "targetDetik": 55,
+    "tags": [
+      "kalor-jenis",
+      "daya"
+    ]
+  }
+]

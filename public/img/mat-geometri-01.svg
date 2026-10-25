@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#f8fafc"/>
+  <polygon points="80,180 320,180 200,40" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <text x="200" y="30" text-anchor="middle" font-size="14" fill="#0f172a">A</text>
+  <text x="70" y="200" text-anchor="middle" font-size="14" fill="#0f172a">B</text>
+  <text x="330" y="200" text-anchor="middle" font-size="14" fill="#0f172a">C</text>
+  <text x="200" y="200" text-anchor="middle" font-size="14" fill="#0f172a">D</text>
+  <line x1="200" y1="40" x2="200" y2="180" stroke="#0f172a" stroke-width="2"/>
+  <text x="150" y="120" text-anchor="middle" font-size="13" fill="#0f172a">12 cm</text>
+  <text x="260" y="120" text-anchor="middle" font-size="13" fill="#0f172a">13 cm</text>
+  <text x="200" y="225" text-anchor="middle" font-size="13" fill="#0f172a">BC = 10 cm</text>
+</svg>

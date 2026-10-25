@@ -1,0 +1,155 @@
+[
+  {
+    "id": "BIN-MNY-001",
+    "mapel": "bindo",
+    "kategori": "bindo-menyunting",
+    "subkategori": "kalimat-efektif",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Cermati lima kalimat berikut.\n(1) Banyak siswa-siswa yang terlambat pada hari Senin.\n(2) Kedua siswa itu menerima penghargaan dari kepala sekolah.\n(3) Seluruh peserta wajib membawa perlengkapan masing-masing.\n(4) Kami saling membantu menyelesaikan tugas kelompok.\n(5) Setiap siswa memperoleh satu buku panduan belajar."
+    },
+    "soal": "Kalimat yang tidak efektif karena pemborosan kata adalah kalimat nomor ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "(1)"
+      },
+      {
+        "kode": "B",
+        "teks": "(2)"
+      },
+      {
+        "kode": "C",
+        "teks": "(3)"
+      },
+      {
+        "kode": "D",
+        "teks": "(4)"
+      },
+      {
+        "kode": "E",
+        "teks": "(5)"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Kalimat efektif tidak memakai dua penanda jamak sekaligus. Kalimat (1) menumpuk kata banyak dengan bentuk ulang siswa-siswa.",
+      "langkah": [
+        "Periksa setiap kalimat terhadap penanda jumlah: para, banyak, seluruh, setiap, dan bentuk ulang.",
+        "Kalimat (1) memuat banyak sekaligus siswa-siswa sehingga penanda jamaknya berlebih.",
+        "Kalimat (2) sampai (5) hanya memakai satu penanda jamak atau pemarkah saling dan masing-masing yang memang berfungsi."
+      ],
+      "jebakan": "Kalimat (4) sering dianggap salah karena memuat saling, padahal saling pada verba membantu menyatakan perbuatan timbal balik dan bukan pemborosan.",
+      "cepat": "Cari kalimat yang memakai dua penanda jamak sekaligus; hanya satu kalimat yang begitu."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "kalimat-efektif",
+      "pemborosan-kata"
+    ]
+  },
+  {
+    "id": "BIN-MNY-002",
+    "mapel": "bindo",
+    "kategori": "bindo-menyunting",
+    "subkategori": "tanda-baca",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Kepala sekolah mengumumkan bahwa semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan."
+    },
+    "soal": "Pengubahan kalimat tersebut menjadi kalimat langsung yang tepat adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Kepala sekolah mengumumkan \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+      },
+      {
+        "kode": "B",
+        "teks": "Kepala sekolah mengumumkan, \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+      },
+      {
+        "kode": "C",
+        "teks": "Kepala sekolah mengumumkan: \"semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+      },
+      {
+        "kode": "D",
+        "teks": "Kepala sekolah mengumumkan, \"semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan\"."
+      },
+      {
+        "kode": "E",
+        "teks": "Kepala sekolah mengumumkan; \"Semua siswa kelas sepuluh harus hadir pukul tujuh tepat pada upacara pembukaan.\""
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Kalimat langsung memerlukan koma sebelum petikan, huruf kapital pada awal petikan karena petikan berupa kalimat lengkap, serta titik di dalam tanda petik.",
+      "langkah": [
+        "Petikan didahului kata mengumumkan sehingga perlu koma sebagai pemisah, bukan titik dua atau titik koma.",
+        "Petikan merupakan kalimat lengkap berita, maka huruf pertamanya kapital dan titik penutup berada di dalam tanda petik.",
+        "Hanya pilihan B yang memenuhi ketiga syarat tersebut sekaligus."
+      ],
+      "jebakan": "Pilihan C memakai titik dua yang lazim pada kutipan panjang, sedangkan pilihan D membiarkan huruf awal petikan kecil sehingga tidak sesuai kaidah petikan kalimat lengkap.",
+      "cepat": "Periksa tiga hal berurutan: koma sebelum petik, kapital di dalam petik, titik di dalam petik."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "kalimat-langsung",
+      "tanda-baca"
+    ]
+  },
+  {
+    "id": "BIN-MNY-003",
+    "mapel": "bindo",
+    "kategori": "bindo-menyunting",
+    "subkategori": "ejaan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Lima kalimat berikut menggunakan kata depan dan partikel dengan penulisan berbeda.\n(1) Kami berdiskusi dimana tempat kegiatan akan dilaksanakan.\n(2) Kami berdiskusi di mana tempat kegiatan akan dilaksanakan.\n(3) Kami berdiskusi di mana-mana tempat kegiatan akan dilaksanakan.\n(4) Kami berdiskusi dimana-mana tempat kegiatan akan dilaksanakan.\n(5) Kami berdiskusi di manapun tempat kegiatan akan dilaksanakan."
+    },
+    "soal": "Kalimat yang penulisannya sesuai ejaan bahasa Indonesia adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "(1)"
+      },
+      {
+        "kode": "B",
+        "teks": "(2)"
+      },
+      {
+        "kode": "C",
+        "teks": "(3)"
+      },
+      {
+        "kode": "D",
+        "teks": "(4)"
+      },
+      {
+        "kode": "E",
+        "teks": "(5)"
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Kata mana yang berfungsi sebagai kata tanya atau kata penghubung ditulis terpisah dari kata depan di, sedangkan bentuk ulang mana-mana tidak tepat untuk konteks ini.",
+      "langkah": [
+        "Tentukan fungsi: pada kalimat ini di merupakan kata depan penunjuk tempat dan mana merupakan kata ganti tanya, sehingga ditulis terpisah.",
+        "Bentuk dimana menyatukan keduanya dan tidak baku; manapun hanya baku bila bermakna sembarang tempat.",
+        "Kalimat (2) memenuhi penulisan terpisah dan tidak mengubah makna."
+      ],
+      "jebakan": "Pilihan E tertarik karena manapun terlihat baku, padahal maknanya berubah menjadi sembarang tempat.",
+      "cepat": "Kata depan di + kata tanya selalu terpisah; bila menyatu, itu awalan, bukan kata depan."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "ejaan",
+      "kata-depan"
+    ]
+  }
+]

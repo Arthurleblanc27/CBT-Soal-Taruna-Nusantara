@@ -1,0 +1,257 @@
+[
+  {
+    "id": "BIG-RDG-001",
+    "mapel": "bing",
+    "kategori": "bing-reading",
+    "subkategori": "inference",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Between 2019 and 2024 a coastal village in Central Java converted forty hectares of abandoned shrimp ponds back into mangrove forest. The results were measurable: within five years local crab harvests had risen by roughly a third, and during the monsoon that flooded two neighbouring districts the village embankment held. The project team is careful about the lesson it draws. Mangroves, they argue, buy time; they do not reverse land subsidence which in this region is driven mainly by industrial groundwater extraction. Villages that restore the forest but continue pumping from deep wells, the team notes, are protecting a coast that is still sinking."
+    },
+    "soal": "What can most reasonably be inferred about the two neighbouring districts that were flooded?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "They had refused to take part in the mangrove programme."
+      },
+      {
+        "kode": "B",
+        "teks": "They lacked the coastal barrier that the restored forest provided."
+      },
+      {
+        "kode": "C",
+        "teks": "They extracted less groundwater than the village did."
+      },
+      {
+        "kode": "D",
+        "teks": "Their embankments were built with cheaper materials."
+      },
+      {
+        "kode": "E",
+        "teks": "They had converted more ponds into shrimp farms than the village."
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "The passage contrasts the village embankment, which held, with two districts that flooded during the same monsoon. The only difference the text establishes is the restored mangrove belt.",
+      "langkah": [
+        "Locate the contrast: the village held while two neighbouring districts flooded in the same monsoon.",
+        "Identify what the village had that the others are not said to have, namely forty hectares of restored mangrove.",
+        "Treat the embankment's survival as an effect of that forest, which supports the inference in B."
+      ],
+      "jebakan": "Option E is tempting because shrimp ponds are mentioned, but the text never compares pond areas; option D invents a detail about materials.",
+      "cepat": "When a passage contrasts an outcome, the inference answer names the one difference it actually states."
+    },
+    "targetDetik": 45,
+    "tags": [
+      "inference",
+      "mangrove"
+    ]
+  },
+  {
+    "id": "BIG-RDG-002",
+    "mapel": "bing",
+    "kategori": "bing-reading",
+    "subkategori": "main-idea",
+    "asal": "prediksi",
+    "kognitif": "C5",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Between 2019 and 2024 a coastal village in Central Java converted forty hectares of abandoned shrimp ponds back into mangrove forest. The results were measurable: within five years local crab harvests had risen by roughly a third, and during the monsoon that flooded two neighbouring districts the village embankment held. The project team is careful about the lesson it draws. Mangroves, they argue, buy time; they do not reverse land subsidence which in this region is driven mainly by industrial groundwater extraction. Villages that restore the forest but continue pumping from deep wells, the team notes, are protecting a coast that is still sinking."
+    },
+    "soal": "Which statement would the project team most probably agree with?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Restoring mangroves is worthwhile only where groundwater use is also reduced."
+      },
+      {
+        "kode": "B",
+        "teks": "Mangrove restoration alone can stop land subsidence within five years."
+      },
+      {
+        "kode": "C",
+        "teks": "Crab harvests are the most reliable indicator of coastal recovery."
+      },
+      {
+        "kode": "D",
+        "teks": "Shrimp farming should be banned along the entire northern coast."
+      },
+      {
+        "kode": "E",
+        "teks": "Flooding in neighbouring districts was caused by unusually heavy rain."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The team explicitly separates what mangroves do from what they cannot do, and names groundwater extraction as the main driver of subsidence.",
+      "langkah": [
+        "Extract the team's claim: mangroves buy time but do not reverse subsidence.",
+        "Extract the stated cause of subsidence: industrial groundwater extraction.",
+        "Combine the two into the conditional position in A, which matches the closing sentence about villages that keep pumping."
+      ],
+      "jebakan": "Option B contradicts the sentence about subsidence, and option C promotes one measured benefit into a definition of success.",
+      "cepat": "An author's attitude question is answered by the sentence that limits the claim, not by the impressive numbers."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "author-position",
+      "inference"
+    ]
+  },
+  {
+    "id": "BIG-RDG-003",
+    "mapel": "bing",
+    "kategori": "bing-reading",
+    "subkategori": "inference",
+    "asal": "prediksi",
+    "kognitif": "C5",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "A study followed 300 students through their first year of senior high school. Those who slept fewer than six hours on school nights scored, on average, eleven points lower on a standardised reasoning test than those who slept seven to eight hours. The researchers also recorded study time: the short-sleep group actually studied forty minutes longer each day. When the analysis controlled for prior test scores, the gap narrowed to nine points but did not disappear."
+    },
+    "soal": "Which conclusion is best supported by the study?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Sleep duration is associated with reasoning scores even after prior achievement is considered."
+      },
+      {
+        "kode": "B",
+        "teks": "Longer study time always improves reasoning scores."
+      },
+      {
+        "kode": "C",
+        "teks": "Students who sleep less are simply less able students."
+      },
+      {
+        "kode": "D",
+        "teks": "Eleven points is the exact effect of one hour of lost sleep."
+      },
+      {
+        "kode": "E",
+        "teks": "Prior test scores fully explain the difference between the groups."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The passage reports a gap that survives statistical control for prior scores, so the association is not merely a matter of ability or study time.",
+      "langkah": [
+        "Note the raw gap of eleven points and the fact that the short-sleep group studied longer, which rules out extra study as the cause of the advantage.",
+        "Note that controlling for prior scores reduced the gap to nine points, not zero.",
+        "A remaining gap after control supports an association with sleep, which is the claim in A."
+      ],
+      "jebakan": "Option C is the intuitive alternative explanation, but the nine-point residual after controlling for prior scores weakens it; option D turns an average into a precise rule.",
+      "cepat": "Look for what survives the control variable; that residual is the finding the item tests."
+    },
+    "targetDetik": 50,
+    "tags": [
+      "inference",
+      "control-variable"
+    ]
+  },
+  {
+    "id": "BIG-RDG-004",
+    "mapel": "bing",
+    "kategori": "bing-reading",
+    "subkategori": "main-idea",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "A city measured summer temperatures in three neighbourhoods. The district with mature street trees stayed on average 3.4 degrees cooler than the district with almost no canopy, and its residents reported fewer heat-related complaints. The third district had been replanted only two years earlier; it was 0.8 degrees cooler than the bare district but still 2.6 degrees warmer than the mature one. City planners concluded that canopy coverage works gradually, and that the cooling benefit depends on tree size rather than the number of saplings planted."
+    },
+    "soal": "What is the main point of the passage?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Cooling from street trees grows with canopy size, not with the number of young trees planted."
+      },
+      {
+        "kode": "B",
+        "teks": "Planting saplings immediately reduces urban temperatures by 3.4 degrees."
+      },
+      {
+        "kode": "C",
+        "teks": "Residents of bare districts complain more because they have fewer parks."
+      },
+      {
+        "kode": "D",
+        "teks": "Street trees are the only effective way to cool a city."
+      },
+      {
+        "kode": "E",
+        "teks": "The third district was the coolest because it was replanted most recently."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The passage compares three districts and closes with the planners' conclusion: cooling depends on tree size and accumulates over time.",
+      "langkah": [
+        "Compare the measurements: mature canopy 3.4 degrees cooler, two-year replanting only 0.8 degrees cooler.",
+        "Note that the number of saplings did not produce proportional cooling.",
+        "The closing sentence states the conclusion directly, which matches option A."
+      ],
+      "jebakan": "Option B reverses the finding about young trees, and option E contradicts the numeric comparison.",
+      "cepat": "The last sentence of a data paragraph usually carries the conclusion that the main-idea option restates."
+    },
+    "targetDetik": 45,
+    "tags": [
+      "main-idea",
+      "urban-heat"
+    ]
+  },
+  {
+    "id": "BIG-RDG-005",
+    "mapel": "bing",
+    "kategori": "bing-reading",
+    "subkategori": "inference",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "A city measured summer temperatures in three neighbourhoods. The district with mature street trees stayed on average 3.4 degrees cooler than the district with almost no canopy, and its residents reported fewer heat-related complaints. The third district had been replanted only two years earlier; it was 0.8 degrees cooler than the bare district but still 2.6 degrees warmer than the mature one. City planners concluded that canopy coverage works gradually, and that the cooling benefit depends on tree size rather than the number of saplings planted."
+    },
+    "soal": "What does the 0.8-degree figure suggest about the recently replanted district?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Young trees already give some cooling, but far less than a mature canopy."
+      },
+      {
+        "kode": "B",
+        "teks": "The replanted district was cooler than the mature district."
+      },
+      {
+        "kode": "C",
+        "teks": "Tree size has no effect on temperature."
+      },
+      {
+        "kode": "D",
+        "teks": "Planting saplings cools a district faster than mature trees do."
+      },
+      {
+        "kode": "E",
+        "teks": "The temperature measurement there was unreliable."
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "The figure must be read against both baselines given: it is measurable cooling compared with bare ground, yet far below the mature canopy.",
+      "langkah": [
+        "Place 0.8 degrees against the bare district, which shows a real cooling effect.",
+        "Place the same district 2.6 degrees above the mature one, which shows how much smaller the benefit still is.",
+        "Option A states both halves of that comparison."
+      ],
+      "jebakan": "Option B inverts the comparison and option C contradicts the passage, so both fail on the second baseline.",
+      "cepat": "When one figure has two baselines, the answer describes the relationship, not the number."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "inference",
+      "numbers"
+    ]
+  }
+]

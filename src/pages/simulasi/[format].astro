@@ -1,0 +1,15 @@
+---
+import Base from '@layouts/Base.astro';
+import SessionLauncher from '@components/runner/SessionLauncher.tsx';
+
+export function getStaticPaths() {
+  return [{ params: { format: 'padat-105' } }, { params: { format: 'longgar-90' } }];
+}
+
+const { format } = Astro.params as { format: 'padat-105' | 'longgar-90' };
+const debug = Astro.url.searchParams.get('debug') === '1';
+const judul = format === 'padat-105' ? 'Simulasi Padat 105' : 'Simulasi Longgar 90';
+---
+<Base title={`${judul} — TN Trainer`}>
+  <SessionLauncher client:only="preact" mode="simulasi" format={format} debug={debug} />
+</Base>

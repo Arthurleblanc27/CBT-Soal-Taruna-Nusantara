@@ -1,0 +1,206 @@
+[
+  {
+    "id": "BIN-MBC-001",
+    "mapel": "bindo",
+    "kategori": "bindo-membaca",
+    "subkategori": "pemahaman-tekstual",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Banjir yang melanda beberapa wilayah perkotaan akibat curah hujan tinggi bukan lagi sekadar bencana alam. Penelitian terbaru menunjukkan bahwa alih fungsi lahan terbuka hijau menjadi permukiman padat mengurangi daya resap tanah hingga 60 persen. Selain itu, sistem drainase yang tidak terawat dan sampah yang menumpuk di saluran air memperparah genangan. Oleh karena itu, upaya mitigasi harus menggabungkan perbaikan infrastruktur dan pengendalian tata ruang."
+    },
+    "soal": "Apa argumen utama penulis dalam paragraf tersebut?",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "Curah hujan tinggi adalah satu-satunya penyebab banjir perkotaan."
+      },
+      {
+        "kode": "B",
+        "teks": "Banjir perkotaan disebabkan oleh kombinasi faktor alam dan ulah manusia."
+      },
+      {
+        "kode": "C",
+        "teks": "Sistem drainase yang baik sudah cukup untuk mencegah banjir."
+      },
+      {
+        "kode": "D",
+        "teks": "Alih fungsi lahan hanya berdampak kecil terhadap daya resap tanah."
+      },
+      {
+        "kode": "E",
+        "teks": "Pemerintah tidak perlu mengendalikan tata ruang kota."
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": {
+      "inti": "Paragraf menjelaskan bahwa banjir perkotaan dipicu oleh curah hujan tinggi namun diperparah oleh alih fungsi lahan dan drainase buruk, sehingga penyebabnya bersifat ganda.",
+      "langkah": [
+        "Kalimat pertama menyatakan banjir bukan lagi sekadar bencana alam.",
+        "Kalimat berikutnya memberi bukti: alih fungsi lahan mengurangi daya resap, drainase tidak terawat, dan sampah menumpuk.",
+        "Kalimat terakhir menegaskan perlunya mitigasi ganda, yang menguatkan argumen utama."
+      ],
+      "jebakan": "Pilihan A mengabaikan faktor ulah manusia, C terlalu sempit, D bertentangan dengan data 60 persen, dan E berlawanan dengan kalimat terakhir.",
+      "cepat": "Cari kalimat utama yang menyimpulkan bahwa banjir bukan hanya bencana alam."
+    },
+    "targetDetik": 35,
+    "tags": [
+      "argumen-utama",
+      "membaca"
+    ]
+  },
+  {
+    "id": "BIN-MBC-002",
+    "mapel": "bindo",
+    "kategori": "bindo-membaca",
+    "subkategori": "simpulan",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Survei di sebuah sekolah mencatat kebiasaan belajar 120 siswa kelas sepuluh. Siswa yang belajar lebih dari dua jam per hari tanpa jeda melaporkan rasa lelah pada 78 persen kasus, sedangkan siswa yang belajar 45 menit lalu beristirahat 10 menit melaporkan rasa lelah pada 31 persen kasus. Nilai rata-rata ujian kedua kelompok tidak berbeda nyata. Guru menyimpulkan bahwa durasi belajar bukan satu-satunya penentu hasil."
+    },
+    "soal": "Simpulan yang paling tepat berdasarkan teks tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "belajar dalam blok pendek disertai jeda menurunkan kelelahan tanpa menurunkan hasil ujian"
+      },
+      {
+        "kode": "B",
+        "teks": "siswa yang belajar lebih lama selalu memperoleh nilai lebih tinggi"
+      },
+      {
+        "kode": "C",
+        "teks": "kelelahan belajar tidak berhubungan dengan cara mengatur waktu"
+      },
+      {
+        "kode": "D",
+        "teks": "istirahat sepuluh menit membuat siswa kehilangan materi pelajaran"
+      },
+      {
+        "kode": "E",
+        "teks": "nilai ujian hanya ditentukan oleh jumlah jam belajar per hari"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Teks membandingkan dua pola belajar pada dua ukuran sekaligus: kelelahan dan nilai ujian. Pola blok pendek menurunkan kelelahan, sedangkan nilai keduanya setara.",
+      "langkah": [
+        "Bandingkan kelelahan: 78 persen pada kelompok belajar panjang, 31 persen pada kelompok blok pendek, sehingga jeda menurunkan kelelahan.",
+        "Bandingkan hasil: nilai rata-rata kedua kelompok tidak berbeda nyata.",
+        "Gabungkan keduanya: jeda bermanfaat untuk kenyamanan tanpa merugikan hasil, sesuai pilihan A."
+      ],
+      "jebakan": "Pilihan B dan E bertentangan dengan pernyataan bahwa nilai tidak berbeda, sedangkan D menambahkan akibat yang tidak dibahas dalam data.",
+      "cepat": "Simpulan harus memuat dua temuan sekaligus; pilihan yang hanya memakai satu temuan pasti terlalu sempit."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "simpulan",
+      "data"
+    ]
+  },
+  {
+    "id": "BIN-MBC-003",
+    "mapel": "bindo",
+    "kategori": "bindo-membaca",
+    "subkategori": "interpretasi",
+    "asal": "prediksi",
+    "kognitif": "C5",
+    "tingkat": "sulit",
+    "stimulus": {
+      "teks": "Tiga sekolah menerapkan kebijakan berbeda tentang penggunaan gawai. Sekolah P melarang total gawai di kelas. Sekolah Q mengizinkan gawai hanya untuk kegiatan belajar yang dipandu guru. Sekolah R tidak mengatur penggunaan gawai. Setelah satu semester, persentase siswa yang menyelesaikan tugas tepat waktu: P 71 persen, Q 88 persen, R 62 persen. Keluhan gangguan konsentrasi: P 12 persen, Q 9 persen, R 34 persen."
+    },
+    "soal": "Interpretasi yang paling masuk akal terhadap data tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "penggunaan gawai yang terarah lebih efektif daripada pelarangan total maupun tanpa aturan"
+      },
+      {
+        "kode": "B",
+        "teks": "pelarangan total adalah satu-satunya kebijakan yang menaikkan penyelesaian tugas"
+      },
+      {
+        "kode": "C",
+        "teks": "sekolah tanpa aturan memiliki konsentrasi terbaik karena siswa bebas"
+      },
+      {
+        "kode": "D",
+        "teks": "gawai tidak berpengaruh terhadap penyelesaian tugas siswa"
+      },
+      {
+        "kode": "E",
+        "teks": "sekolah Q unggul karena jumlah siswanya paling sedikit"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Data menunjukkan pola melengkung: kebijakan terarah (Q) mengungguli pelarangan total (P) dan tanpa aturan (R) pada kedua ukuran.",
+      "langkah": [
+        "Bandingkan penyelesaian tugas: Q 88 persen, P 71 persen, R 62 persen.",
+        "Bandingkan gangguan konsentrasi: Q 9 persen paling rendah, R 34 persen paling tinggi.",
+        "Karena Q unggul pada dua indikator, interpretasi yang tepat adalah penggunaan terarah lebih baik daripada dua ekstrem kebijakan."
+      ],
+      "jebakan": "Pilihan B hanya membandingkan P dengan R, sedangkan E menambahkan variabel jumlah siswa yang tidak ada dalam data.",
+      "cepat": "Bila dua indikator searah, cari kelompok dengan angka terbaik pada keduanya, lalu bandingkan dengan dua ekstrem."
+    },
+    "targetDetik": 45,
+    "tags": [
+      "interpretasi",
+      "tabel"
+    ]
+  },
+  {
+    "id": "BIN-MBC-004",
+    "mapel": "bindo",
+    "kategori": "bindo-membaca",
+    "subkategori": "ide-pokok",
+    "asal": "prediksi",
+    "kognitif": "C4",
+    "tingkat": "sedang",
+    "stimulus": {
+      "teks": "Setiap tahun Indonesia menghasilkan sekitar 6,8 juta ton sampah plastik dan hanya sekitar sepuluh persen yang didaur ulang. Sebagian besar berakhir di tempat pembuangan akhir, sungai, atau laut. Pemerintah menargetkan pengurangan sampah plastik laut hingga tujuh puluh persen pada 2025, namun pengumpulan sampah di banyak daerah masih terbatas. Tanpa perbaikan sistem pengumpulan dan pemilahan, target tersebut sulit dicapai meskipun kampanye kesadaran masyarakat terus berjalan."
+    },
+    "soal": "Ide pokok paragraf tersebut adalah ...",
+    "pilihan": [
+      {
+        "kode": "A",
+        "teks": "target pengurangan sampah plastik laut sulit dicapai tanpa perbaikan sistem pengumpulan dan pemilahan"
+      },
+      {
+        "kode": "B",
+        "teks": "Indonesia menghasilkan 6,8 juta ton sampah plastik setiap tahun"
+      },
+      {
+        "kode": "C",
+        "teks": "hanya sepuluh persen sampah plastik Indonesia yang didaur ulang"
+      },
+      {
+        "kode": "D",
+        "teks": "kampanye kesadaran masyarakat tidak pernah dilakukan pemerintah"
+      },
+      {
+        "kode": "E",
+        "teks": "tempat pembuangan akhir adalah satu-satunya masalah sampah plastik"
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": {
+      "inti": "Paragraf memaparkan data, lalu menutup dengan pernyataan bersyarat bahwa target tidak tercapai tanpa perbaikan sistem. Kalimat penutup itulah gagasan utama.",
+      "langkah": [
+        "Pisahkan kalimat data (angka 6,8 juta ton, sepuluh persen, target tujuh puluh persen) dari kalimat penilaian.",
+        "Kalimat terakhir merangkum sikap penulis: kampanye saja tidak cukup tanpa sistem pengumpulan dan pemilahan.",
+        "Pilihan B dan C hanya mengutip data pendukung, sedangkan D dan E melebih-lebihkan isi teks."
+      ],
+      "jebakan": "Angka besar pada kalimat pertama mudah dianggap ide pokok, padahal fungsinya hanya bukti pendukung.",
+      "cepat": "Ide pokok biasanya ada pada kalimat yang menyatakan sikap atau kesimpulan penulis, bukan pada kalimat berangka."
+    },
+    "targetDetik": 40,
+    "tags": [
+      "ide-pokok",
+      "sampah-plastik"
+    ]
+  }
+]
